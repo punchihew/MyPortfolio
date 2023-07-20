@@ -2,19 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Navishka</title>
-
-    <a href="accespt/Untitled document.pdf" download="download_name">Download the File</a>
-    <p>Please Click on this Download File phrase to download the pdf file</p>
-
-
-    <ul>
-        <li>A <a href="accespt/Untitled document.pdf" Download ="download pdf1"> a.pdf </a> </li>
-    </ul>
-
-
+    <title>Image and Multimedia</title>
 </head>
 <body>
+<!--HTML supports various multimedia resources such as images, audio, and video.-->
+
+<!--Embeds an image into the document. use with #-->
+<!--There are 6 elements in  this group-->
+<img  src="" alt="">
+
+<img width="300" src="assests/images/gif-image.gif" alt="Navishka">
+<img width="300"  src="assests/images/git.gif" alt="Punchihewa">
+<img usemap="#testMap" width="300"  src="assests/images/image.png" alt="kumara">
+<img width="300" src="assests/images/jpeg image.jpg" alt="nah">
+
+<!--Used to embed sound content in documents.-->
+<audio src=""></audio>
+<audio controls src="assests/audio/audio.mp3" autoplay></audio>
+
+
+<video  controls src="assests/video/movie-sample.mp4" autoplay>
+    <track default
+           kind="captions"
+           srclang="en"
+           src="assests/media/caption.vtt">
+</video>
+
+
+<!--Used with <area> elements to define an image map-->
+<map name="myMap">
+    <!--Defines an area inside an image map that has predefined clickable areas-->
+    <!--Circle X,Y,Radius-->
+    <!--Rect X1,Y1(position),X2,Y2(width, height) Radius-->
+    <area shape="circle" coords="" href="" alt="">
+    <area shape="rect" coords="" href="" alt="">
+</map>
+
+<map name="testMap">
+    <area shape="rect" coords="00,00,150,150" href="http://navishkapunchihewa.rf.gd/?i=1" alt="Go to Ijse">
+    <area shape="rect" coords="150,00,300,150" href="http://google.lk" alt="Go to Ijse">
+    <area shape="rect" coords="150,150,300,300" href="http://ijse.lk" alt="Go to Ijse">
+    <area shape="rect" coords="00,150,150,300" href="http://yahoo" alt="Go to Ijse">
+
+    <!-- <area shape="rect" coords="" href="" alt="">-->
+</map>
 
 </body>
 </html>
+
+<!--62 + 6 = 68-->
