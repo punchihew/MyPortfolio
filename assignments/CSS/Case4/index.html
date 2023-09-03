@@ -8,9 +8,25 @@
             width: 100%;
             height: 100vh;
         }
-        main>section>div{
-
+        main>section>div:first-child{
+            width: 100%;
+            height: 70px;
+            position: sticky;
+            top: 0;
         }
+        main>section:first-child>div:nth-child(1){
+            background-color: deeppink;
+        }
+        main>section:nth-child(2)>div:nth-child(1){
+            background-color: lightskyblue;
+        }
+        main>section:nth-child(3)>div:nth-child(1){
+            background-color: navy;
+        }
+        main>section:last-child>div:nth-child(1){
+            background-color: orange;
+        }
+
     </style>
 </head>
 <body>
