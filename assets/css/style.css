@@ -15,13 +15,13 @@ header nav>div>menu{
     left: 40vw;
 }
 
-header nav>div>menu{
+header nav>div>menu>li{
     display: inline-flex;
     margin-left: 50px;
 }
 
-header nav>div>menu>ul>a{
-    color: #162A5F;
+header nav>div>menu>li>a{
+    color: white;
     font-family: Libre Baskerville;
     font-size: 16px;
     font-style: normal;
