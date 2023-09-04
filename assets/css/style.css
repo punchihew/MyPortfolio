@@ -1,0 +1,30 @@
+header{
+    display: inline-flex;
+    border-bottom: 2px solid #00B4D8;
+    background: linear-gradient(to left,#000235,#00B4D8);
+    width: 98.7vw;
+    height: 49px;
+    flex-shrink: 0;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    z-index: 10;
+}
+header nav>div>menu{
+    position: relative;
+    left: 40vw;
+}
+
+header nav>div>menu{
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+header nav>div>menu>ul>a{
+    color: #162A5F;
+    font-family: Libre Baskerville;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
