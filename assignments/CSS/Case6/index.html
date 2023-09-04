@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-         section>img{
+        section{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        section>img{
              width: 24vw;
              height: 32.5vh;
          }
          section>img:first-child{
              width: 50vw;
              height: 32.5vh;
+         }
+         section>img:nth-child(3){
+             width: 20vw;
+             height: 100vh;
+
          }
 
 
