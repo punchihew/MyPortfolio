@@ -56,9 +56,25 @@ header>dd{
 body main section:first-child>div:nth-child(1)>img{
     position: absolute;
     top: 25px;
-    right: 60px;
+    right: 50px;
     border-bottom-right-radius:12%;
     width: 40vw;
+}
+
+
+body main section:first-child>div:nth-child(2)>aside{
+    position: absolute;
+    top: 125px;
+    left: 13.5vw;
+}
+
+body main section:first-child>div:nth-child(2)>aside>div:first-child p:first-child{
+    color: darkblue;
+    font-family: JejuGothic;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
