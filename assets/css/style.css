@@ -76,7 +76,44 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child p:first-chi
     font-weight: 400;
     line-height: normal;
 }
+body main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
+    color: #000000;
+    font-family: 'Catamaran';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    top: 20vh;
+}
+body main section:first-child>div:nth-child(2)>aside>div:first-child>h1>span{
+    color: #00b4d8;
+    font-family: 'Catamaran';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+body main section:first-child>div:nth-child(2)>aside>div:first-child>div{
+    width: 13vw;
+    height: 1.5vh;
+    background-color: #05BFDB;
+    border-radius: 2vh;
+    box-shadow: #05BFDB 0px 4px 12px;
 
+    position: absolute;
+    top: 25vh;
+    left: 0.3vw;
+    margin: auto;
+}
+
+body main section:first-child>div:nth-child(2)>aside>div:first-child>p:last-child{
+    color: #171212;
+    font-family: Libre Baskerville;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 
