@@ -77,7 +77,7 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child p:first-chi
     line-height: normal;
 }
 body main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
-    color: #000000;
+    color: darkblue;
     font-family: 'Catamaran';
     font-size: 50px;
     font-style: normal;
@@ -106,7 +106,7 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child>div{
     margin: auto;
 }
 
-body main section:first-child>div:nth-child(2)>aside>div:first-child>p:last-child{
+body main section:first-child>div:nth-child(2)>aside>div:last-child>p:last-child{
     color: #171212;
     font-family: Libre Baskerville;
     font-size: 17px;
