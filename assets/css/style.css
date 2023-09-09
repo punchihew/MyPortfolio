@@ -6,7 +6,7 @@ header{
     border-bottom: 2px solid #00B4D8;
     background: linear-gradient(to left,#000235,#00B4D8);
     width: 98.7vw;
-    height: 49px;
+    height: 59px;
     flex-shrink: 0;
     position: fixed;
     border-radius: 10px;
@@ -20,7 +20,7 @@ header nav>div>menu{
 
 header nav>div>menu>li{
     display: inline-flex;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 header nav>div>menu>li>a{
