@@ -15,7 +15,7 @@ header{
 }
 header nav>div>menu{
     position: relative;
-    left: 40vw;
+    left: 20vw;
 }
 
 header nav>div>menu>li{
@@ -31,6 +31,22 @@ header nav>div>menu>li>a{
     font-weight: 700;
     line-height: normal;
 }
+header>h1{
+    position: relative;
+    top:0;
+    font-size: 20px;
+}
+header>h3{
+    position: relative;
+    top:12px;
+    right:0;
+    font-size: 15px;
+}
+header>dd{
+    margin-left: 13px;
+
+}
+
 
 
 
