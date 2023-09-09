@@ -51,6 +51,16 @@ header>dd{
 }
 
 
-
-
 /*--------------------------------------features section-------------------------------------------------*/
+
+body main section:first-child>div:nth-child(1)>img{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    border-bottom-right-radius:12%;
+    width: 40vw;
+}
+
+
+
+
