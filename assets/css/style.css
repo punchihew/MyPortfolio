@@ -116,4 +116,33 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>p:last-child
 }
 
 
+body main section:first-child>div:nth-child(2)>aside>strong{
+    color: #05BFDB;
+    font-family: Libre Bodoni, cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+
+}
+
+body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
+    font-family: Inter, SansSerif;
+    font-weight: 600;
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.7vw;
+    background-color: #05BFDB;
+    border-radius: 8px;
+    box-shadow: #05BFDB 0px 4px 12px;
+
+    position: absolute;
+    top: 42vh;
+    left: 0vw;
+    margin: auto;
+}
+
+
+
 
