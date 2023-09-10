@@ -143,6 +143,15 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     margin: auto;
 }
 
+section:nth-child(2){
+    position: relative;
+    height: 100vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+
 
 
 
