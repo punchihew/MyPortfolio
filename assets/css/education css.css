@@ -59,6 +59,16 @@ section:nth-child(3)>div:nth-child(3)>h2{
     bottom: 65vh;
     left: 120vh;
 }
+section:nth-child(3)>div:nth-child(4)>hr{
+    position: absolute;
+    box-sizing: content-box;
+    height: 7px;
+    width: 125vh;
+    left: 45vh;
+    bottom: 24.1vh;
+    top:  35.9vh;
+    background-color: #00B4D8;
+}
 
 
 
