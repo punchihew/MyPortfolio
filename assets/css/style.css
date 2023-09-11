@@ -193,5 +193,20 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     border: 2px  solid red;
     position: relative;
 }
+#serviceSection>aside:first-child>div{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, 0.25);
+    width: 28vw;
+    flex-shrink: 0;
+}
+#serviceSection>aside:first-child>div div{
+
+    width: 7vw;
+    height: 7vw;
+    margin: auto;
+    position: relative;
+    top: 2vh;}
+
 
 
