@@ -208,6 +208,14 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     position: relative;
     top: 2vh;
 }
+#serviceSection>aside:first-child{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 40vh;
+    justify-content: space-between;
+}
+
 #serviceSection>aside:first-child>div:first-child>div>img{
     width: 110px;
     height: 90px;
