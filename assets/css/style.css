@@ -190,26 +190,26 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
 /*--------------------------------------features section end-------------------------------------------------*/
 /*----------------------------------------------my services ares start---------------------------------------------------*/
 
-/*#serviceSection>h4{*/
-/*    text-align: center;*/
-/*    color: #162A5F;*/
-/*    font-family: Libre Baskerville, serif;*/
-/*    font-size: 24px;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: normal;*/
-/*}*/
+#serviceSection>h4{
+    text-align: center;
+    color: #162A5F;
+    font-family: Libre Baskerville, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 
-/*#serviceSection>h1{*/
-/*    text-align: center;*/
-/*    color: #000;*/
-/*    font-family: Libre Baskerville, serif;*/
-/*    font-size: 40px;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: normal;*/
-/*}*/
+#serviceSection>h3{
+    text-align: center;
+    color: #000;
+    font-family: Libre Baskerville, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 #serviceSection{
     width: 100%;
@@ -255,7 +255,10 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     display: flex;
     width: 90%;
     height: 40vh;
-    justify-content: space-between;
+    position: absolute;
+    bottom: 98px;
+    left: 30vw;
+    right: 0;
 }
 
 #serviceSection>aside:last-child>div:first-child>div>img{
@@ -279,7 +282,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     background-position: center;
     border-radius: 5%;
 }
-#serviceSection>aside:nth-child(1)>div:nth-child(4)>div>img{
+#serviceSection>aside:last-child>div>div>img{
     width: 110px;
     height: 90px;
     background-size: cover;
@@ -324,6 +327,12 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
 }
 /*----------------------------------------------my services ares end---------------------------------------------------*/
 
+/*----------------------------------------------my education ares start---------------------------------------------------*/
 
-
-
+#education{
+    width: 100%;
+    height: 100vh;
+    border: 2px  solid red;
+    position: relative;
+    box-sizing: border-box
+}
