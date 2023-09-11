@@ -206,7 +206,15 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     height: 7vw;
     margin: auto;
     position: relative;
-    top: 2vh;}
+    top: 2vh;
+}
+#serviceSection>aside:first-child>div:first-child>div>img{
+    width: 110px;
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
 
 
 
