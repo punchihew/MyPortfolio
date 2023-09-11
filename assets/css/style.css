@@ -337,8 +337,17 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     box-sizing: border-box
 }
 
-/*----------------------------------------------my education ares start---------------------------------------------------*/
+/*----------------------------------------------my project ares start---------------------------------------------------*/
 #project{
+    width: 100%;
+    height: 100vh;
+    border: 2px  solid red;
+    position: relative;
+    box-sizing: border-box
+}
+
+/*----------------------------------------------my skills ares start---------------------------------------------------*/
+#skills{
     width: 100%;
     height: 100vh;
     border: 2px  solid red;
