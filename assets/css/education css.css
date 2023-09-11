@@ -161,11 +161,11 @@ section:nth-child(3)>div:nth-child(5)>h2{
 section:nth-child(3)>div:nth-child(6)>hr{
     position: absolute;
     box-sizing: content-box;
-    height: 7px;
+    height: 10px;
     width: 125vh;
     left: 45vh;
     bottom: 24.1vh;
-    top:  35.9vh;
+    top:  74vh;
     background-color: #00B4D8;
 }
 section:nth-child(3)>div:nth-child(6)>div{
