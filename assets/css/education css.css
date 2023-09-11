@@ -69,6 +69,21 @@ section:nth-child(3)>div:nth-child(4)>hr{
     top:  35.9vh;
     background-color: #00B4D8;
 }
+section:nth-child(3)>div:nth-child(4)>div{
+    position: absolute;
+    height: 4vh;
+    right: 34vh;
+    bottom: 59vh;
+}
+section:nth-child(3)>div:nth-child(4)>h5{
+    position: absolute;
+    width: 16vh;
+    font-family: system-ui;
+    font-size: 3vh;
+    left: 48vh;
+    bottom: 65vh;
+    color: #00b4d8;
+}
 
 
 
