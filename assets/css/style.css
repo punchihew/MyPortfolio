@@ -52,6 +52,11 @@ header>dd{
 
 
 /*--------------------------------------features section-------------------------------------------------*/
+#home{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+}
 
 body main section:first-child>div:nth-child(1)>img{
     position: absolute;
@@ -182,12 +187,11 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     color:darkblue;
 }
 /*----------------------------------------------my services ares---------------------------------------------------*/
-
-
- body main section:nth-child(2){
-    position: relative;
+#serviceSection{
+    width: 100%;
     height: 100vh;
-    width: 65vw;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    border: 2px  solid red;
+    position: relative;
 }
+
+
