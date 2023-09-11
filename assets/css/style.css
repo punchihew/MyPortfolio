@@ -173,6 +173,14 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     margin: auto;
     border-radius: 100%;
 }
+#last{
+    position: absolute;
+    left: 20vw;
+    top: 68vh;
+    margin: auto;
+    border-radius: 100%;
+    color:darkblue;
+}
 /*----------------------------------------------my services ares---------------------------------------------------*/
 main section:nth-child(2){
     position: relative;
@@ -180,5 +188,5 @@ main section:nth-child(2){
     width: 72vw;
     padding-left: 14vw;
     padding-right: 14vw;
-    top: 60vh;
+    top: 80vh;
 }
