@@ -4,10 +4,12 @@
     height: 100vh;
     border: 2px  solid red;
     position: relative;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
 }
 #education h1,h2{
     text-align: center;
+    font-family: Inter, "Arial Black";
 
 }
 section:nth-child(3)>div:nth-child(3)>hr{
@@ -19,6 +21,7 @@ section:nth-child(3)>div:nth-child(3)>hr{
     bottom: 24.1vh;
     top: 16.5vh;
     background-color: #00B4D8;
+
 }
 
 section:nth-child(3)>div:nth-child(3)>div{
@@ -34,7 +37,7 @@ section:nth-child(3)>div:nth-child(3)>h5{
     font-size: 3vh;
     left: 48vh;
     bottom: 65vh;
-    color: #00b4d8;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(3)>img{
     position: absolute;
@@ -206,6 +209,19 @@ section:nth-child(3)>div:nth-child(6)>h2{
     bottom: 9vh;
     left: 49vh;
 }
+
+section:nth-child(3)>div:nth-child(7)>hr{
+    position: absolute;
+    box-sizing: content-box;
+    height: 9px;
+    width: 128vh;
+    left: 42vh;
+    bottom: 18.1vh;
+    top: 93.5vh;
+    background-color: #00B4D8;
+
+}
+
 
 
 
