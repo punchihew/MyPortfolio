@@ -238,6 +238,16 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     line-height: normal;
     text-align: center;
 }
+#serviceSection>aside:nth-child(1)>div>p{
+    color: white;
+    text-align: center;
+    font-family: Hind;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 
 
