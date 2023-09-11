@@ -142,6 +142,37 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     left: 0vw;
     margin: auto;
 }
+#linkedIn{
+    width: 2%;
+    position: absolute;
+    left: 21vw;
+    top: 72.5vh;
+    margin: auto;
+}
+
+#instergram{
+    width: 2%;
+    position: absolute;
+    left: 23vw;
+    top: 72.5vh;
+    margin: auto;
+}
+
+#facebook{
+    width: 2%;
+    position: absolute;
+    left: 25vw;
+    top: 72.5vh;
+    margin: auto;
+}
+
+#discord{
+    width: 2%;
+    position: absolute;
+    left: 27vw;
+    top: 72.5vh;
+    margin: auto;
+}
 /*----------------------------------------------my services ares---------------------------------------------------*/
 main section:nth-child(2){
     position: relative;
