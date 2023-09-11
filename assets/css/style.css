@@ -229,6 +229,15 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     background-position: center;
     border-radius: 5%;
 }
+#serviceSection>aside:nth-child(1)>div>h4{
+    color: white;
+    font-family: Libre Baskerville, cursive;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
 
 
 
