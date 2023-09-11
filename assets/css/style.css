@@ -5,7 +5,7 @@ header{
     display: inline-flex;
     border-bottom: 2px solid #00B4D8;
     background: linear-gradient(to left,#000235,#00B4D8);
-    width: 98.7vw;
+    width: 99vw;
     height: 59px;
     flex-shrink: 0;
     position: fixed;
@@ -20,7 +20,7 @@ header nav>div>menu{
 
 header nav>div>menu>li{
     display: inline-flex;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 header nav>div>menu>li>a{
@@ -190,27 +190,6 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
 /*--------------------------------------features section end-------------------------------------------------*/
 /*----------------------------------------------my services ares start---------------------------------------------------*/
 
-#serviceSection>h4{
-    text-align: center;
-    color: #162A5F;
-    font-family: Libre Baskerville, serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-
-#serviceSection>h3{
-    text-align: center;
-    color: #000;
-    font-family: Libre Baskerville, serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
 #serviceSection{
     width: 100%;
     height: 100vh;
@@ -218,139 +197,163 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     position: relative;
     box-sizing: border-box
 }
+#serviceSection aside div{
+        border-radius: 10px;
+        background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
+        box-shadow: 0px 5px 30px 5px rgb(6, 238, 226);
+        width: 28vw;
+        flex-shrink: 0;
+        display: inline-block;
 
-
-#serviceSection>aside:last-child>div{
-    border-radius: 10px;
-    background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
-    box-shadow: 0px 5px 30px 5px rgb(6, 238, 226);
-    width: 28vw;
-    flex-shrink: 0;
 }
-
-#serviceSection>aside:first-child>div{
-    border-radius: 10px;
-    background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
-    box-shadow: 0px 5px 30px 5px rgb(6, 238, 226);
-    width: 28vw;
-    flex-shrink: 0;
-}
-#serviceSection>aside:first-child>div div{
-
-    width: 7vw;
-    height: 7vw;
-    margin: auto;
-    position: relative;
-    top: 2vh;
-}
-#serviceSection>aside:first-child{
+#serviceSection>aside{
     margin: auto;
     display: flex;
     width: 90%;
     height: 40vh;
     justify-content: space-between;
 }
-#serviceSection>aside:last-child{
-    margin: auto;
-    display: flex;
-    width: 90%;
-    height: 40vh;
-    position: absolute;
-    bottom: 98px;
-    left: 30vw;
-    right: 0;
+#serviceSection aside div>div:first-child img{
+        width: 110px;
+        height: 90px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+
+}
+#serviceSection h3,h4{
+    text-align: center;
 }
 
-#serviceSection>aside:last-child>div:first-child>div>img{
-    width: 110px;
-    height: 90px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5%;
-}
-#serviceSection>aside:first-child>div:first-child>div>img{
-    width: 110px;
-    height: 90px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5%;
-}
-#serviceSection>aside:first-child>div:nth-child(2)>div>img{
-    width: 110px;
-    height: 90px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5%;
-}
-#serviceSection>aside:last-child>div>div>img{
-    width: 110px;
-    height: 90px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5%;
-}
-#serviceSection>aside:last-child>div>h4{
-    color: white;
-    font-family: Libre Baskerville, cursive;
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-}
-#serviceSection>aside:nth-child(1)>div>h4{
-    color: white;
-    font-family: Libre Baskerville, cursive;
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-}
-#serviceSection>aside:last-child>div>p{
-    color: white;
-    text-align: center;
-    font-family: Hind;
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-#serviceSection>aside:nth-child(1)>div>p{
-    color: white;
-    text-align: center;
-    font-family: Hind;
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#serviceSection>aside:last-child>div{*/
+/*    border-radius: 10px;*/
+/*    background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);*/
+/*    box-shadow: 0px 5px 30px 5px rgb(6, 238, 226);*/
+/*    width: 28vw;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+/*#serviceSection>aside>div{*/
+/*    border-radius: 10px;*/
+/*    background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);*/
+/*    box-shadow: 0px 5px 30px 5px rgb(6, 238, 226);*/
+/*    width: 28vw;*/
+/*    flex-shrink: 0;*/
+/*}*/
+/*#serviceSection>aside>div div{*/
+
+/*    width: 7vw;*/
+/*    height: 7vw;*/
+/*    margin: auto;*/
+/*    position: relative;*/
+/*    top: 2vh;*/
+/*}*/
+/*#serviceSection>aside{*/
+/*    margin: auto;*/
+/*    display: flex;*/
+/*    width: 90%;*/
+/*    height: 40vh;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*#serviceSection>aside{*/
+/*    margin: auto;*/
+/*    display: flex;*/
+/*    width: 90%;*/
+/*    height: 40vh;*/
+/*    position: absolute;*/
+/*    bottom: 98px;*/
+/*    left: 30vw;*/
+/*    right: 0;*/
+/*}*/
+
+/*#serviceSection>aside:last-child>div:first-child>div>img{*/
+/*    width: 110px;*/
+/*    height: 90px;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    border-radius: 5%;*/
+/*}*/
+/*#serviceSection>aside:first-child>div:first-child>div>img{*/
+/*    width: 110px;*/
+/*    height: 90px;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    border-radius: 5%;*/
+/*}*/
+/*#serviceSection>aside:first-child>div:nth-child(2)>div>img{*/
+/*    width: 110px;*/
+/*    height: 90px;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    border-radius: 5%;*/
+/*}*/
+/*#serviceSection>aside:last-child>div>div>img{*/
+/*    width: 110px;*/
+/*    height: 90px;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    border-radius: 5%;*/
+/*}*/
+/*#serviceSection>aside:last-child>div>h4{*/
+/*    color: white;*/
+/*    font-family: Libre Baskerville, cursive;*/
+/*    font-size: 1.5em;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    text-align: center;*/
+/*}*/
+/*#serviceSection>aside:nth-child(1)>div>h4{*/
+/*    color: white;*/
+/*    font-family: Libre Baskerville, cursive;*/
+/*    font-size: 1.5em;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    text-align: center;*/
+/*}*/
+/*#serviceSection>aside:last-child>div>p{*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    font-family: Hind;*/
+/*    font-size: 1em;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*}*/
+/*#serviceSection>aside:nth-child(1)>div>p{*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    font-family: Hind;*/
+/*    font-size: 1em;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*}*/
 /*----------------------------------------------my services ares end---------------------------------------------------*/
 
 /*----------------------------------------------my education ares start---------------------------------------------------*/
-
-#education{
-    width: 100%;
-    height: 100vh;
-    border: 2px  solid red;
-    position: relative;
-    box-sizing: border-box
-}
-
-/*----------------------------------------------my project ares start---------------------------------------------------*/
-#project{
-    width: 100%;
-    height: 100vh;
-    border: 2px  solid red;
-    position: relative;
-    box-sizing: border-box
-}
-
-/*----------------------------------------------my skills ares start---------------------------------------------------*/
-#skills{
-    width: 100%;
-    height: 100vh;
-    border: 2px  solid red;
-    position: relative;
-    box-sizing: border-box
-}
