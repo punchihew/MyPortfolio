@@ -146,7 +146,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 21vw;
-    top: 72.5vh;
+    top: 60vh;
     margin: auto;
 }
 
@@ -154,15 +154,14 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 23vw;
-    top: 72.5vh;
+    top: 60vh;
     margin: auto;
 }
-
 #facebook{
     width: 2%;
     position: absolute;
     left: 25vw;
-    top: 72.5vh;
+    top: 60vh;
     margin: auto;
 }
 
@@ -170,8 +169,9 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 27vw;
-    top: 72.5vh;
+    top: 60vh;
     margin: auto;
+    border-radius: 100%;
 }
 /*----------------------------------------------my services ares---------------------------------------------------*/
 main section:nth-child(2){
@@ -180,5 +180,5 @@ main section:nth-child(2){
     width: 72vw;
     padding-left: 14vw;
     padding-right: 14vw;
-    top: 30vh;
+    top: 60vh;
 }
