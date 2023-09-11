@@ -86,10 +86,10 @@ section:nth-child(3)>div:nth-child(4)>h5{
 }
 section:nth-child(3)>div:nth-child(4)>img{
     position: absolute;
-    left: 66vh;
+    left: 141vh;
     height: 12vh;
     width: 12vh;
-    bottom: 64vh;
+    bottom: 47vh;
 }
 section:nth-child(3)>div:nth-child(4)>h1{
     width: 50vh;
@@ -157,6 +157,56 @@ section:nth-child(3)>div:nth-child(5)>h2{
     bottom: 27vh;
     left: 120vh;
 }
+
+section:nth-child(3)>div:nth-child(6)>hr{
+    position: absolute;
+    box-sizing: content-box;
+    height: 7px;
+    width: 125vh;
+    left: 45vh;
+    bottom: 24.1vh;
+    top:  35.9vh;
+    background-color: #00B4D8;
+}
+section:nth-child(3)>div:nth-child(6)>div{
+    position: absolute;
+    height: 4vh;
+    right: 34vh;
+    bottom: 59vh;
+}
+section:nth-child(3)>div:nth-child(6)>h5{
+    position: absolute;
+    width: 16vh;
+    font-family: system-ui;
+    font-size: 3vh;
+    left: 153vh;
+    bottom: 46vh;
+    color: #00b4d8;
+}
+section:nth-child(3)>div:nth-child(6)>img{
+    position: absolute;
+    left: 141vh;
+    height: 12vh;
+    width: 12vh;
+    bottom: 47vh;
+}
+section:nth-child(3)>div:nth-child(6)>h1{
+    width: 50vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: absolute;
+    bottom: 51vh;
+    left: 46vh;
+}
+section:nth-child(3)>div:nth-child(6)>h2{
+    width: 50vh;
+    font-size: 2vh;
+    font-family: system-ui,cursive;
+    position: absolute;
+    bottom: 49vh;
+    left: 49vh;
+}
+
 
 
 
