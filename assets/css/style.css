@@ -182,11 +182,12 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     color:darkblue;
 }
 /*----------------------------------------------my services ares---------------------------------------------------*/
-main section:nth-child(2){
+
+
+ body main section:nth-child(2){
     position: relative;
     height: 100vh;
-    width: 72vw;
+    width: 65vw;
     padding-left: 14vw;
     padding-right: 14vw;
-    top: 80vh;
 }
