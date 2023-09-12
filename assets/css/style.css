@@ -373,24 +373,7 @@ section:nth-child(4)>dd>li{
 #p1,#p2,#p3{
     width: 6vw;
 }
-/*#project>section>div>div:nth-child(1){*/
-/*    width: 20vw;*/
-/*    height: 6vh;*/
-/*    position: absolute;*/
-/*    top:0;*/
-/*}*/
-/*#project>section>div>div:nth-child(2){*/
-/*    width: 20vw;*/
-/*    height: 6vh;*/
-/*    position: absolute;*/
-/*    top:0;*/
-/*}*/
-/*#project>section>div>div:nth-child(3){*/
-/*    width: 20vw;*/
-/*    height: 6vh;*/
-/*    position: absolute;*/
-/*    top:0;*/
-/*}*/
+
 /*----------------------------------------------my about ares ---------------------------------------------------*/
 #about{
     width: 100%;
@@ -556,7 +539,11 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     background: url("../image/2023_03_08_15_17_270AEA36-1E5A-4D40-B049-5AAD3E60BEEA.JPG");
     background-size: cover;
 }
+#life>section div:nth-child(4){
 
+    background: url("../image/2023_07_25_18_10_IMG_0802.JPG");
+    background-size: cover;
+}
 
 #life>section div:nth-child(6){
     grid-row: 1/4;
