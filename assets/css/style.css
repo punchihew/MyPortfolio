@@ -321,7 +321,9 @@ section:nth-child(4)>dd>li{
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #00B4D8 0%,  #ffffff 100%);
+}
+#project h1{
+    text-align: left;
 }
 
 
