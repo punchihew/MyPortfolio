@@ -594,6 +594,68 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     margin-top: 1vh;
 }
 
+#contact>section{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10vh;
+}
+
+#contact>section>address{
+    width: 72vw;
+    height: 80vh;
+    border: 2px solid #06EEE2;
+}
+#contact>section>address>div:nth-child(1)>div:last-child>h4{
+    position: relative;
+    right: 32vw;
+    font-size: larger;
+
+}
+#contact>section>address>div:nth-child(2){
+    margin-left: 25vw;
+    margin-top: -12vh;
+
+}
+#contact>section>address>div:nth-child(3){
+    margin-left: 60vw;
+
+}
+
+
+/*#contact>section>address>#01>h4{*/
+/*    color: #162A5F;*/
+/*    font-family: Inter;*/
+/*    font-size: 1.5em;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*}*/
+
+/*#contact>section>address>#01> a{*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*}*/
+
+/*#contact>section>address>#01>p{*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*#contact>section>address>#01> h4{*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+
 
 
 
