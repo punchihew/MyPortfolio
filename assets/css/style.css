@@ -386,6 +386,54 @@ main>section:nth-child(6)>aside:nth-child(3)>img{
     width: 30vw;
 }
 
+main>section:nth-child(6) aside:last-child{
+    width: 50vw;
+    height: 40vh;
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+main>section:nth-child(6) aside:last-child>p:first-child{
+    color: #000;
+    font-family: Libre Baskerville, serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main>section:nth-child(6) aside:last-child>p:first-child span{
+    color: #162A5F;
+    font-family: Libre Baskerville, serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5vh;
+}
+
+main>section:nth-child(6) aside:last-child>p:last-child{
+    color: #171212;
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5vh;
+    position: relative;
+    top: 5vh;
+}
+
+main>section:nth-child(6) aside:last-child>p:last-child>span{
+    color: #FD6E0A;
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 
 
