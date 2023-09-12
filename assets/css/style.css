@@ -624,7 +624,13 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 #contact>section>address>div:nth-child(3){
     margin-left: 60vw;
+    margin-top: -13vh;
 
+}
+#contact>section>address>div:nth-child(3)>div:last-child>h4{
+    position: relative;
+    right: 16vw;
+    font-size: larger;
 }
 
 
