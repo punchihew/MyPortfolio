@@ -479,7 +479,22 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     position: relative;
     top: 60vh;
 }
+#life>section{
+    position: relative;
+    top: 5vh;
+    margin: auto;
+    display: grid;
+    width: 70%;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
 
+#life>section div{
+    border: 2px solid #06EEE2;
+    border-radius: 20px;
+}
 
 
 
