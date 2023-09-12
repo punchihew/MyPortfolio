@@ -468,16 +468,16 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     width: 22vw;
     height: 3px;
     background: #00b4d8;
-    margin-top: -12vh;
+    margin-top: -2vh;
 }
 #life>div>img{
-    width: 6vw;
-    margin-top: 0vh;
-    margin-left: 96vh;
+    width: 4.4vw;
+    margin-top: -10vh;
+    margin-left: 128vh;
 }
 #life>p{
     position: relative;
-   top: 60vh;
+    top: 60vh;
 }
 
 
