@@ -444,7 +444,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 
 #life{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
