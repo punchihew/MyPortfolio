@@ -233,7 +233,8 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     height: 80vh;
     border: 2px  solid red;
     position: relative;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ffffff 0%, #00B4D8 100%);
 }
 #skills>h1 ,h3{
     text-align: center;
