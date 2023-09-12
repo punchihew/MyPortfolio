@@ -368,6 +368,14 @@ section:nth-child(4)>dd>li{
     height: 3px;
     background: #00b4d8;
 }
+#about> div{
+    width: 57px;
+    height: 62px;
+    flex-shrink: 0;
+    position: relative;
+    left: 66vh;
+    bottom: 60px;
+}
 
 
 
