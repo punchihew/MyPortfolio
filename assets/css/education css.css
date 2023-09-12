@@ -10,6 +10,7 @@
 #education h1,h2{
     text-align: center;
     font-family: Inter, "Arial Black";
+    color: white;
 
 }
 section:nth-child(3)>div:nth-child(3)>hr{
@@ -53,6 +54,7 @@ section:nth-child(3)>div:nth-child(3)>h1{
     position: absolute;
     bottom: 68vh;
     left: 120vh;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(3)>h2{
     width: 50vh;
@@ -61,6 +63,7 @@ section:nth-child(3)>div:nth-child(3)>h2{
     position: absolute;
     bottom: 65vh;
     left: 120vh;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(4)>hr{
     position: absolute;
@@ -85,7 +88,7 @@ section:nth-child(3)>div:nth-child(4)>h5{
     font-size: 3vh;
     left: 153vh;
     bottom: 46vh;
-    color: #00b4d8;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(4)>img{
     position: absolute;
@@ -101,6 +104,7 @@ section:nth-child(3)>div:nth-child(4)>h1{
     position: absolute;
     bottom: 51vh;
     left: 46vh;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(4)>h2{
     width: 50vh;
@@ -109,6 +113,7 @@ section:nth-child(3)>div:nth-child(4)>h2{
     position: absolute;
     bottom: 49vh;
     left: 49vh;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(5)>hr{
     position: absolute;
@@ -135,7 +140,7 @@ section:nth-child(3)>div:nth-child(5)>h5{
     font-size: 3vh;
     left: 48vh;
     bottom: 27vh;
-    color: #00b4d8;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(5)>img{
     position: absolute;
@@ -151,6 +156,7 @@ section:nth-child(3)>div:nth-child(5)>h1{
     position: absolute;
     bottom: 30vh;
     left: 120vh;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(5)>h2{
     width: 50vh;
@@ -159,6 +165,7 @@ section:nth-child(3)>div:nth-child(5)>h2{
     position: absolute;
     bottom: 27vh;
     left: 120vh;
+    color: white;
 }
 
 section:nth-child(3)>div:nth-child(6)>hr{
@@ -184,7 +191,7 @@ section:nth-child(3)>div:nth-child(6)>h5{
     font-size: 3vh;
     left: 153vh;
     bottom: 7vh;
-    color: #00b4d8;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(6)>img{
     position: absolute;
@@ -200,6 +207,7 @@ section:nth-child(3)>div:nth-child(6)>h1{
     position: absolute;
     bottom: 12vh;
     left: 46vh;
+    color: white;
 }
 section:nth-child(3)>div:nth-child(6)>h2{
     width: 50vh;
@@ -208,6 +216,7 @@ section:nth-child(3)>div:nth-child(6)>h2{
     position: absolute;
     bottom: 9vh;
     left: 49vh;
+    color: white;
 }
 
 section:nth-child(3)>div:nth-child(7)>hr{
