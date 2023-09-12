@@ -629,7 +629,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 #contact>section>address>div:nth-child(3)>div:last-child>h4{
     position: relative;
-    right: 16vw;
+    right: 2vw;
     font-size: larger;
 }
 
