@@ -367,9 +367,11 @@ section:nth-child(4)>dd>li{
 }
 #project>section>div>div>a{
     position: absolute;
-    top:13vh;
-    left: 10vh;
-
+    top:-9vh;
+    left: 8vh;
+}
+#p1,#p2,#p3{
+    width: 6vw;
 }
 /*#project>section>div>div:nth-child(1){*/
 /*    width: 20vw;*/
