@@ -230,7 +230,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
 
 #skills{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box
@@ -288,7 +288,7 @@ section:nth-child(4)>img:hover{
 
 #wordpressLogo{
     right: 45vw;
-    left: 0vw;
+    left: 31vh;
 }
 
 #arduinoLogo{
@@ -300,14 +300,18 @@ section:nth-child(4)>img:hover{
     right: 46vw;
     left: 0vw;
 }
-#interlig{
-    top: 38vh;
-    left: 46vw;
+section:nth-child(4)>dd>li{
+    margin-top: 10vh;
+    margin-left: 14vh;
+}
+/*#interlig{*/
+/*    top: 38vh;*/
+/*    left: 46vw;*/
 
-}
-#SceneBillder{
-    top: 38vh;
-    left: 37vw;
-}
+/*}*/
+/*#SceneBillder{*/
+/*    top: 38vh;*/
+/*    left: 37vw;*/
+/*}*/
 
 
