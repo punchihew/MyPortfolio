@@ -616,6 +616,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     position: relative;
     right: 16vw;
     font-size: larger;
+
 }
 #contact>section>address>div:nth-child(2){
     margin-left: 28vw;
@@ -632,6 +633,15 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     right: 2vw;
     font-size: larger;
 }
+#contact>section>address>h4{
+    margin-top: 12vh;
+    margin-right: 80vh;
+
+}
+#contact>section>address>p{
+
+}
+
 
 
 /*#contact>section>address>#01>h4{*/
