@@ -233,7 +233,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #ffffff 0%, #00B4D8 100%);
+    /*//background: linear-gradient(180deg, #00B4D8 50%, #06EEE2 100%);*/
 }
 #skills>h1 ,h3{
     text-align: center;
@@ -320,12 +320,12 @@ section:nth-child(4)>dd>li{
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
-
+    background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
 
 }
 
 #project>h4{
-    color: #162A5F;
+    color: white;
     font-family: Libre Baskerville;
     font-size: 24px;
     font-style: normal;
@@ -335,7 +335,7 @@ section:nth-child(4)>dd>li{
 }
 
 #project>h1{
-    color: #000;
+    color:#CAF0F8;
     text-align: center;
     font-family: Libre Baskerville, serif;
     font-size: 40px;
@@ -363,6 +363,12 @@ section:nth-child(4)>dd>li{
     position: absolute;
     top:26vh;
     left: 18vh;
+
+}
+#project>section>div>div>a{
+    position: absolute;
+    top:13vh;
+    left: 10vh;
 
 }
 /*#project>section>div>div:nth-child(1){*/
