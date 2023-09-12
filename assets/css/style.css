@@ -453,4 +453,28 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 
 
+#life>h1{
+    color: #000;
+    text-align: center;
+    font-family: Libre Baskerville, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+#life>hr {
+    width: 22vw;
+    height: 3px;
+    background: #00b4d8;
+    margin-top: -7vh;
+}
+#life>img{
+    width: 6vw;
+    margin-top: 0vh;
+    margin-left: 96vh;
+}
+
+
 
