@@ -321,6 +321,8 @@ section:nth-child(4)>dd>li{
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
+
+
 }
 
 #project>h4{
@@ -356,10 +358,13 @@ section:nth-child(4)>dd>li{
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
+    background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
+
 }
 #about h1{
     text-align: left;
     margin-left: 21vw;
+    color: #ffffff;
 }
 #about>hr{
     margin-top: -3vh;
@@ -397,7 +402,7 @@ main>section:nth-child(6) aside:last-child{
 }
 
 main>section:nth-child(6) aside:last-child>p:first-child{
-    color: #000;
+    color: #ffffff;
     font-family: Libre Baskerville, serif;
     font-size: 21px;
     font-style: normal;
@@ -406,7 +411,7 @@ main>section:nth-child(6) aside:last-child>p:first-child{
 }
 
 main>section:nth-child(6) aside:last-child>p:first-child span{
-    color: #162A5F;
+    color:#CAF0F8;
     font-family: Libre Baskerville, serif;
     font-size: 23px;
     font-style: normal;
@@ -415,7 +420,7 @@ main>section:nth-child(6) aside:last-child>p:first-child span{
 }
 
 main>section:nth-child(6) aside:last-child>p:last-child{
-    color: #171212;
+    color: #CAF0F8;
     font-family: Libre Baskerville, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -426,7 +431,7 @@ main>section:nth-child(6) aside:last-child>p:last-child{
 }
 
 main>section:nth-child(6) aside:last-child>p:last-child>span{
-    color: #FD6E0A;
+    color:#06EEE2 ;
     font-family: Libre Baskerville, sans-serif;
     font-size: 24px;
     font-style: normal;
