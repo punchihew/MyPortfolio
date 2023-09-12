@@ -243,3 +243,62 @@ section:nth-child(4)>h5{
 
 }
 
+section:nth-child(4)>img{
+    width: 5%;
+    position: absolute;
+    top: 24vh;
+    margin: auto;
+    z-index: 1;
+}
+
+section:nth-child(4)>img:hover{
+    width: 6%;
+}
+
+#java{
+    right: 0;
+    left: 0;
+}
+
+#mysql{
+    right: 0vw;
+    left: 15vw;
+}
+
+#jsllogo{
+    border-radius: 15%;
+    right: 15vw;
+    left: 0vw;
+}
+
+#css{
+    right: 0vw;
+    left: 30vw;
+}
+
+#html{
+    right: 30vw;
+    left: 0vw;
+}
+
+#figma{
+    right: 0vw;
+    left: 45vw;
+}
+
+#wordpressLogo{
+    right: 45vw;
+    left: 0vw;
+}
+
+#arduinoLogo{
+    right: 0vw;
+    left: 60vw;
+}
+
+#hibernet{
+    right: 60vw;
+    left: 0vw;
+}
+
+
