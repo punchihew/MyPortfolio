@@ -348,7 +348,7 @@ section:nth-child(4)>dd>li{
     width: 20vw;
     height: 3px;
     margin: auto;
-    background: brown;
+    background: #00b4d8;
 }
 #about{
     width: 100%;
@@ -356,6 +356,17 @@ section:nth-child(4)>dd>li{
     border: 2px  solid red;
     position: relative;
     box-sizing: border-box;
+}
+#about h1{
+    text-align: left;
+    margin-left: 21vw;
+}
+#about>hr{
+    margin-top: -3vh;
+    margin-left: 22vw;
+    width: 12vw;
+    height: 3px;
+    background: #00b4d8;
 }
 
 
