@@ -470,11 +470,16 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     background: #00b4d8;
     margin-top: -12vh;
 }
-#life>img{
+#life>div>img{
     width: 6vw;
     margin-top: 0vh;
     margin-left: 96vh;
 }
+#life>p{
+    position: relative;
+   top: 60vh;
+}
+
 
 
 
