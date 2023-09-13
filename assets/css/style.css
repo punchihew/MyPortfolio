@@ -372,7 +372,14 @@ section:nth-child(4)>dd>li{
     line-height: normal;
     margin-bottom: 0;
 }
-
+#project #projectPng{
+    width: 57px;
+    height: 62px;
+    flex-shrink: 0;
+    position: relative;
+    left: 120vh;
+    bottom: 60px;
+}
 #project>hr{
     width: 20vw;
     height: 3px;
