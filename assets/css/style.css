@@ -715,12 +715,12 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 /*    margin-left: 106px;*/
 /*}*/
 
-/*#contact>section>aside{*/
-/*    top: 20vh;*/
-/*    position: relative;*/
-/*    right: 130vh;*/
-/*    background: #CAF0F8;*/
-/*}*/
+#contact>section>aside{
+    top: 20vh;
+    position: relative;
+    right: 130vh;
+    background: #CAF0F8;
+}
 
 
 #contact aside>form>fieldset{
