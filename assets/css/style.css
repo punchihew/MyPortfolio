@@ -829,7 +829,9 @@ body footer{
     position: relative;
     background: #05BFDB;
 }
-
+body footer section>h1,p{
+    color: white;
+}
 body footer section{
     display: flex;
     width: 60%;
