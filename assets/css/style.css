@@ -627,6 +627,12 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     line-height: normal;
     margin-bottom: 0;
 }
+#contact>hr {
+    width: 22vw;
+    height: 3px;
+    background: #00b4d8;
+    margin-top: 0;
+}
 #contact p {
     color: darkblue;
     text-align: center;
