@@ -602,9 +602,10 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 
 #contact>section>address{
-    width: 74vw;
-    height: 80vh;
+    width: 85vw;
+    height: 48vh;
     border: 2px solid #06EEE2;
+    margin-left: 40vw;
 }
 #contact>section>address>div:nth-child(1)>div:last-child>h4{
     position: relative;
@@ -630,8 +631,12 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 #contact>section>address>div:nth-child(3)>div:last-child>h4{
     position: relative;
-    right: 2vw;
+    right: 6vw;
     font-size: larger;
+}
+#contact>section>address>div:nth-child(3)>div:last-child>a{
+    margin-right: 34vh;
+
 }
 #contact>section>address>h4{
     margin-top: 12vh;
@@ -644,28 +649,29 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 
 #contact>section>aside{
-    top: 44vh;
+    top: 20vh;
     position: relative;
-    right: 86vh;
+    right: 100vh;
+    background: #CAF0F8;
 }
 
 
-.contact-section aside>form>fieldset{
+#contact aside>form>fieldset{
     border: none;
 }
 
-.contact-section aside>form>fieldset>input{
+#contact aside>form>fieldset>input{
     width: 38vw;
     height: 8vh;
     flex-shrink: 0;
     border-radius: 20px 20px 10px 20px;
-    background: rgba(255, 178, 51, 0.37);
+    background: #05BFDB;
     border: 0;
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
 
-.contact-section aside>form>fieldset>textarea{
+#contact aside>form>fieldset>textarea{
     width: 38vw;
     height: 15vh;
     flex-shrink: 0;
@@ -674,7 +680,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     border: 0;
 }
 
-.contact-section aside>form>fieldset>label{
+#contact aside>form>fieldset>label{
     color: #494949;
     font-family: Inter, sans-serif;
     font-size: 20px;
@@ -686,7 +692,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     flex-shrink: 0;
 }
 
-.contact-section aside>form>fieldset>button{
+#contact aside>form>fieldset>button{
     width: 185px;
     height: 47px;
     flex-shrink: 0;
