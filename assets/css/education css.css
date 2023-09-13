@@ -10,7 +10,7 @@
 #education h1,h2{
     text-align: center;
     font-family: 'Catamaran';
-    color: white;
+    color: darkblue;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -67,7 +67,7 @@ section:nth-child(3)>div:nth-child(3)>h2{
     position: absolute;
     bottom: 65vh;
     left: 120vh;
-    color: white;
+    color: darkblue;
 }
 section:nth-child(3)>div:nth-child(4)>hr{
     position: absolute;
