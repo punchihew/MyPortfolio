@@ -584,16 +584,6 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     line-height: normal;
     margin-bottom: 0;
 }
-#contact h4{
-    text-align: center;
-}
-#contact>hr {
-    width: 14vw;
-    height: 3px;
-    background: #00b4d8;
-    margin-top: 1vh;
-}
-
 #contact>section{
     display: flex;
     justify-content: space-around;
@@ -602,58 +592,135 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 
 #contact>section>address{
-    width: 85vw;
-    height: 48vh;
-    border: 2px solid #06EEE2;
-    margin-left: 40vw;
+    width: 40vw;
+    height: 80vh;
 }
-#contact>section>address>div:nth-child(1)>div:last-child>h4{
-    position: relative;
-    right: 32vw;
-    font-size: larger;
+#contact>section>address h4{
+    color: #162A5F;
+    font-family: Inter;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
+#contact>section>address a{
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-#contact>section>address>div:nth-child(2)>div:last-child>h4{
-    position: relative;
-    right: 16vw;
-    font-size: larger;
 
+#contact>section>address p{
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
 }
-#contact>section>address>div:nth-child(2){
-    margin-left: 28vw;
-    margin-top: -13vh;
 
-}
-#contact>section>address>div:nth-child(3){
-    margin-left: 60vw;
-    margin-top: -13vh;
-
-}
-#contact>section>address>div:nth-child(3)>div:last-child>h4{
-    position: relative;
-    right: 6vw;
-    font-size: larger;
-}
-#contact>section>address>div:nth-child(3)>div:last-child>a{
-    margin-right: 34vh;
-
-}
 #contact>section>address>h4{
-    margin-top: 12vh;
-    margin-right: 80vh;
-
-}
-#contact>section>address>p{
-    margin-right: 22vw;
-    margin-left: 106px;
+    margin-bottom: 0;
 }
 
 #contact>section>aside{
-    top: 20vh;
-    position: relative;
-    right: 130vh;
-    background: #CAF0F8;
+    width: 40vw;
+    height: 80vh;
 }
+
+#contact>section>address>div{
+    display: flex;
+    margin-top: 2.5vh;
+}
+
+.contact-section>section>address>div:first-child{
+    margin-top: 0;
+}
+
+#contact>section>address>div>div:first-child{
+    width: 5vw;
+    height: 5vw;
+    position: relative;
+}
+
+#contact>section>address>div>div:last-child{
+    position: relative;
+    left: 5vw;
+}
+/*#contact h4{*/
+/*    text-align: center;*/
+/*}*/
+/*#contact>hr {*/
+/*    width: 14vw;*/
+/*    height: 3px;*/
+/*    background: #00b4d8;*/
+/*    margin-top: 1vh;*/
+/*}*/
+
+/*#contact>section{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    position: relative;*/
+/*    top: 10vh;*/
+/*}*/
+
+/*#contact>section>address{*/
+/*    width: 85vw;*/
+/*    height: 48vh;*/
+/*    border: 2px solid #06EEE2;*/
+/*    margin-left: 40vw;*/
+/*}*/
+/*#contact>section>address>div:nth-child(1)>div:last-child>h4{*/
+/*    position: relative;*/
+/*    right: 32vw;*/
+/*    font-size: larger;*/
+
+/*}*/
+/*#contact>section>address>div:nth-child(2)>div:last-child>h4{*/
+/*    position: relative;*/
+/*    right: 16vw;*/
+/*    font-size: larger;*/
+
+/*}*/
+/*#contact>section>address>div:nth-child(2){*/
+/*    margin-left: 28vw;*/
+/*    margin-top: -13vh;*/
+
+/*}*/
+/*#contact>section>address>div:nth-child(3){*/
+/*    margin-left: 60vw;*/
+/*    margin-top: -13vh;*/
+
+/*}*/
+/*#contact>section>address>div:nth-child(3)>div:last-child>h4{*/
+/*    position: relative;*/
+/*    right: 6vw;*/
+/*    font-size: larger;*/
+/*}*/
+/*#contact>section>address>div:nth-child(3)>div:last-child>a{*/
+/*    margin-right: 34vh;*/
+
+/*}*/
+/*#contact>section>address>h4{*/
+/*    margin-top: 12vh;*/
+/*    margin-right: 80vh;*/
+
+/*}*/
+/*#contact>section>address>p{*/
+/*    margin-right: 22vw;*/
+/*    margin-left: 106px;*/
+/*}*/
+
+/*#contact>section>aside{*/
+/*    top: 20vh;*/
+/*    position: relative;*/
+/*    right: 130vh;*/
+/*    background: #CAF0F8;*/
+/*}*/
 
 
 #contact aside>form>fieldset{
