@@ -213,6 +213,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     justify-content: space-between;
 }
 #serviceSection aside div>div:first-child img{
+        margin-left: 18vh;
         width: 110px;
         height: 90px;
         background-size: cover;
