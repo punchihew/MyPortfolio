@@ -594,6 +594,16 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     line-height: normal;
     margin-bottom: 0;
 }
+#contact p{
+    color: darkblue;
+    text-align: center;
+    font-family: 'Catamaran';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
 #contact>section{
     display: flex;
     justify-content: space-around;
