@@ -851,5 +851,11 @@ body footer section{
     top: 6vh;
     box-shadow: #CAF0F8;
 }
+footer>nav{
+    width: 27vw;
+    position: relative;
+    margin: auto;
+}
+
 
 
