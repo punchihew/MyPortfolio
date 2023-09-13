@@ -575,9 +575,9 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 
 }
 #contact h1{
-     color: #000;
+    color: darkblue;
     text-align: center;
-    font-family: Libre Baskerville, serif;
+    font-family: 'Catamaran';
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
