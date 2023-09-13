@@ -55,6 +55,7 @@ header>dd{
 #home{
     width: 100%;
     height: 100vh;
+    background: #CAF0F8;
 }
 
 body main section:first-child>div:nth-child(1)>img{
@@ -192,7 +193,8 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     width: 100%;
     height: 100vh;
     position: relative;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background: #CAF0F8;
 }
 #serviceSection aside div{
         border-radius: 10px;
@@ -218,9 +220,29 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
         border-radius: 5%;
 
 }
-#serviceSection h3,h4{
+#serviceSection h3{
+    color: darkblue;
     text-align: center;
+    font-family: 'Catamaran';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
 }
+#serviceSection h4{
+
+    color: darkblue;
+    text-align: center;
+    font-family: 'Catamaran';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
 
 /*----------------------------------------------my skills ares ---------------------------------------------------*/
 
