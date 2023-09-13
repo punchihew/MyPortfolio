@@ -832,6 +832,11 @@ body footer{
 
 body footer section{
     display: flex;
+    width: 60%;
+    height: 10vh;
+    box-sizing: border-box;
+    position: relative;
+    background: #21609B;
 }
 
 
