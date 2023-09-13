@@ -676,7 +676,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     height: 15vh;
     flex-shrink: 0;
     border-radius: 20px 20px 10px 20px;
-    background: rgba(255, 178, 51, 0.37);
+    background: #05BFDB;
     border: 0;
 }
 
