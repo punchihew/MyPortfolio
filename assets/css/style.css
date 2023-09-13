@@ -830,6 +830,8 @@ body footer{
     background: #CAF0F8;
 }
 
-
+body footer section{
+    display: flex;
+}
 
 
