@@ -639,9 +639,15 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 
 }
 #contact>section>address>p{
-    margin-right: ;
+    margin-right: 22vw;
+    margin-left: 106px;
 }
 
+#contact>section>aside{
+    top: 44vh;
+    position: relative;
+    right: 86vh;
+}
 
 
 /*#contact>section>address>#01>h4{*/
