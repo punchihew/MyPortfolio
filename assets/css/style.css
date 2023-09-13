@@ -55,8 +55,6 @@ header>dd{
 #home{
     width: 100%;
     height: 100vh;
-    border: 2px solid red;
-
 }
 
 body main section:first-child>div:nth-child(1)>img{
