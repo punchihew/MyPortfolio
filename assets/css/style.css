@@ -488,7 +488,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     height: 100vh;
     position: relative;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #CAF0F8 0%, #00B4D8 100%);
+    /*background: linear-gradient(180deg, #CAF0F8 0%, #00B4D8 100%);*/
 
 }
 
