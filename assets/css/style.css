@@ -716,9 +716,9 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 /*}*/
 
 #contact>section>aside{
-    top: 20vh;
+    top: -5vh;
     position: relative;
-    right: 130vh;
+    right: 12vh;
     background: #CAF0F8;
 }
 
