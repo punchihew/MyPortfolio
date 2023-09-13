@@ -594,7 +594,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     line-height: normal;
     margin-bottom: 0;
 }
-#contact p{
+#contact p {
     color: darkblue;
     text-align: center;
     font-family: 'Catamaran';
@@ -604,6 +604,9 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     line-height: normal;
     margin-bottom: 0;
 }
+
+
+
 #contact>section{
     display: flex;
     justify-content: space-around;
@@ -631,7 +634,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 /*}*/
 
 #contact>section>address a{
-    color: #494949;
+    color: #162A5F;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
