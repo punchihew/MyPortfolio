@@ -821,7 +821,6 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     background: #21609B;
     color: white;
 }
-
 body footer{
     width: 100%;
     height: 25vh;
@@ -829,16 +828,16 @@ body footer{
     position: relative;
     background: #05BFDB;
 }
-body footer section>div>div>h4,p{
-    color: white;
-    text-align: center;
-    font-family: 'Catamaran';
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 0;
-}
+/*body footer section>div>div>h4,p{*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 30px;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    margin-bottom: 0;*/
+/*}*/
 body footer section{
     display: flex;
     width: 60%;
@@ -858,7 +857,11 @@ footer>nav{
     left: 40vh;
 }
 footer>nav>a{
-  margin-right: 10px;
+    margin-right: 10px;
 }
+
+
+
+
 
 
