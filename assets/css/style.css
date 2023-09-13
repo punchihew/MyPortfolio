@@ -205,21 +205,20 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
         display: inline-block;
 
 }
-#serviceSection>aside:first-child{
+#serviceSection>aside{
     margin: auto;
     display: flex;
     width: 90%;
     height: 40vh;
     justify-content: space-between;
 }
-#serviceSection>aside:last-child{
-    margin: auto;
-    display: flex;
-    width: 90%;
-    height: 40vh;
-    justify-content: space-between;
-    margin-right: -40vh;
-}
+/*#serviceSection>aside:last-child{*/
+/*    margin: auto;*/
+/*    display: flex;*/
+/*    width: 90%;*/
+/*    height: 40vh;*/
+/*    justify-content: space-between;*/
+/*}*/
 #serviceSection aside div>div:first-child img{
         margin-left: 18vh;
         width: 110px;
