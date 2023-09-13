@@ -837,6 +837,8 @@ body footer section{
     box-sizing: border-box;
     position: relative;
     background: #21609B;
+    left: 16vw;
+    top: 6vh;
 }
 
 
