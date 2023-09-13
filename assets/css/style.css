@@ -650,38 +650,50 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 
 
-/*#contact>section>address>#01>h4{*/
-/*    color: #162A5F;*/
-/*    font-family: Inter;*/
-/*    font-size: 1.5em;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: normal;*/
-/*}*/
+.contact-section aside>form>fieldset{
+    border: none;
+}
 
-/*#contact>section>address>#01> a{*/
-/*    color: #494949;*/
-/*    font-family: Inter;*/
-/*    font-size: 20px;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    line-height: normal;*/
-/*}*/
+.contact-section aside>form>fieldset>input{
+    width: 38vw;
+    height: 8vh;
+    flex-shrink: 0;
+    border-radius: 20px 20px 10px 20px;
+    background: rgba(255, 178, 51, 0.37);
+    border: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
 
-/*#contact>section>address>#01>p{*/
-/*    color: #494949;*/
-/*    font-family: Inter;*/
-/*    font-size: 20px;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    line-height: normal;*/
-/*    margin-top: 0;*/
-/*}*/
+.contact-section aside>form>fieldset>textarea{
+    width: 38vw;
+    height: 15vh;
+    flex-shrink: 0;
+    border-radius: 20px 20px 10px 20px;
+    background: rgba(255, 178, 51, 0.37);
+    border: 0;
+}
 
-/*#contact>section>address>#01> h4{*/
-/*    margin-bottom: 0;*/
-/*}*/
+.contact-section aside>form>fieldset>label{
+    color: #494949;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 62px;
+    height: 22px;
+    flex-shrink: 0;
+}
 
+.contact-section aside>form>fieldset>button{
+    width: 185px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #21609B;
+    color: white;
+}
 
 
 
