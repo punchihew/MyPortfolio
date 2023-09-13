@@ -218,6 +218,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     width: 90%;
     height: 40vh;
     justify-content: space-between;
+    margin-right: -40vh;
 }
 #serviceSection aside div>div:first-child img{
         margin-left: 18vh;
