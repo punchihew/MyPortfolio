@@ -828,16 +828,16 @@ body footer{
     position: relative;
     background: #05BFDB;
 }
-/*body footer section>div>div>h4,p{*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    font-family: 'Catamaran';*/
-/*    font-size: 30px;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: normal;*/
-/*    margin-bottom: 0;*/
-/*}*/
+body footer section>div>div>#h4,#p{
+    color: white;
+    text-align: center;
+    font-family: 'Catamaran';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
 body footer section{
     display: flex;
     width: 60%;
