@@ -2,70 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-  <style>
-    body>section{
-      width: 22vw;
-      height: 22vw;
-      border-radius: 100%;
-      border: 20px solid #00b4d8;
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      border-top:20px solid #06EEE2 ;
-    }
-    section>div:first-child{
-      width: 20vw;
-      height: 20vw;
-      border-radius: 100%;
-      border: 20px solid darkblue;
-      background-color: darkblue;
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-    }
-    section:hover{
-      transform: rotate(360deg);
-      transition: 2s all;
-
-
-    }
-    section:hover>h1{
-      transform: rotate(-360deg);
-      transition: 2s all;
-    }
-
-
-         h1 {
-           width: max-content;
-           height: max-content;
-           color: white;
-
-           position: absolute;
-           top: 0;
-           bottom: 0;
-           right: 0;
-           left: 0;
-           margin: auto;
-
-         }
-
-  </style>
+    <title>transition case 2</title>
+    <style>
+        body{
+            background-color: #FCFC6F;
+        }
+        section{
+            width: 40vw;
+            height: 35vw;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        section>div:last-child{
+            width: 30vw;
+            height: 30vw;
+            background-color: #F6B458;
+            border-radius: 100%;
+            margin: auto;
+            border: 20px solid #B9ABFF;
+            border-top: 20px solid #E80A0A;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        section>div:last-child:hover{
+            transform: rotate(360deg);
+            transition-duration: 3s;
+        }
+        section>div>h1{
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            white-space: nowrap;
+        }
+        section>div:hover h1{
+            transform: rotate(-360deg);
+            transition: 3s all;
+        }
+    </style>
 </head>
 <body>
-    <section>
-      <div>
-         <h1>
-           RWAD
-         </h1>
-      </div>
-
-    </section>
+<section>
+    <div>
+        <h1>RWAD</h1>
+    </div>
+</section>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
