@@ -4,16 +4,68 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        div{
+         section{
+             width: 60vw;
+             height: 40vw;
+
+
+         }
+          section > div{
+            width:18vw;
+            height: 8vh;
+            background-color: #00b4d8;
+            margin-top: 20px;
+            border-radius: 8%;
+              transition-duration: 4s;
+              margin-left: -250px;
+              position: relative;
+              display: flex;
+              justify-content: space-around;
+
 
         }
+          section>div>img{
+              display: flex;
+              justify-content: space-around;
+              width: 50px;
+              height: 50px;
+          }
+
+        body section>div:hover{
+            transition-property: all;
+            margin-left: 0;
+           transition-duration: 4s;
+
+
+
+        }
+        body section>div{
+
+        }
+
+
     </style>
 </head>
 <body>
- <div></div>
- <div></div>
- <div></div>
- <div></div>
+<section>
+    <div>
+        <img src="../../../accespt/icons8-education-96 (2).png">
+        <h4>menu</h4>
+    </div>
+    <div>
+        <img src="../../../accespt/icons8-education-96 (2).png">
+        <h4>home</h4>
+    </div>
+    <div>
+        <img src="../../../accespt/icons8-education-96 (2).png">
+        <h4>dilivery</h4>
+    </div>
+    <div>
+        <img src="../../../accespt/icons8-education-96 (2).png">
+        <h4>four</h4>
+    </div>
+</section>
+
 
 </body>
 </html>
