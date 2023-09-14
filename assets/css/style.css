@@ -208,7 +208,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
 #serviceSection>aside{
     margin: auto;
     display: flex;
-    width: 90%;
+    width:  max-content;
     height: 40vh;
     justify-content: space-between;
 }
