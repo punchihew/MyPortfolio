@@ -3,20 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="necolas.github.io_normalize.css_8.0.1_normalize.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+<!--    -->
+<!--    <link rel="stylesheet" href="necolas.github.io_normalize.css_8.0.1_normalize.css">-->
 
     <style>
         header{
-            height: 70px;
+            height: 60px;
             border: 1px solid black ;
             background-color: white;
             border: solid black;
             position: relative;
         }
+        @media all and (min-width: 375px) and (max-width: 4255px) {
+            header{
+                width: 94vw;
+                height: 79px;
+            }
+        }
+        @media all and (max-width: 375px) and (min-width: 0px){
+            header{
+                height: 107px;
+                border: 1px solid black ;
+                background-color: white;
+                border: solid black;
+                position: relative;
+            }
+
+        }
+
+
         header>img{
             width: 180px;
             height: 60px;
             margin: 7px;
+        }
+
+        @media all and (max-width: 375px) and (min-width: 0px){
+            header>img{
+                left: 54px;
+                top: 0;
+                position: relative;
+            }
+
         }
         header>nav>ul{
             position: absolute;
@@ -24,6 +53,34 @@
             right: 25px
 
         }
+        @media all and (max-width: 620px) and (min-width: 375px){
+            header>nav>ul{
+                position: absolute;
+                top: 0px;
+                left: 38vw;
+
+            }
+
+        }
+        @media all and (max-width: 475px) and (min-width: 375px){
+            header>nav>ul{
+                position: absolute;
+                top: -21px;
+                right: 25px
+
+            }
+
+        }
+        @media all and (max-width: 375px) and (min-width: 0px){
+            header>nav>ul{
+                position: absolute;
+                top: 41px;
+                right: 25px
+
+            }
+
+        }
+
 
         header>nav>ul>li{
             display: inline;
@@ -61,10 +118,22 @@
             top: 0;
             bottom: 0;
         }
+        @media all and (max-width: 375px) and (min-width: 0px){
+            body>main>nav{
+                width: 130px;
+                background-color:#00b4d8;
+                color: white;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+            }
+        }
+
         body>main>nav>ul{
             list-style: none;
             margin-top: 20px;
         }
+
 
         body>main>nav>ul>li{
             padding-bottom: 15px;
@@ -80,6 +149,15 @@
             margin-left: 200px;
             padding: 10px;
             position: relative;
+
+        }
+        @media all and (max-width: 375px) and (min-width: 0px){
+            main>section>section{
+                padding: 10px;
+                position: relative;
+                margin-left: 126px;
+            }
+
         }
         main>section>section>div{
 
@@ -87,11 +165,25 @@
             width: calc(100%/3);
             display: inline;
         }
-
         main>section>section>div>img{
             width: 33%;
             height:32%;
         }
+        @media all and (max-width: 375px) and (min-width: 0px){
+            main>section>section>div{
+
+                height: 100%;
+                width: calc(100%/3);
+                display: inline;
+            }
+        }
+        @media all and (max-width: 375px) and (min-width: 0px){
+            main>section>section>div>img{
+                width: 28%;
+                height:33%;
+            }
+        }
+
         main>section>section>div:nth-child(1){
             left: 0;
         }
@@ -109,7 +201,7 @@
 <body>
 
 <header>
-    <img src="ijse.png">
+    <img src="../../accespt/ijse.png">
     <nav>
         <ul>
             <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
@@ -132,9 +224,9 @@
     </nav>
     <section>
         <section>
-            <div><img src="img2.jpg" alt="pic1"></div>
-            <div><img src="img2.jpg" alt="pic1"></div>
-            <div><img src="img2.jpg" alt="pic1"></div>
+            <div><img src="../../accespt/icons8-education-96 (2).png" alt="pic1"></div>
+            <div><img src="../../accespt/icons8-education-96 (2).png" alt="pic1"></div>
+            <div><img src="../../accespt/icons8-education-96 (2).png" alt="pic1"></div>
         </section>
         <section>
             <p>
