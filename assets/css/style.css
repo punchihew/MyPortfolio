@@ -424,6 +424,7 @@ section:nth-child(4)>dd>li{
     text-align: left;
     margin-left: 21vw;
     color: #ffffff;
+    margin-top: 0;
 }
 #about>hr{
     margin-top: -3vh;
