@@ -15,6 +15,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 0;
 
 }
 section:nth-child(3)>div:nth-child(3)>hr{
