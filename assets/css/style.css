@@ -807,6 +807,11 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     border: 0;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    transition-duration: 4s;
+}
+#contact aside>form>fieldset>input:hover{
+    transition-duration: 2s;
+    background: darkorange;
 }
 
 #contact aside>form>fieldset>textarea{
@@ -816,6 +821,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     border-radius: 20px 20px 10px 20px;
     background: #05BFDB;
     border: 0;
+
 }
 
 #contact aside>form>fieldset>label{
