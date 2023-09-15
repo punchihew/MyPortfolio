@@ -493,7 +493,7 @@ main>section:nth-child(6) aside:last-child>p:first-child{
 }
 
 main>section:nth-child(6) aside:last-child>p:first-child span{
-    color:#CAF0F8;
+    color:white;
     font-family: Libre Baskerville, serif;
     font-size: 23px;
     font-style: normal;
@@ -502,7 +502,7 @@ main>section:nth-child(6) aside:last-child>p:first-child span{
 }
 
 main>section:nth-child(6) aside:last-child>p:last-child{
-    color: #CAF0F8;
+    color: white;
     font-family: Libre Baskerville, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -513,8 +513,8 @@ main>section:nth-child(6) aside:last-child>p:last-child{
 }
 
 main>section:nth-child(6) aside:last-child>p:last-child>span{
-    color:#06EEE2 ;
-    font-family: Libre Baskerville, sans-serif;
+    color:darkblue ;
+    font-family: Libre Baskerville, bolt;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
