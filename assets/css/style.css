@@ -194,7 +194,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     height: 100vh;
     position: relative;
     box-sizing: border-box;
-    background: #CAF0F8;
+    background: linear-gradient(to top ,#05BFDB,#CAF0F8);
 }
 #serviceSection aside div{
         margin-right: 10vh;
