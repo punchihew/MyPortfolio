@@ -844,6 +844,12 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     border-radius: 10px;
     background: #21609B;
     color: white;
+    transition-duration: 1s;
+}
+#contact aside>form>fieldset>button:hover{
+    transition-duration: 1s;
+    width: 200px;
+    background: darkorange;
 }
 body footer{
     width: 100%;
