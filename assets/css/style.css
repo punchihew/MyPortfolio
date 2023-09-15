@@ -293,8 +293,9 @@ section:nth-child(4)>h5{
 
 }
 #skills>section>svg{
-    width: 100%;
-    height: 60vh;
+    margin-left: 16vw;
+    width: 70%;
+    height: 50vh;
 }
 
 section:nth-child(4)>img{
