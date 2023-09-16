@@ -433,6 +433,10 @@ section:nth-child(4)>dd>li{
     top:-9vh;
     left: 8vh;
 }
+#project>section>div>div>h4{
+    color: navy;
+    font-size: 20px;
+}
 #p1,#p2,#p3{
     width: 6vw;
 }
