@@ -1078,6 +1078,15 @@ footer>nav>a{
         top: 11vh;
         left: 14vh;
     }
+
+    #project>section>div>div>p {
+        text-align: center;
+        margin-top: -28px;
+        font-size: 10px;
+        margin-left: -34px;
+    }
+
+    }
 }
 
 
