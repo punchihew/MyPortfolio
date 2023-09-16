@@ -286,6 +286,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     /*//background: linear-gradient(180deg, #00B4D8 50%, #06EEE2 100%);*/
 }
 #skills>h1 ,h3{
+    margin-top: 0;
     text-align: center;
 }
 section:nth-child(4)>h5{
@@ -379,6 +380,7 @@ section:nth-child(4)>dd>li{
 }
 
 #project>h4{
+    margin-top: 0;
     color: white;
     font-family: Libre Baskerville;
     font-size: 24px;
@@ -565,6 +567,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 
 
 #life>h1{
+    margin-top: 0;
     color: #000;
     text-align: center;
     font-family: Libre Baskerville, serif;
@@ -572,7 +575,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 0;
+
 }
 
 #life>hr {
@@ -660,6 +663,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 
 }
 #contact h1{
+    margin-top: 0;
     color: darkblue;
     text-align: center;
     font-family: 'Catamaran';
