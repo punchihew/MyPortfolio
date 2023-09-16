@@ -1057,7 +1057,7 @@ footer>nav>a{
 
     #project {
         width: 100%;
-        height: 180vh;
+        height: 148vh;
         position: relative;
         box-sizing: border-box;
         background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
@@ -1085,9 +1085,37 @@ footer>nav>a{
         font-size: 10px;
         margin-left: -34px;
     }
-
+    #p1, #p2, #p3 {
+        margin-left: -4vh;
+        margin-top: 6vh;
+        width: 13vw;
     }
-}
+    #about {
+        width: 100%;
+        height: 130vh;
+        position: relative;
+        box-sizing: border-box;
+        background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
+    }
+
+    #picture {
+        margin-top: -11vh;
+        margin-left: 6vh;
+        transition-duration: 4s;
+        width: 40vh;
+    }
+    main>section:nth-child(6) aside:last-child {
+
+        width: 62vw;
+        height: 40vh;
+        position: absolute;
+        right: 35vw;
+        top: 23vh;
+        bottom: 32vh;
+        margin: auto;
+    }
+    }
+
 
 
 
