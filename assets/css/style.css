@@ -439,7 +439,6 @@ section:nth-child(4)>dd>li{
 }
 #project>section>div>div>p{
     margin-left: -6px;
-    font-size: 10px;
     font-family: bolt;
 }
 #p1,#p2,#p3{
