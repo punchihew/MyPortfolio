@@ -293,7 +293,7 @@ section:nth-child(4)>h5{
 
 }
 #skills>section>svg{
-    margin-left: 16 vw;
+    margin-left: 16vw;
     width: 70%;
     height: 50vh;
 }
@@ -414,8 +414,9 @@ section:nth-child(4)>dd>li{
     margin-top: -6vh
 }
 #project>section>div{
+    margin-left: -2vh;
     position: relative;
-    width: 68vh;
+    width: 72vh;
     margin-top: -6vh;
     display: inline-block;
 }
