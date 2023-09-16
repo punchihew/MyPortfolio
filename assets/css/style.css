@@ -420,7 +420,13 @@ section:nth-child(4)>dd>li{
     width: 72vh;
     margin-top: -6vh;
     display: inline-block;
+    transition-duration: 4s;
 }
+#project>section>div:hover{
+    transition-duration: 2s;
+    box-shadow: 0px 8px 16px 8px rgb(215, 6, 238);
+}
+
 #project>section>div>div{
     width: 20vw;
     height: 6vh;
