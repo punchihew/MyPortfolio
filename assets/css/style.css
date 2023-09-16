@@ -1110,9 +1110,19 @@ footer>nav>a{
         height: 40vh;
         position: absolute;
         right: 35vw;
-        top: 23vh;
+        top: -90vh;
         bottom: 32vh;
         margin: auto;
+    }
+    main>section:nth-child(6) aside:last-child>p:last-child {
+        color: white;
+        font-family: Libre Baskerville, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5vh;
+        position: relative;
+        top: 0vh;
     }
     }
 
