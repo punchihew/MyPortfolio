@@ -954,7 +954,40 @@ footer>nav>a{
 }
 
 
+/*------------------------------------------media quary--------------------------------------------------------------------------------------*/
 
+@media all and (max-width: 580px) {
+    header {
+        display: none;
+    }
+
+    body main {
+        margin-top: 0vh;
+        position: relative;
+    }
+    body main section:first-child>div:nth-child(1)>img {
+        position: absolute;
+        top: 15px;
+        right: 2px;
+        border-bottom-right-radius: 12%;
+        width: 45vw;
+    }
+    body main section:first-child>div:nth-child(2)>aside {
+        position: absolute;
+        top: 105px;
+        left: 4.5vw;
+    }
+
+    body main section:first-child>div:nth-child(2)>aside>div:first-child p:first-child {
+        margin-top: -7vh;
+        color: darkblue;
+        font-family: JejuGothic;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
 
 
 
