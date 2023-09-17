@@ -1341,6 +1341,23 @@ footer>nav>a{
     #project #projectPng {
         left: 81vh;
     }
+    #about {
+        width: 109%;
+        height: 120vh;
+
+    }
+    main>section:nth-child(6) aside:last-child>p:last-child {
+        color: white;
+        font-family: Libre Baskerville, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5vh;
+        position: relative;
+        top: 5vh;
+        margin-left: -47vw;
+        width: 85vw;
+    }
 }
 
 
