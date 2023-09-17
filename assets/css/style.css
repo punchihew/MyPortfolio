@@ -1167,7 +1167,20 @@ footer>nav>a{
         box-sizing: border-box;
         background: linear-gradient(to bottom, rgba(3, 4, 94, 0.18),#CAF0F8) /*background: linear-gradient(180deg, #CAF0F8 0%, #00B4D8 100%);*/;
     }
-
+    #contact {
+        width: 257%;
+        height: 111vh;
+        position: relative;
+        box-sizing: border-box;
+        background: #CAF0F8;
+    }
+    body footer {
+        width: 253%;
+        height: 25vh;
+        box-sizing: border-box;
+        position: relative;
+        background: #05BFDB;
+    }
 }
 
 
