@@ -1066,11 +1066,13 @@ footer>nav>a{
         position: relative;
         box-sizing: border-box;
         background: #CAF0F8;
-        /* background: linear-gradient(180deg, #000235 0%, #00B4D8 100%); */
+        z-index: 100;
+
     }
     section:nth-child(3)>section>svg {
         width: 102%;
         height: 63vh;
+        z-index: 100;
     }
     #skills {
         width: 257%;
