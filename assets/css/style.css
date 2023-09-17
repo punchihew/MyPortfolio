@@ -1101,6 +1101,15 @@ footer>nav>a{
         top: 21vh;
         left: 25vh;
     }
+    #project>section>div>div>a {
+        width: 79vw;
+        position: absolute;
+        top: -9vh;
+        left: 3vh;
+    }
+    #p1, #p2, #p3 {
+        width: 26vw;
+    }
 
 
 }
