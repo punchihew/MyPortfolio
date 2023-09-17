@@ -1077,6 +1077,14 @@ footer>nav>a{
         box-sizing: border-box;
         background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
     }
+    #project #projectPng {
+        width: 57px;
+        height: 62px;
+        flex-shrink: 0;
+        position: relative;
+        left: 79vh;
+        bottom: 60px;
+    }
 
 
 }
