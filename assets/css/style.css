@@ -1243,6 +1243,18 @@ footer>nav>a{
             border-radius: 100%;
             color: darkblue;
         }
+    #project>section>div>div>p {
+        margin-left: -52px;
+        font-family: bolt;
+    }
+    #p1, #p2, #p3 {
+        width: 19vw;
+    }
+    #project>section>div>div>h4 {
+        margin-left: -6vh;
+        color: navy;
+        font-size: 20px;
+    }
 
 }
 
