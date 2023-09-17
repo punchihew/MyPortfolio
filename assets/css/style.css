@@ -1358,6 +1358,13 @@ footer>nav>a{
         margin-left: -47vw;
         width: 85vw;
     }
+    #life {
+        width: 109%;
+        height: 100vh;
+    }
+    #contact {
+        width: 109%;
+    }
 }
 
 
