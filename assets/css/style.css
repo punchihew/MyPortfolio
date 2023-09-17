@@ -1217,4 +1217,33 @@ footer>nav>a{
     }
 }
 
+@media all and (max-width: 475px) and (min-width: 375px){
+
+
+      body main section:first-child>div:nth-child(2)>aside>div:first-child>div{
+        left: 33.7vw;
+        width: 5.5vw;
+        top: 24vh;
+    }
+
+      body main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+
+    top: 34vh;
+    left: 39.7vw;
+    width: 6.5vw;
+
+}
+
+        #last {
+            width: 103vw;
+            position: absolute;
+            left: 53vw;
+            top: 72vh;
+            margin: auto;
+            border-radius: 100%;
+            color: darkblue;
+        }
+
+}
+
 
