@@ -1110,6 +1110,43 @@ footer>nav>a{
     #p1, #p2, #p3 {
         width: 26vw;
     }
+    #about {
+        width: 253%;
+        height: 80vh;
+        position: relative;
+        box-sizing: border-box;
+        background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
+    }
+    #about> div {
+        width: 57px;
+        height: 62px;
+        flex-shrink: 0;
+        position: relative;
+        left: 35vh;
+        bottom: 60px;
+    }
+    #picture {
+        margin-top: -8vh;
+        transition-duration: 4s;
+        width: 70vh;
+    }
+    main>section:nth-child(6) aside:last-child {
+        width: 59vw;
+        height: 40vh;
+        position: absolute;
+        right: 70vw;
+        top: 0;
+        bottom: 32vh;
+        margin: auto;
+    }
+    main>section:nth-child(6) aside:last-child>p:first-child {
+        color: #ffffff;
+        font-family: Libre Baskerville, serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 
 
 }
