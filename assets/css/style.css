@@ -1318,7 +1318,25 @@ footer>nav>a{
     }
     #project {
         width: 109%;
-        height: 110vh;
+        height: 221vh;
+    }
+    #project>section>div {
+        margin-left: 30vh;
+        width: 68vh;
+    }
+    #project>section>div>div>h4 {
+        width: 40vw;
+        color: navy;
+        font-size: 20px;
+    }
+    #p1, #p2, #p3 {
+        width: 10vw;
+    }
+    #project>section>div>div>p {
+        margin-top: -3vh;
+        width: 40vw;
+        margin-left: -20px;
+        font-family: bolt;
     }
 
 }
