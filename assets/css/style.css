@@ -1112,7 +1112,7 @@ footer>nav>a{
     }
     #about {
         width: 253%;
-        height: 136vh;
+        height: 122vh;
         position: relative;
         box-sizing: border-box;
         background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
@@ -1147,7 +1147,18 @@ footer>nav>a{
         font-weight: 400;
         line-height: normal;
     }
-
+    main>section:nth-child(6) aside:last-child>p:last-child {
+        color: white;
+        font-family: Libre Baskerville, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5vh;
+        position: relative;
+        top: -46vh;
+        right: 101vw;
+        width: 223vw;
+    }
 
 }
 
