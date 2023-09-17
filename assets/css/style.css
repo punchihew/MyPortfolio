@@ -1019,6 +1019,8 @@ footer>nav>a{
         flex-shrink: 0;
         display: inline-block;
     }
+    #serviceSection aside div:nth-child(2){display: none}
+    #serviceSection aside div:nth-child(3){display: none}
 
     section:nth-child(3) > section > svg {
         width: 100%;
@@ -1102,6 +1104,14 @@ footer>nav>a{
         position: relative;
         box-sizing: border-box;
         background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
+    }
+    #about> div {
+        width: 57px;
+        height: 62px;
+        flex-shrink: 0;
+        position: relative;
+        left: 34vh;
+        bottom: 60px;
     }
 
     #picture {
