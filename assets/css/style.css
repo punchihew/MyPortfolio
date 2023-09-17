@@ -1124,6 +1124,34 @@ footer>nav>a{
         position: relative;
         top: 0vh;
     }
+    #life>section {
+        position: relative;
+        top: 5vh;
+        margin: auto;
+        display: grid;
+        width: 70%;
+        height: 43vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    #life>section div:nth-child(4) {
+        width: 79px;
+        height: 16vh;
+    }
+    #life>section div:nth-child(6) {
+        display: none;
+    }
+    #life>section div:nth-child(1) {
+        width: 49px;
+
+    }
+    #life>section div:nth-child(2) {
+        width: 49px;
+    }
+    #life>section div:nth-child(3) {
+        width: 49px;
+    }
     }
 
 
