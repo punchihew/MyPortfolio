@@ -1338,7 +1338,9 @@ footer>nav>a{
         margin-left: -20px;
         font-family: bolt;
     }
-
+    #project #projectPng {
+        left: 81vh;
+    }
 }
 
 
