@@ -1193,7 +1193,7 @@ footer>nav>a{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin-top: -7vh;
+        margin-top: 0;
     }
     footer>nav {
         width: 68vw;
