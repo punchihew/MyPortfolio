@@ -1044,17 +1044,14 @@ footer>nav>a{
         justify-content: space-between;
     }
     #serviceSection #Pasida2 {
-        /* width: 15vh; */
         margin-left: 44vh;
         margin-top: 5vh;
     }
+
     #education {
         width: 257%;
-        height: 85vh;
-        position: relative;
-        box-sizing: border-box;
-        background: #CAF0F8;
-        /* background: linear-gradient(180deg, #000235 0%, #00B4D8 100%); */
+        height: 100vh;
+
     }
     section:nth-child(3)>section>svg {
         width: 102%;
