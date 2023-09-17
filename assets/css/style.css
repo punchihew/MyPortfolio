@@ -1178,6 +1178,26 @@ footer>nav>a{
         position: relative;
         background: #05BFDB;
     }
+    body footer section>div>div>#h4 {
+
+        margin-top: 0;
+    }
+    body footer section>div>div>#p {
+        color: white;
+        text-align: center;
+        font-family: 'Catamaran';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: -7vh;
+    }
+    footer>nav {
+        width: 68vw;
+        position: relative;
+        margin: auto;
+        left: 40vh;
+    }
 }
 
 
