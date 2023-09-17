@@ -1297,6 +1297,15 @@ footer>nav>a{
         width: 109%;
         height: 110vh;
     }
+    #serviceSection>aside {
+        margin: auto;
+        display: flex;
+        width: max-content;
+        height: 49vh;
+    }
+    #serviceSection aside div>div:first-child img {
+        margin-left: 9vh;
+    }
 
 }
 
