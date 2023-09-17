@@ -1257,5 +1257,14 @@ footer>nav>a{
     }
 
 }
+@media all and (max-width: 1024px) and (min-width: 768px) {
+
+    #home {
+        width: 108%;
+        height: 100vh;
+        background: #CAF0F8;
+    }
+}
+
 
 
