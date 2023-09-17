@@ -1060,6 +1060,16 @@ footer>nav>a{
         width: 102%;
         height: 63vh;
     }
+    #skills {
+        width: 253%;
+        height: 80vh;
+        position: relative;
+        box-sizing: border-box;
+        background: #CAF0F8;
+    }
+    #skills>section>svg {
+        margin-left: 39vw;
+    }
 }
 
 
