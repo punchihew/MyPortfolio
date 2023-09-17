@@ -1048,6 +1048,18 @@ footer>nav>a{
         margin-left: 44vh;
         margin-top: 5vh;
     }
+    #education {
+        width: 253%;
+        height: 85vh;
+        position: relative;
+        box-sizing: border-box;
+        background: #CAF0F8;
+        /* background: linear-gradient(180deg, #000235 0%, #00B4D8 100%); */
+    }
+    section:nth-child(3)>section>svg {
+        width: 102%;
+        height: 63vh;
+    }
 }
 
 
