@@ -958,7 +958,7 @@ footer>nav>a{
 
 @media all and (max-width: 580px) {
     #home {
-        width: 253%;
+        width: 257%;
         height: 100vh;
         background: #CAF0F8;
     }
@@ -1015,7 +1015,7 @@ footer>nav>a{
         color: darkblue;
     }
     #serviceSection {
-        width: 253%;
+        width: 257%;
         height: 123vh;
     }
     #serviceSection aside div>div:first-child img {
@@ -1049,7 +1049,7 @@ footer>nav>a{
         margin-top: 5vh;
     }
     #education {
-        width: 253%;
+        width: 257%;
         height: 85vh;
         position: relative;
         box-sizing: border-box;
@@ -1061,7 +1061,7 @@ footer>nav>a{
         height: 63vh;
     }
     #skills {
-        width: 253%;
+        width: 257%;
         height: 80vh;
         position: relative;
         box-sizing: border-box;
@@ -1071,7 +1071,7 @@ footer>nav>a{
         margin-left: 39vw;
     }
     #project {
-        width: 253%;
+        width: 257%;
         height: 266vh;
         position: relative;
         box-sizing: border-box;
@@ -1158,6 +1158,14 @@ footer>nav>a{
         top: -46vh;
         right: 101vw;
         width: 223vw;
+    }
+
+    #life {
+        width: 257%;
+        height: 100vh;
+        position: relative;
+        box-sizing: border-box;
+        background: linear-gradient(to bottom, rgba(3, 4, 94, 0.18),#CAF0F8) /*background: linear-gradient(180deg, #CAF0F8 0%, #00B4D8 100%);*/;
     }
 
 }
