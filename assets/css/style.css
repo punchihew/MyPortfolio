@@ -1264,6 +1264,24 @@ footer>nav>a{
         height: 100vh;
         background: #CAF0F8;
     }
+    body main section:first-child>div:nth-child(1)>img {
+        position: absolute;
+        top: 42px;
+        right: -72px;
+        border-bottom-right-radius: 12%;
+        width: 48vw;
+    }
+    body main section:first-child>div:nth-child(2)>aside>div:first-child>h1 {
+        margin-top: -5vh;
+        margin-left: -9vh;
+        color: darkblue;
+        font-family: 'Catamaran';
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+
+    }
 }
 
 
