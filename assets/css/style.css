@@ -957,279 +957,63 @@ footer>nav>a{
 /*------------------------------------------media quary--------------------------------------------------------------------------------------*/
 
 @media all and (max-width: 580px) {
-    header {
-        display: none;
+    #home {
+        width: 253%;
+        height: 100vh;
+        background: #CAF0F8;
     }
-
-    body main {
-        margin-top: 0vh;
-        position: relative;
-    }
-
     body main section:first-child > div:nth-child(1) > img {
         position: absolute;
-        top: 15px;
-        right: 2px;
+        top: 42px;
+        left: 117vw;
         border-bottom-right-radius: 12%;
-        width: 45vw;
+        width: 131vw;
     }
-
-    body main section:first-child > div:nth-child(2) > aside {
+    body main section:first-child>div:nth-child(2)>aside {
         position: absolute;
-        top: 105px;
-        left: 4.5vw;
+        top: 52px;
+        left: 27.5vw;
     }
-
-    body main section:first-child > div:nth-child(2) > aside > div:first-child p:first-child {
-        margin-top: -7vh;
-        color: darkblue;
-        font-family: JejuGothic;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    #serviceSection aside div:nth-child(1) {
-        margin-right: 6vh;
-        border-radius: 10px;
-        background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
-        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        width: 90vw;
-        flex-shrink: 0;
-        display: inline-block;
-    }
-
-    #serviceSection aside div:nth-child(2) {
-        margin-right: 6vh;
-        border-radius: 10px;
-        background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
-        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        width: 90vw;
-        flex-shrink: 0;
-        display: inline-block;
-    }
-
-    #serviceSection aside div:nth-child(3) {
-        margin-right: 6vh;
-        border-radius: 10px;
-        background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
-        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        width: 90vw;
-        flex-shrink: 0;
-        display: inline-block;
-    }
-    #serviceSection aside div:nth-child(2){display: none}
-    #serviceSection aside div:nth-child(3){display: none}
-
-    section:nth-child(3) > section > svg {
-        width: 100%;
-        height: 27vh;
-    }
-
-    #education {
-        width: 100%;
-        height: 47vh;
-        position: relative;
-        box-sizing: border-box;
-        background: #CAF0F8;
-    }
-
-    section:nth-child(3) > section > svg {
-        width: 100%;
-        height: 27vh;
-    }
-
-    #skills {
-        width: 100%;
-        height: 55vh;
-        position: relative;
-        box-sizing: border-box;
-        background: #CAF0F8;
-    }
-
-    #skills > section > svg {
-        margin-left: 16vw;
-        width: 70%;
-        height: 11vh;
-    }
-
-    section:nth-child(4) > dd > li {
-        margin-top: -2vh;
-        margin-left: 14vh;
-    }
-
-    #project {
-        width: 100%;
-        height: 148vh;
-        position: relative;
-        box-sizing: border-box;
-        background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
-    }
-
-    #project > section > div {
-        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        margin-left: 5vh;
-        position: relative;
-        width: 43vh;
-        margin-top: -6vh;
-        display: inline-block;
-        transition-duration: 4s;
-    }
-
-    #project > section > div > div {
-        width: 20vw;
-        height: 6vh;
+    body main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+        width: 33vw;
+        height: 1.5vh;
+        background-color: #05BFDB;
+        border-radius: 2vh;
+        box-shadow: #05BFDB 0px 4px 12px;
         position: absolute;
-        top: 11vh;
-        left: 14vh;
-    }
-
-    #project > section > div > div > p {
-        text-align: center;
-        margin-top: -28px;
-        font-size: 10px;
-        margin-left: -34px;
-    }
-
-    #p1, #p2, #p3 {
-        margin-left: -4vh;
-        margin-top: 6vh;
-        width: 13vw;
-    }
-
-    #about {
-        width: 100%;
-        height: 169vh;
-        position: relative;
-        box-sizing: border-box;
-        background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
-    }
-    #about> div {
-        width: 57px;
-        height: 62px;
-        flex-shrink: 0;
-        position: relative;
-        left: 34vh;
-        bottom: 60px;
-    }
-
-    #picture {
-        margin-top: -11vh;
-        margin-left: 6vh;
-        transition-duration: 4s;
-        width: 40vh;
-    }
-
-    main > section:nth-child(6) aside:last-child {
-
-        width: 62vw;
-        height: 40vh;
-        position: absolute;
-        right: 35vw;
         top: 24vh;
-        bottom: 32vh;
+        left: 0.3vw;
         margin: auto;
     }
 
-    main > section:nth-child(6) aside:last-child > p:last-child {
+   body main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+    left: 39.7vw;
+    width: 6.5vw;
+    top: 24vh;
+}
+    body main section:first-child>div:nth-child(2)>aside>div:last-child>h6 {
+        font-family: Inter, SansSerif;
+        font-weight: 600;
         color: white;
-        font-family: Libre Baskerville, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 5vh;
-        position: relative;
-        top: 0vh;
-    }
-
-    #life {
-        width: 100%;
-        height: 80vh;
-        position: relative;
-    }
-
-    #life > section {
-        right: 28px;
-        position: relative;
-        top: 5vh;
+        font-size: 3.8vw;
+        padding: 0.7vw;
+        background-color: #05BFDB;
+        border-radius: 8px;
+        box-shadow: #05BFDB 0px 4px 12px;
+        position: absolute;
+        top: 69vh;
+        left: 0vw;
         margin: auto;
-        display: grid;
-        width: 70%;
-        height: 43vh;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 10px;
     }
-
-    #life > section div:nth-child(4) {
-        width: 79px;
-        height: 16vh;
-    }
-
-    #life > section div:nth-child(6) {
-        display: none;
-    }
-
-    #life > section div:nth-child(1) {
-        width: 49px;
-
-    }
-
-    #life > section div:nth-child(2) {
-        width: 49px;
-    }
-
-    #life > section div:nth-child(3) {
-        width: 49px;
-    }
-
-    #contact {
-        width: 100%;
-        height: 165vh;
-    }
-
-    #contact > section > address {
-        margin-top: 132vw;
-        width: 46vw;
-        height: 80vh;
-
-    }
-
-    #contact > section > aside {
-        top: -5vh;
-        position: relative;
-        right: 23vh;
-    }
-
-    body footer section {
-
-        left: 3vw;
-    }
-
-    body footer section > div > div > #h4 {
-
-        margin-top: 0;
-    }
-
-    body footer section > div > div > #p {
-        margin-top: -11vw;
-        font-size: 19px;
-    }
-
-    body footer section > div > div > #h4 {
-
-        font-size: 27px;
-    }
-    footer>nav {
-        top: -14vh;
-        width: 28vw;
-        position: relative;
+    #last {
+        width: 103vw;
+        position: absolute;
+        left: 111vw;
+        top: 68vh;
         margin: auto;
-        left: 15vh;
+        border-radius: 100%;
+        color: darkblue;
     }
 }
-
-
 
 
