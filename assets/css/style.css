@@ -1365,6 +1365,10 @@ footer>nav>a{
     #contact {
         width: 109%;
     }
+    body footer {
+        width: 109%;
+    }
+
 }
 
 
