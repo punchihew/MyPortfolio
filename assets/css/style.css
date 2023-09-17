@@ -1070,6 +1070,15 @@ footer>nav>a{
     #skills>section>svg {
         margin-left: 39vw;
     }
+    #project {
+        width: 253%;
+        height: 120vh;
+        position: relative;
+        box-sizing: border-box;
+        background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
+    }
+
+
 }
 
 
