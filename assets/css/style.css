@@ -1072,7 +1072,7 @@ footer>nav>a{
     }
     #project {
         width: 253%;
-        height: 120vh;
+        height: 266vh;
         position: relative;
         box-sizing: border-box;
         background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
@@ -1084,6 +1084,22 @@ footer>nav>a{
         position: relative;
         left: 79vh;
         bottom: 60px;
+    }
+    #project>section>div {
+        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
+        margin-left: 28vh;
+        position: relative;
+        width: 72vh;
+        margin-top: 5vh;
+        display: inline-block;
+        transition-duration: 4s;
+    }
+    #project>section>div>div {
+        width: 61vw;
+        height: 6vh;
+        position: absolute;
+        top: 21vh;
+        left: 25vh;
     }
 
 
