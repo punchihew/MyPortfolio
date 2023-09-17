@@ -1259,6 +1259,14 @@ footer>nav>a{
 }
 @media all and (max-width: 1024px) and (min-width: 768px) {
 
+    header {
+        width: 109%;
+        height: 78px;
+    }
+    header nav>div>menu {
+        position: relative;
+        left: 1vw;
+    }
     #home {
         width: 109%;
         height: 100vh;
