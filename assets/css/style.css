@@ -1282,6 +1282,22 @@ footer>nav>a{
         line-height: normal;
 
     }
+
+    body main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+        top: 20vh;
+
+    }
+
+    body main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+        left: 23.7vw;
+        width: 2.5vw;
+        top: 20vh;
+    }
+    #serviceSection {
+        width: 108%;
+        height: 110vh;
+    }
+
 }
 
 
