@@ -1260,7 +1260,7 @@ footer>nav>a{
 @media all and (max-width: 1024px) and (min-width: 768px) {
 
     #home {
-        width: 108%;
+        width: 109%;
         height: 100vh;
         background: #CAF0F8;
     }
@@ -1294,7 +1294,7 @@ footer>nav>a{
         top: 20vh;
     }
     #serviceSection {
-        width: 108%;
+        width: 109%;
         height: 110vh;
     }
 
