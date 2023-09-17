@@ -957,6 +957,18 @@ footer>nav>a{
 /*------------------------------------------media quary--------------------------------------------------------------------------------------*/
 
 @media all and (max-width: 580px) {
+    header {
+        display: inline-flex;
+        border-bottom: 2px solid #00B4D8;
+        background: linear-gradient(to left,#000235,#00B4D8);
+        width: 257%;
+        height: 59px;
+        flex-shrink: 0;
+        position: fixed;
+        border-radius: 10px;
+        top: 0;
+        z-index: 10;
+    }
     #home {
         width: 257%;
         height: 100vh;
