@@ -1368,7 +1368,13 @@ footer>nav>a{
     body footer {
         width: 109%;
     }
+    footer>nav {
+        width: 31vw;
+    }
+    body footer section>div>div>#h4 {
 
+        margin-top: 0;
+    }
 }
 
 
