@@ -32,11 +32,26 @@
           top: 0;
           transition-duration: 2s;
       }
+      section>div:nth-child(1)>img{
+          width: max-content;
+          height: max-content;
+          position: relative;
+          top: -191px;
+          left: 170px;
+          color: white;
+          transition-duration: 2s;
+      }
       section:hover>div:last-child {
           transition-duration: 2s;
           top: -300px;
           opacity: 30%;
       }
+      section:hover div:first-child>img{
+          transition-duration: 2s;
+          top: 120px;
+          z-index: 10;
+      }
+
 
     </style>
 
@@ -44,8 +59,7 @@
 <body>
 <section>
     <div>
-        <i class="fa-solid fa-trash-can"></i>
-    </div>
+        <img src="../../../accespt/icons8-delete-96.png" height="96" width="96"/></div>
     <div></div>
 </section>
 
