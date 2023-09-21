@@ -595,7 +595,17 @@ section:nth-child(4)>dd>li{
     display: flex;
     width: 87%;
 }
-
+.class{
+    width: 23%;
+    height: 100%;
+    padding: 4rem 2rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-out;
+}
 /*#project>section>div{*/
 /*    box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);*/
 /*    margin-left: -5vh;*/
