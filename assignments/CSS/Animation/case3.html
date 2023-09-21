@@ -16,7 +16,8 @@
             position: relative;
             animation-name: anima;
             animation-duration: 10s;
-            animation-iteration-count: 2;
+            animation-iteration-count: 6;
+            animation-timing-function: linear;
 
 
         }
@@ -41,7 +42,10 @@
             background-image: url("../../accespt/matthew-lejune-gEAnpZPTY9c-unsplash.jpg");
             background-size: cover;
         }
+   section:hover>div{
 
+       animation-play-state: initial;
+   }
         @keyframes anima {
             0%{
               left: 0;
@@ -57,12 +61,7 @@
             60%{
                 left: -300vw;
             }
-            80%{
 
-            }
-            100%{
-
-            }
 
         }
     </style>
