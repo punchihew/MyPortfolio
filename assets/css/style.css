@@ -1026,7 +1026,7 @@ footer>nav>a{
         border-radius: 10px;
         background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
         box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        width: 93vw;
+        width: 87vw;
         flex-shrink: 0;
     }
 
@@ -1130,6 +1130,12 @@ footer>nav>a{
     #life>section div:nth-child(2) {
         width: 41vw;
     }
+    #life>section div:nth-child(6) {
+        display: none;
+    }
+    #life>section div:nth-child(3) {
+        display: none;
+    }
     main>section:nth-child(6) aside:last-child>p:last-child>span {
         font-size: 1px;
 
@@ -1161,9 +1167,7 @@ footer>nav>a{
         font-size: 16px;
     }
     footer>nav {
-        margin-left: 2vh;
-        top: -12vh;
-        width: 27vw;
+        display: none;
     }
 
 }
