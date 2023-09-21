@@ -979,6 +979,13 @@ footer>nav>a{
     body main section:first-child > div:nth-child(2) > aside > div:first-child > div {
 
         top: 25vh;
+        width: 29vw;
+    }
+
+    body main section:first-child > div:nth-child(2) > aside > div:first-child > div {
+        left: 35.7vw;
+        width: 6.5vw;
+        top: 25vh;
     }
 }
 

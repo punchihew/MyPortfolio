@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 18vw;
+            height: 8vw;
+            border-radius: 2%;
+            background-color: #06EEE2;
+            position: relative;
+            animation-name: anima;
+            animation-duration: 5s;
+            animation-direction: alternate;
+
+
+        }
+        @keyframes anima {
+            0%{
+                top: 0;
+                left: 0;
+
+
+            }
+            25%{
+                left: 400px;
+                top: 0;
+                transform: rotate(180deg);
+                background-color: deeppink;
+            }
+            50%{
+                left: 400px;
+                top: 400px;
+                transform: rotate(0deg);
+                background-color: yellow;
+            }
+            75%{
+                top: 400px;
+                left: 0;
+                transform: rotate(180deg);
+                background-color: orange;
+            }
+            100%{
+                top: 0;
+                left: 0;
+                transform: rotate(0deg);
+                background-color: darkblue;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+
+</body>
+</html>
