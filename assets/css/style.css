@@ -274,7 +274,7 @@ section:nth-child(2)>div>h3{
 }
 
 #box1{
-    top: 35vh;
+    top: 24vh;
     left: 12vw;
 }
 
@@ -288,7 +288,7 @@ section:nth-child(2)>div>h3{
 }
 
 #box2{
-    top: 35vh;
+    top: 24vh;
     right: 0;
     left: 0;
 }
@@ -303,7 +303,7 @@ section:nth-child(2)>div>h3{
 }
 
 #box3{
-    top: 35vh;
+    top: 24vh;
     right: 12vw;
 }
 
