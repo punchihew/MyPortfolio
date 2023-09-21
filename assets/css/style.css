@@ -1074,7 +1074,13 @@ footer>nav>a{
     margin-left: -5vh;
     margin-top: -7vh;
 }
-
+#about {
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
+}
 #picture {
     margin-top: -16vh;
     /* transition-duration: 4s; */
