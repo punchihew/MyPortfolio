@@ -195,9 +195,7 @@ body main section:first-child>div:nth-child(2)>aside{
 section:nth-child(2){
     position: relative;
     height: 110vh;
-    width: 72vw;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    width: 100%;
     background: linear-gradient(to top ,#05BFDB,#CAF0F8);
 }
 
