@@ -548,6 +548,7 @@ section:nth-child(4)>dd>li{
 
 }
 
+
 #project>h4{
     margin-top: 0;
     color: white;
@@ -584,45 +585,45 @@ section:nth-child(4)>dd>li{
     background: #00b4d8;
     margin-top: -6vh
 }
-#project>section>div{
-    box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-    margin-left: -5vh;
-    position: relative;
-    width: 62vh;
-    margin-top: -6vh;
-    display: inline-block;
-    transition-duration: 4s;
-}
-#project>section>div:hover{
-    transition-duration: 2s;
-    box-shadow: 0px 8px 16px 8px rgb(215, 6, 238);
-}
+/*#project>section>div{*/
+/*    box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);*/
+/*    margin-left: -5vh;*/
+/*    position: relative;*/
+/*    width: 62vh;*/
+/*    margin-top: -6vh;*/
+/*    display: inline-block;*/
+/*    transition-duration: 4s;*/
+/*}*/
+/*#project>section>div:hover{*/
+/*    transition-duration: 2s;*/
+/*    box-shadow: 0px 8px 16px 8px rgb(215, 6, 238);*/
+/*}*/
 
-#project>section>div>div{
-    width: 20vw;
-    height: 6vh;
-    position: absolute;
-    top:26vh;
-    left: 18vh;
+/*#project>section>div>div{*/
+/*    width: 20vw;*/
+/*    height: 6vh;*/
+/*    position: absolute;*/
+/*    top:26vh;*/
+/*    left: 18vh;*/
 
-}
-#project>section>div>div>a{
-    position: absolute;
-    top:-9vh;
-    left: 8vh;
-}
-#project>section>div>div>h4{
-    color: navy;
-    font-size: 20px;
-}
-#project>section>div>div>p{
-    margin-left: -6px;
-    font-family: bolt;
-}
-#p1,#p2,#p3{
-    width: 6vw;
+/*}*/
+/*#project>section>div>div>a{*/
+/*    position: absolute;*/
+/*    top:-9vh;*/
+/*    left: 8vh;*/
+/*}*/
+/*#project>section>div>div>h4{*/
+/*    color: navy;*/
+/*    font-size: 20px;*/
+/*}*/
+/*#project>section>div>div>p{*/
+/*    margin-left: -6px;*/
+/*    font-family: bolt;*/
+/*}*/
+/*#p1,#p2,#p3{*/
+/*    width: 6vw;*/
 
-}
+/*}*/
 
 /*----------------------------------------------my about ares ---------------------------------------------------*/
 #about{
