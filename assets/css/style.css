@@ -1139,6 +1139,9 @@ footer>nav>a{
         top: 65vh;
         right: 34vh;
     }
+    #contact aside>form>fieldset>input {
+        width: 56vw;
+    }
 
 }
 
