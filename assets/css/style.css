@@ -1025,6 +1025,12 @@ footer>nav>a{
         width: 93vw;
         flex-shrink: 0;
     }
+    #serviceSection aside div:nth-child(2) {
+
+    }
+    #serviceSection aside div:nth-child(3) {
+
+    }
 }
 
 
