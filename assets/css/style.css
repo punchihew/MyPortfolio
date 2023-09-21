@@ -987,6 +987,14 @@ footer>nav>a{
         width: 6.5vw;
         top: 25vh;
     }
+    body main section:first-child>div:nth-child(2)>aside>div:last-child>h6 {
+
+        font-size: 3.8vw;
+        top: 42vh;
+        left: 0vw;
+        margin: auto;
+        width: 10vh;
+    }
 }
 
 
