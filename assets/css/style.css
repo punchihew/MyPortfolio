@@ -1080,6 +1080,15 @@ footer>nav>a{
     /* transition-duration: 4s; */
     width: 52vh;
 }
+main>section:nth-child(6) aside:last-child {
+    width: 87vw;
+    height: 40vh;
+    position: absolute;
+    right: 5vw;
+    top: 66vh;
+    bottom: 32vh;
+    margin: auto;
+}
 
 /* t
 }
