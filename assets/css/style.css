@@ -1149,6 +1149,10 @@ footer>nav>a{
         margin-top: 0vh;
         font-size: 25px;
     }
+    body footer section>div>div>#p {
+        margin-top: 0vh;
+        font-size: 16px;
+    }
 
 }
 
