@@ -74,7 +74,7 @@ body main section:first-child>div:nth-child(2)>aside{
     left: 13.5vw;
 }
 
-body main section:first-child>div:nth-child(2)>aside>div:first-child p:first-child{
+ main section:first-child>div:nth-child(2)>aside>div:first-child p:first-child{
     color: darkblue;
     font-family: JejuGothic;
     font-size: 28px;
@@ -82,7 +82,7 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child p:first-chi
     font-weight: 400;
     line-height: normal;
 }
-body main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
+ main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
     color: darkblue;
     font-family: 'Catamaran';
     font-size: 50px;
@@ -91,7 +91,7 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
     line-height: normal;
     top: 20vh;
 }
-body main section:first-child>div:nth-child(2)>aside>div:first-child>h1>span{
+ main section:first-child>div:nth-child(2)>aside>div:first-child>h1>span{
     color: #00b4d8;
     font-family: 'Catamaran';
     font-size: 50px;
@@ -99,7 +99,7 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child>h1>span{
     font-weight: 900;
     line-height: normal;
 }
-body main section:first-child>div:nth-child(2)>aside>div:first-child>div{
+ main section:first-child>div:nth-child(2)>aside>div:first-child>div{
     width: 13vw;
     height: 1.5vh;
     background-color: #05BFDB;
@@ -112,7 +112,7 @@ body main section:first-child>div:nth-child(2)>aside>div:first-child>div{
     margin: auto;
 }
 
-body main section:first-child>div:nth-child(2)>aside>div:last-child>p:last-child{
+ main section:first-child>div:nth-child(2)>aside>div:last-child>p:last-child{
     color: #171212;
     font-family: Libre Baskerville;
     font-size: 17px;
@@ -122,7 +122,7 @@ body main section:first-child>div:nth-child(2)>aside>div:last-child>p:last-child
 }
 
 
-body main section:first-child>div:nth-child(2)>aside>strong{
+ main section:first-child>div:nth-child(2)>aside>strong{
     color: #05BFDB;
     font-family: Libre Bodoni, cursive;
     font-size: 18px;
@@ -133,7 +133,7 @@ body main section:first-child>div:nth-child(2)>aside>strong{
 
 }
 
-body main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
+ main section:first-child>div:nth-child(2)>aside>div:last-child>h6{
     font-family: Inter, SansSerif;
     font-weight: 600;
     color: white;
@@ -989,34 +989,38 @@ footer>nav>a{
     }
 
     body main section:first-child > div:nth-child(2) > aside > div:first-child > div {
-        left: 35.7vw;
-        width: 6.5vw;
+        left: 2.7vw;
+        width: 23.5vw;
         top: 25vh;
     }
-    body main section:first-child>div:nth-child(2)>aside>div:last-child>h6 {
+
+    body main section:first-child > div:nth-child(2) > aside > div:last-child > h6 {
         font-size: 2.8vw;
         top: 59vh;
         left: 0vw;
         margin: auto;
         width: 8vh;
     }
+
     #last {
         left: 3vw;
         top: 88vh;
 
     }
+
     #serviceSection {
         width: 100%;
         height: 130vh;
         position: relative;
         box-sizing: border-box;
-        background: linear-gradient(to top ,#05BFDB,#CAF0F8);
+        background: linear-gradient(to top, #05BFDB, #CAF0F8);
     }
 
-    #serviceSection>aside {
+    #serviceSection > aside {
         height: 46vh;
 
     }
+
     #serviceSection aside div:nth-child(1) {
         margin-right: 4vh;
         border-radius: 10px;
@@ -1025,12 +1029,48 @@ footer>nav>a{
         width: 93vw;
         flex-shrink: 0;
     }
+
     #serviceSection aside div:nth-child(2) {
-
+        display: none;
     }
+
     #serviceSection aside div:nth-child(3) {
-
+        display: none;
     }
+
+    #education {
+        width: 100%;
+        height: 75vh;
+    }
+    #skills {
+        width: 100%;
+        height: 66vh;
+    }
+    section:nth-child(4)>h5 {
+        margin-top: -2vh;
+        margin-left: 6vh;
+    }
+    #skills>section>svg {
+        margin-top: -18vh;
+        margin-left: 16vw;
+        width: 79%;
+        height: 50vh;
+    }
+    #project>section>div {
+        margin-top: 13vh;
+        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
+        margin-left: -5vh;
+        position: relative;
+        width: 55vh;
+        display: inline-block;
+    }
+
+}
+#project>section>div>div>h4 {
+    margin-left: -5vh;
+    margin-top: -7vh;
+}
+/* t
 }
 
 
