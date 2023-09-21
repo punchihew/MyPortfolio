@@ -585,6 +585,17 @@ section:nth-child(4)>dd>li{
     background: #00b4d8;
     margin-top: -6vh
 }
+
+.myProject{
+    height: 48%;
+    justify-content: space-between;
+    bottom: 70px;
+    position: relative;
+    align-self: center;
+    display: flex;
+    width: 87%;
+}
+
 /*#project>section>div{*/
 /*    box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);*/
 /*    margin-left: -5vh;*/
