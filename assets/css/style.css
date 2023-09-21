@@ -218,11 +218,11 @@ section:nth-child(2)>h1{
     font-family: 'Catamaran';
     font-size: 3vw;
     font-weight: 700;
-    color: #0A0A0A;
+    color: #162A5F;
 
     position: absolute;
-    top: 6.5vw;
-    right: 0;
+    top: 3.5vw;
+    right: -10vh;
     left: 0;
     margin: auto;
 }
