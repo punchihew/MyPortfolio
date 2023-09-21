@@ -478,14 +478,14 @@ section:nth-child(4)>dd>li{
     height: 3px;
     background: #00b4d8;
 }
-#about> div{
-    width: 57px;
-    height: 62px;
-    flex-shrink: 0;
-    position: relative;
-    left: 66vh;
-    bottom: 60px;
-}
+/*#about> div{*/
+/*    width: 57px;*/
+/*    height: 62px;*/
+/*    flex-shrink: 0;*/
+/*    position: relative;*/
+/*    left: 66vh;*/
+/*    bottom: 60px;*/
+/*}*/
 #picture{
     transition-duration: 4s;
     width: 64vh;
@@ -1111,6 +1111,13 @@ footer>nav>a{
         margin: auto;
     }
 
+    #life>section {
+        position: relative;
+        top: 5vh;
+        margin: auto;
+        display: grid;
+        width: 96%;
+    }
     #life > div > img {
         width: 12.4vw;
         margin-top: -10vh;
@@ -1154,7 +1161,8 @@ footer>nav>a{
         font-size: 16px;
     }
     footer>nav {
-        top: -17vh;
+        margin-left: 2vh;
+        top: -12vh;
         width: 27vw;
     }
 
