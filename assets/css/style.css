@@ -1005,7 +1005,19 @@ footer>nav>a{
         top: 88vh;
 
     }
-    #serviceSection aside div {
+    #serviceSection {
+        width: 100%;
+        height: 130vh;
+        position: relative;
+        box-sizing: border-box;
+        background: linear-gradient(to top ,#05BFDB,#CAF0F8);
+    }
+
+    #serviceSection>aside {
+        height: 46vh;
+
+    }
+    #serviceSection aside div:nth-child(1) {
         margin-right: 4vh;
         border-radius: 10px;
         background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
