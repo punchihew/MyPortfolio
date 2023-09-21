@@ -1113,6 +1113,9 @@ footer>nav>a{
         width: 135px;
         grid-column: 1/2;
     }
+    #life>section div:nth-child(2) {
+        width: 41vw;
+    }
 }
 
 
