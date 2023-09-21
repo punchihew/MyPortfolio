@@ -1131,6 +1131,10 @@ footer>nav>a{
         width: 68vw;
 
     }
+    #contact {
+        width: 100%;
+        height: 181vh;
+    }
     #contact>section>aside {
         top: 65vh;
         right: 34vh;
