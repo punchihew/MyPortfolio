@@ -596,6 +596,8 @@ section:nth-child(4)>dd>li{
     width: 87%;
 }
 .class{
+    margin-left: 6vh;
+    margin-top: 12vh;
     width: 22%;
     height: 85%;
     padding: 4rem 2rem;
@@ -629,15 +631,15 @@ section:nth-child(4)>dd>li{
 
 }
 .class img{
-    width: 50%;
-    height: 50%;
+    width:max-content;
+    height:max-content;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.class .info{
+.class .select{
     position: relative;
     z-index: 3;
     color: #fff;
@@ -645,21 +647,21 @@ section:nth-child(4)>dd>li{
     transform: translateY(30px);
     transition: 0.5s all;
 }
-.class:hover .info{
+.class:hover .select{
     opacity: 1;
     transform: translateY(0px);
 }
-.class .info h1{
+.class .select h1{
     margin: 0;
 }
-.class .info p{
+.class .select p{
     letter-spacing: 1px;
     font-size: 15px;
     margin-top: 8px;
     margin-bottom: 20px;
 }
 
-.class .info .btn{
+.class .select .btn{
     text-decoration: none;
     padding: 9.5rem -12rem;
     background: #fff;
@@ -670,7 +672,7 @@ section:nth-child(4)>dd>li{
     transition: 0.4s
 }
 
-.class .info .btn:hover{
+.class .select .btn:hover{
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
 
