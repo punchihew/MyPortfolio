@@ -1109,6 +1109,10 @@ footer>nav>a{
         margin-top: -10vh;
         margin-left: 20vh;
     }
+    #life>section div:nth-child(1) {
+        width: 135px;
+        grid-column: 1/2;
+    }
 }
 
 
