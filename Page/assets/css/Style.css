@@ -32,7 +32,7 @@ main section{
     height: 50vh;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #FFF;
+    background: #05BFDB;
     box-shadow: 0 4px 30px 2px #B8B8B8;
     margin: auto;
     position: relative;
@@ -48,10 +48,10 @@ main section>aside{
 main section>aside>img{
     position: absolute;
     width: 30vw;
-    top: 13vh;
-    left: 4vw;
+    top: 10vh;
+    left: 2vw;
     border-radius: 10px;
 }
 main section div:nth-child(2){
-    margin-left: 80vh;
+    margin-left: 75vh;
 }
