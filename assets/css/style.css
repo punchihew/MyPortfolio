@@ -1554,6 +1554,12 @@ footer>nav>a{
         left: 77vw;
         top: 56vh;
     }
+    #linkedIn {
+        width: 5%;
+        position: absolute;
+        left: 70vw;
+        top: 56vh;
+}
     body main section:first-child>div:nth-child(1)>img {
         position: absolute;
         top: 25px;
