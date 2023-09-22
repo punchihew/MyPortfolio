@@ -1613,6 +1613,12 @@ footer>nav>a{
 }
 @media all and (max-width: 1024px) and (min-width: 770px){
 
+    #life>div>img {
+        width: 5.4vw;
+        margin-top: -10vh;
+        margin-left: 65vh;
+    }
+
 }
 
 
