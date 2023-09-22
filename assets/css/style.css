@@ -1538,7 +1538,7 @@ footer>nav>a{
     body main section:first-child>div:nth-child(1)>img {
         position: absolute;
         top: 25px;
-        right: -5px;
+        right: 1px;
     }
     body main section:first-child>div:nth-child(2)>aside {
         position: absolute;
