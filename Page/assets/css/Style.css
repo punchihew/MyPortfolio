@@ -28,7 +28,7 @@ body header{
 }
 
 main section{
-    width: 80%;
+    width: 50%;
     height: 50vh;
     flex-shrink: 0;
     border-radius: 10px;
@@ -52,5 +52,5 @@ main section>aside>img{
     border-radius: 10px;
 }
 main section div:nth-child(2){
-    margin-left: 49vh;
+    margin-left: 80vh;
 }
