@@ -1565,6 +1565,13 @@ footer>nav>a{
         font-family: 'Catamaran';
         font-size: 24px;
     }
+    body footer section>div>div>#p {
+        margin-top: 0vh;
+        color: white;
+        text-align: center;
+        font-family: 'Catamaran';
+        font-size: 14px;
+    }
     footer>nav {
         width: 33vw;
         position: relative;
