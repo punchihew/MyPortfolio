@@ -235,6 +235,7 @@ section:nth-child(2)>h1{
 section:nth-child(2)>div{
     width: 23.5vw;
     height: 35vh;
+    /*background: linear-gradient(to left,white,#0A4B7F);*/
     background-color: white;
     box-shadow: #D0D0D0 0px 4px 12px;
     border-radius: 1vh;
@@ -251,7 +252,7 @@ section:nth-child(2)>div>h4{
     font-family: 'Catamaran';
     font-size: 1.5vw;
     font-weight: 700;
-    color: #0A0A0A;
+    color: navy;
 
     position: absolute;
     right: 0;
