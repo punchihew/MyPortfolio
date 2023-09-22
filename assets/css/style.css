@@ -1259,7 +1259,7 @@ footer>nav>a{
         top: 59vh;
         left: 0vw;
         margin: auto;
-        width: 8vh;
+        width: 9vh;
     }
 
     #last {
@@ -1509,7 +1509,7 @@ footer>nav>a{
 
     body main section:first-child > div:nth-child(1) > img {
         position: absolute;
-        top: 79vw;
+        top: 103vw;
         right: 20px;
         border-bottom-right-radius: 12%;
         width: 65vw;
