@@ -1613,6 +1613,11 @@ footer>nav>a{
 }
 @media all and (max-width: 1024px) and (min-width: 770px){
 
+    section:nth-child(2)>h1 {
+
+        top: 6.5vw;
+    }
+
     #project #projectPng {
 
         left: 77vh;
