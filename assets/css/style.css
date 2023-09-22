@@ -1352,27 +1352,40 @@ footer>nav>a{
         height: 170vh;
     }
     #project #projectPng {
-        width: 47px;
-        height: 45px;
-        flex-shrink: 0;
-        position: relative;
-        left: 39vh;
-        bottom: 42px;
+        display: none;
     }
-    #project > section > div {
-        margin-top: 13vh;
-        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        margin-left: -5vh;
-        position: relative;
-        width: 55vh;
-        display: inline-block;
+    .class {
+        margin-left: 2vh;
+        margin-top: 17vh;
+        width: 19%;
+        height: 42%;
     }
+    .class .select {
+        margin-left: -8vw;
+        position: relative;
+    }
+    /*#project #projectPng {*/
+    /*    width: 47px;*/
+    /*    height: 45px;*/
+    /*    flex-shrink: 0;*/
+    /*    position: relative;*/
+    /*    left: 39vh;*/
+    /*    bottom: 42px;*/
+    /*}*/
+    /*#project > section > div {*/
+    /*    margin-top: 13vh;*/
+    /*    box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);*/
+    /*    margin-left: -5vh;*/
+    /*    position: relative;*/
+    /*    width: 55vh;*/
+    /*    display: inline-block;*/
+    /*}*/
 
 
-    #project > section > div > div > h4 {
-        margin-left: -5vh;
-        margin-top: -7vh;
-    }
+    /*#project > section > div > div > h4 {*/
+    /*    margin-left: -5vh;*/
+    /*    margin-top: -7vh;*/
+    /*}*/
 
     /*////////////////////////////////////////////////////////////////*/
 
