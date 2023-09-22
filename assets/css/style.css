@@ -1351,9 +1351,6 @@ footer>nav>a{
         width: 9vh;
     }
     .btn-box .btn {
-        text-decoration: none;
-        position: relative;
-        font-family: 'Poppins', roboto;
         display: inline-flex;
         width: 24vw;
         height: 35%;
