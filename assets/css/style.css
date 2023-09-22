@@ -1279,30 +1279,16 @@ footer>nav>a{
         height: 130vh;
         position: relative;
         box-sizing: border-box;
-        background: linear-gradient(to top, #05BFDB, #CAF0F8);
-    }
-
-    #serviceSection > aside {
-        height: 46vh;
+        background: linear-gradient(to top ,#05BFDB,#162A5F);
 
     }
 
-    #serviceSection aside div:nth-child(1) {
-        margin-right: 4vh;
-        border-radius: 10px;
-        background: linear-gradient(180deg, #000235 0%, #00B4D8 100%);
-        box-shadow: 0px 2px 10px 2px rgb(6, 238, 238);
-        width: 87vw;
-        flex-shrink: 0;
+    section:nth-child(2)>div {
+        width: 21.5vw;
+        height: 25vh;
     }
 
-    #serviceSection aside div:nth-child(2) {
-        display: none;
-    }
 
-    #serviceSection aside div:nth-child(3) {
-        display: none;
-    }
 
     #education {
         width: 100%;
