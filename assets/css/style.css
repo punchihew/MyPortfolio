@@ -1282,6 +1282,12 @@ footer>nav>a{
         background: linear-gradient(to top ,#05BFDB,#162A5F);
 
     }
+    #serviceSection h2 {
+        color: white;
+        text-align: center;
+        font-family: 'Catamaran';
+        font-size: 25px;
+    }
 
     section:nth-child(2)>div {
         width: 21.5vw;
