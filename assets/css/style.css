@@ -1523,7 +1523,29 @@ footer>nav>a{
         right: 50px;
     }
 }
+@media all and (max-width: 770px) and (min-width: 425px){
 
+    header nav>div>menu {
+        width: 77vw;
+        position: relative;
+        left: -6vw;
+    }
+
+    #life>div>img {
+        width: 7.4vw;
+        margin-top: -6vh;
+        margin-left: 61vh;
+    }
+    #project #projectPng {
+        width: 57px;
+        height: 62px;
+        flex-shrink: 0;
+        position: relative;
+        left: 80vh;
+    }
+
+
+}
 
 
 
