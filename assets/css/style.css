@@ -105,7 +105,7 @@ body main section:first-child>div:nth-child(2)>aside{
     justify-content: space-between;
     width: 13rem;
     height: 5rem;
-    top: -4vh;
+    top: -6vh;
     left: -3.5vw;
 }
 
@@ -116,8 +116,8 @@ body main section:first-child>div:nth-child(2)>aside{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 14vw;
-    height: 78%;
+    width: 10vw;
+    height: 35%;
     background: #05BFDB;
     border: 0.2rem solid #01212a;
     border-radius: 0.8rem;
