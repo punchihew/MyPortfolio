@@ -635,12 +635,12 @@ section:nth-child(4)>dd>li{
 
 }
 .class img{
-    width:100%;
-    height:100%;
+    width: 70%;
+    height: 77%;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 4vh;
+    left: 4vw;
 }
 
 .class .select{
