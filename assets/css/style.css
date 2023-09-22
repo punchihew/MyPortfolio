@@ -1288,6 +1288,20 @@ footer>nav>a{
         height: 25vh;
     }
 
+    #box4 {
+        top: 52vh;
+        left: 12vw;
+    }
+    #box5 {
+        top: 52vh;
+        left: 48vw;
+    }
+
+    #box6 {
+        top: 52vh;
+        left: 12vw;
+    }
+
 
 
     #education {
