@@ -39,6 +39,15 @@ main section{
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
-main section div:nth-child(2){
 
+main section>aside{
+    position: relative;
+}
+
+main section>aside>img{
+    position: absolute;
+    width: 30vw;
+    top: 13vh;
+    left: 4vw;
+    border-radius: 10px;
 }
