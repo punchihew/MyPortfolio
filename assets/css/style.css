@@ -1535,6 +1535,16 @@ footer>nav>a{
         font-family: Libre Baskerville;
         font-size: 13px;
     }
+    body main section:first-child>div:nth-child(1)>img {
+        position: absolute;
+        top: 25px;
+        right: -5px;
+    }
+    body main section:first-child>div:nth-child(2)>aside {
+        position: absolute;
+        top: 125px;
+        left: 3.5vw;
+    }
 
     #life>div>img {
         width: 7.4vw;
