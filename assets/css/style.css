@@ -1542,6 +1542,12 @@ footer>nav>a{
         top: 56vh;
         margin: auto;
     }
+    #discord {
+        width: 4%;
+        position: absolute;
+        left: 84vw;
+        top: 57vh;
+    }
     body main section:first-child>div:nth-child(1)>img {
         position: absolute;
         top: 25px;
