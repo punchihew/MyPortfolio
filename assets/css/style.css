@@ -210,6 +210,13 @@ section:nth-child(2){
     margin-bottom: 0;
     margin-top: 0;
 }
+#serviceSection >hr{
+    width: 14vw;
+    height: 4px;
+    margin: auto;
+    background: #00b4d8;
+    margin-top: 1vh;
+}
 section:nth-child(2)>h1{
     width: 42vw;
     font-family: 'Catamaran';
