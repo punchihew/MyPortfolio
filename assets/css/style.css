@@ -452,7 +452,7 @@ section:nth-child(2)>div>h3{
 
 #skills{
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     position: relative;
     box-sizing: border-box;
     background: #CAF0F8;
@@ -466,11 +466,6 @@ section:nth-child(4)>h5{
     margin-left: 6vh;
 
 }
-#skills>section>svg{
-    margin-left: 16vw;
-    width: 70%;
-    height: 50vh;
-}
 
 section:nth-child(4)>img{
     width: 5%;
@@ -481,9 +476,12 @@ section:nth-child(4)>img{
 }
 
 section:nth-child(4)>img:hover{
-    width: 6%;
+    width: 8%;
 }
+#wordpress{
 
+    left: 31vh;
+}
 #java{
     right: 0;
     left: 0;
@@ -515,10 +513,7 @@ section:nth-child(4)>img:hover{
     left: 45vw;
 }
 
-#wordpressLogo{
-    right: 45vw;
-    left: 31vh;
-}
+
 
 #arduinoLogo{
     right: 0vw;
