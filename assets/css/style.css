@@ -233,7 +233,7 @@ section:nth-child(2)>h1{
 
 
 section:nth-child(2)>div:hover{
-    box-shadow: #FAC921 6px 6px 16px;
+    box-shadow: #fa21c4 6px 6px 16px;
 }
 
 section:nth-child(2)>div>h4{
@@ -299,7 +299,7 @@ section:nth-child(2)>div>h3{
     align-items: center;
 }
 .content-front {
-    background: linear-gradient(40deg, rgb(10, 233, 243), rgb(227, 227, 227));
+    background: linear-gradient(40deg, rgb(10, 233, 243), rgb(12, 125, 212));
     position:relative;
     cursor:pointer;
     border-radius: 5px 5px 5px 5px;
@@ -334,7 +334,7 @@ section:nth-child(2)>div>h3{
     height: 100%;
     z-index: 0;
     transform: rotateY(180deg);
-    background: linear-gradient(40deg, rgb(227, 227, 227), rgb(250, 201, 33));
+    background: linear-gradient(40deg, rgb(12, 125, 212), rgb(10, 233, 243));
     border-radius: 5px 5px 5px 5px;
 }
 
