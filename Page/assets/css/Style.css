@@ -1,0 +1,43 @@
+
+main h1{
+    text-align: center;
+    color: #162A5F;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h1 span{
+    color: #FFB233;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+body header div img{
+    position: relative;
+}
+
+body header{
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgb(243, 209, 161);
+}
+
+main section{
+    width: 80%;
+    height: 50vh;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 4px 30px 2px #B8B8B8;
+    margin: auto;
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+main section div:nth-child(2){
+
+}
