@@ -70,3 +70,42 @@ main .trans{
     margin-bottom: 10vh;
     margin-left: 11vw;
 }
+
+main section div:nth-child(2) h4{
+    color: white;
+    font-family: Inter;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+
+}
+
+main section div:nth-child(2) p:nth-child(2){
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 85%;
+}
+
+main section div:nth-child(2) p:nth-child(5){
+    color: #162A5F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main section div:nth-child(2) a{
+    color: #162A5F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
