@@ -1664,6 +1664,11 @@ footer>nav>a{
     #project #projectPng {
         left: 91vh;
     }
+    #life>div>img {
+        width: 3.4vw;
+        margin-top: -10vh;
+        margin-left: 77vh;
+    }
 }
 
 
