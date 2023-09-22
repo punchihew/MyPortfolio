@@ -55,3 +55,18 @@ main section>aside>img{
 main section div:nth-child(2){
     margin-left: 75vh;
 }
+
+
+main .trans{
+    width: 50%;
+    height: 50vh;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #05BFDB;
+    box-shadow: 0 4px 30px 2px #B8B8B8;
+    margin: auto;
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 14vw;
+}
