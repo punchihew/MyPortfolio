@@ -753,16 +753,10 @@ section:nth-child(4)>dd>li{
 /*    bottom: 60px;*/
 /*}*/
 #picture{
-    transition-duration: 4s;
+
     width: 64vh;
 }
-#picture:hover{
 
-    transition-duration: 2s;
-    width: 70vh;
-    box-shadow: 0px 8px 16px 8px rgb(6, 238, 184);
-    background: linear-gradient(180deg, #21609B 0%, #00B4D8 100%);
-}
         main>section:nth-child(6)>aside:nth-child(3){
             position: relative;
             left: 8vw;
@@ -1394,7 +1388,6 @@ footer>nav>a{
 
     #picture {
         margin-top: -16vh;
-        /* transition-duration: 4s; */
         width: 52vh;
     }
 
