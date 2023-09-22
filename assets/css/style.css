@@ -1611,7 +1611,9 @@ footer>nav>a{
         top: -2vh;
     }
 }
+@media all and (max-width: 1024px) and (min-width: 770px){
 
+}
 
 
 
