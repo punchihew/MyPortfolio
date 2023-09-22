@@ -232,8 +232,6 @@ section:nth-child(2)>h1{
 }
 
 
-
-
 section:nth-child(2)>div:hover{
     box-shadow: #FAC921 6px 6px 16px;
 }
@@ -301,7 +299,7 @@ section:nth-child(2)>div>h3{
     align-items: center;
 }
 .content-front {
-    background: linear-gradient(40deg, rgb(250, 201, 33), rgb(227, 227, 227));
+    background: linear-gradient(40deg, rgb(10, 233, 243), rgb(227, 227, 227));
     position:relative;
     cursor:pointer;
     border-radius: 5px 5px 5px 5px;
