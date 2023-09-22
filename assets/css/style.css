@@ -237,7 +237,7 @@ section:nth-child(2)>div{
 }
 
 section:nth-child(2)>div:hover{
-    box-shadow: #FAC921 0px 4px 12px;
+    box-shadow: #FAC921 6px 6px 16px;
 }
 
 
