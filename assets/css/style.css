@@ -603,6 +603,7 @@ section:nth-child(4)>dd>li{
     position: relative;
     /*display: flex;*/
     align-items: flex-end;
+    border-radius: 4%;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-out;
 }
