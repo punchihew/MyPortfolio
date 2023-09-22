@@ -1633,9 +1633,11 @@ footer>nav>a{
     }
     #instergram {
         width: 4%;
+        left: 25vw;
     }
     #linkedIn {
         width: 4%;
+        left: 22vw;
     }
 
     section:nth-child(2)>h1 {
