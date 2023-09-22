@@ -1462,6 +1462,10 @@ footer>nav>a{
     #contact aside>form>fieldset>textarea {
         width: 75vw;
     }
+
+    /*////////////////////////////////////////////////////////////////*/
+
+
     body footer section>div>div>#h4 {
         margin-top: 0vh;
         font-size: 25px;
