@@ -1647,19 +1647,19 @@ footer>nav>a{
 
     #project #projectPng {
 
-        left: 77vh;
+        left: 97vh;
     }
     #life>div>img {
         width: 5.4vw;
         margin-top: -10vh;
-        margin-left: 65vh;
+        margin-left: 78vh;
     }
 
 }
 @media all and (max-width: 1440px) and (min-width: 1024px){
 
     main section:first-child>div:nth-child(2)>aside>div:first-child>div {
-        top: 18vh;
+        top: 20vh;
     }
     #project #projectPng {
         left: 91vh;
