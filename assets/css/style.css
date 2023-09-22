@@ -1349,7 +1349,7 @@ footer>nav>a{
 
     #project {
         width: 100%;
-        height: 137vh;
+        height: 140vh;
     }
     #project #projectPng {
         display: none;
@@ -1371,20 +1371,16 @@ footer>nav>a{
         margin-top: 8px;
         margin-bottom: 20px;
     }
-    /*.class .select #oneP {*/
+    .class .select h1 {
+        font-size: 25px;
+        margin: 0;
+    }
 
-
-    /*}*/
-    /*.class .select #twoP {*/
-
-
-    /*}*/
-     #thereP {
-        margin-left: -18vh;
-        margin-top: 67vh;
+    #thereP {
+        margin-left: -25vh;
+        margin-top: 74vh;
         width: 19%;
-        height: 42%;
-
+        height: 42%
     }
     /*#project #projectPng {*/
     /*    width: 47px;*/
