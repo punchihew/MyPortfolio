@@ -1661,6 +1661,9 @@ footer>nav>a{
     main section:first-child>div:nth-child(2)>aside>div:first-child>div {
         top: 18vh;
     }
+    #project #projectPng {
+        left: 91vh;
+    }
 }
 
 
