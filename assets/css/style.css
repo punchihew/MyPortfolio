@@ -1355,11 +1355,8 @@ footer>nav>a{
         position: relative;
         font-family: 'Poppins', roboto;
         display: inline-flex;
-        justify-content: center;
-        align-items: center;
         width: 24vw;
         height: 35%;
-        background: #05BFDB;
         font-size: 3.5vw;
     }
 
