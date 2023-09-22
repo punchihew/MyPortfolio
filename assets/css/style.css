@@ -196,7 +196,7 @@ section:nth-child(2){
     position: relative;
     height: 110vh;
     width: 100%;
-    background: linear-gradient(to top ,#05BFDB,#CAF0F8);
+    background: linear-gradient(to top ,#05BFDB,#162A5F);
 }
 
 section:nth-child(2)>h5{
