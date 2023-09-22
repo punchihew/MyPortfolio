@@ -18,6 +18,7 @@ h1 span{
 }
 
 body header div img{
+    width: 10vh;
     position: relative;
 }
 
