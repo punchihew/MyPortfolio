@@ -606,7 +606,7 @@ section:nth-child(4)>dd>li{
     padding: 4rem 2rem;
     background: #fff;
     position: relative;
-    display: flex;
+    /*display: flex;*/
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-out;
@@ -1364,6 +1364,27 @@ footer>nav>a{
         margin-left: -8vw;
         position: relative;
         margin-bottom: -15vh;
+    }
+    .class .select p {
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+    /*.class .select #oneP {*/
+
+
+    /*}*/
+    /*.class .select #twoP {*/
+
+
+    /*}*/
+     #thereP {
+        margin-left: 2vh;
+        margin-top: 17vh;
+        width: 19%;
+        height: 42%;
+
     }
     /*#project #projectPng {*/
     /*    width: 47px;*/
