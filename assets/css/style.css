@@ -1530,6 +1530,11 @@ footer>nav>a{
         position: relative;
         left: -6vw;
     }
+    header nav>div>menu>li>a {
+        color: white;
+        font-family: Libre Baskerville;
+        font-size: 13px;
+    }
 
     #life>div>img {
         width: 7.4vw;
