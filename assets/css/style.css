@@ -1558,6 +1558,13 @@ footer>nav>a{
         position: relative;
         left: 80vh;
     }
+    body footer section>div>div>#h4 {
+        margin-top: 0vh;
+        color: white;
+        text-align: center;
+        font-family: 'Catamaran';
+        font-size: 24px;
+    }
     footer>nav {
         width: 33vw;
         position: relative;
