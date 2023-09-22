@@ -118,8 +118,8 @@ body main section:first-child>div:nth-child(2)>aside{
     align-items: center;
     width: 14vw;
     height: 78%;
-    background: #fac921;
-    border: 0.2rem solid #fac921;
+    background: #05BFDB;
+    border: 0.2rem solid #01212a;
     border-radius: 0.8rem;
     font-size: 1.5vw;
     font-weight: 600;
@@ -131,7 +131,7 @@ body main section:first-child>div:nth-child(2)>aside{
 }
 
 .btn-box .btn:hover {
-    color: #fac921;
+    color: #11d4f8;
 }
 
 
@@ -140,7 +140,7 @@ body main section:first-child>div:nth-child(2)>aside{
 }
 
 .btn-box .btn:nth-child(2)::before {
-    background: #fac921;
+    background: #11d4f8;
 }
 
 .btn-box .btn::before {
