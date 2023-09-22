@@ -1350,6 +1350,19 @@ footer>nav>a{
         margin: auto;
         width: 9vh;
     }
+    .btn-box .btn {
+        text-decoration: none;
+        position: relative;
+        font-family: 'Poppins', roboto;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 24vw;
+        height: 35%;
+        background: #05BFDB;
+        border: 0.2rem solid #01212a;
+        border-radius: 0.8rem;
+        font-size: 3.5vw;
 
     #last {
         left: 3vw;
@@ -1365,6 +1378,7 @@ footer>nav>a{
         background: linear-gradient(to top ,#05BFDB,#162A5F);
 
     }
+
     #serviceSection h2 {
         color: white;
         text-align: center;
