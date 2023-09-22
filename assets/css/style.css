@@ -1363,6 +1363,7 @@ footer>nav>a{
     .class .select {
         margin-left: -8vw;
         position: relative;
+        margin-bottom: -15vh;
     }
     /*#project #projectPng {*/
     /*    width: 47px;*/
