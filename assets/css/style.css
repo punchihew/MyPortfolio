@@ -1359,7 +1359,7 @@ footer>nav>a{
 
     #serviceSection {
         width: 100%;
-        height: 80vh;
+        height: 336vh;
         position: relative;
         box-sizing: border-box;
         background: linear-gradient(to top ,#05BFDB,#162A5F);
@@ -1590,6 +1590,108 @@ footer>nav>a{
     footer>nav {
         display: none;
     }
+    /*////////////////////////////////////////////////////////////////////////////*/
+    section:nth-child(2) {
+        height: 595vw;
+    }
+
+    section:nth-child(2)>h5 {
+        width: 25vw;
+        font-size: 4.5vw;
+        top: 3vw;
+        left: 13vw;
+    }
+
+
+    section:nth-child(2)>h1 {
+        width: 70vw;
+        font-size: 5vw;
+        top: 7vw;
+        left: 17vw;
+    }
+
+    section:nth-child(2)>p {
+        width: 72vw;
+        text-align: center;
+        font-size: 3vw;
+        top: 12vw;
+        left: 18vw;
+    }
+
+    .content-inner {
+        width: 70vw;
+        height: 85vw;
+    }
+
+    .content-inner .cf-inner {
+        width: 80%;
+        padding: 26vw 14vw;
+    }
+
+    .content-front .cf-inner:before {
+        top: 3vw;
+        left: 2vw;
+    }
+
+    .serv-num {
+        bottom: 1vw;
+    }
+
+    .content-front .cf-inner:after {
+        bottom: 2vw;
+        right: 2vw;
+    }
+
+    .dec-icon {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .content-inner .cf-inner .inner p {
+        font-size: 4.3vw;
+    }
+
+    .content-back:after {
+        left: 56%;
+    }
+
+    .col-md-1 {
+        position: absolute;
+        top: 30vw;
+        left: 15vw;
+    }
+
+    .col-md-2 {
+        position: absolute;
+        top: 125vw;
+        left: 15vw;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        top: 220vw;
+        right: 57vw;
+    }
+
+    .col-md-4 {
+        position: absolute;
+        top: 315vw;
+        left: 15vw;
+    }
+
+    .col-md-5 {
+        position: absolute;
+        top: 410vw;
+        left: 15vw;
+    }
+
+    .col-md-6 {
+        position: absolute;
+        top: 506vw;
+        right: 60vw;
+    }
+
+
 
 }
 
@@ -1611,6 +1713,7 @@ footer>nav>a{
         top: 66vw;
         right: 50px;
     }
+
 }
 @media all and (max-width: 770px) and (min-width: 425px){
 
@@ -1664,6 +1767,15 @@ footer>nav>a{
         position: absolute;
         top: 125px;
         left: 3.5vw;
+    }
+    .myProject {
+        height: 51%;
+        justify-content: space-between;
+        bottom: 70px;
+        position: relative;
+        align-self: center;
+        display: flex;
+        width: 78%;
     }
 
     #life>div>img {
