@@ -1325,7 +1325,7 @@ footer>nav>a{
         width: 100%;
         height: 54vh;
     }
-    section:nth-child(3)>section>svg {
+   #education>section>svg {
         width: 100%;
         height: 27vh;
     }
