@@ -1288,6 +1288,15 @@ footer>nav>a{
         font-family: 'Catamaran';
         font-size: 25px;
     }
+    section:nth-child(2)>h1 {
+        width: 42vw;
+        font-family: 'Catamaran';
+        font-size: 3vw;
+    }
+    #serviceSection >hr {
+        width: 25vw;
+        height: 2px;
+    }
 
     section:nth-child(2)>div {
         width: 21.5vw;
