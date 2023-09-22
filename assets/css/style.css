@@ -1656,7 +1656,12 @@ footer>nav>a{
     }
 
 }
-@media all and (max-width: 1440px) and (min-width: 1024px){}
+@media all and (max-width: 1440px) and (min-width: 1024px){
+
+    main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+        top: 18vh;
+    }
+}
 
 
 
