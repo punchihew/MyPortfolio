@@ -477,6 +477,7 @@ section:nth-child(4)>img{
 
 section:nth-child(4)>img:hover{
     width: 8%;
+    box-shadow: #162A5F;
 }
 #wordpress{
     left: 30vh;
