@@ -1613,6 +1613,17 @@ footer>nav>a{
 }
 @media all and (max-width: 1024px) and (min-width: 770px){
 
+    body main section:first-child>div:nth-child(1)>img {
+        position: absolute;
+        top: 25px;
+        right: 1px;
+        border-bottom-right-radius: 12%;
+        width: 44vw;
+    }
+    main section:first-child>div:nth-child(2)>aside>div:first-child>div {
+        top: 21vh;
+    }
+
     section:nth-child(2)>h1 {
 
         top: 6.5vw;
