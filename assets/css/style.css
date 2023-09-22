@@ -232,17 +232,7 @@ section:nth-child(2)>h1{
 }
 
 
-section:nth-child(2)>div{
-    width: 23.5vw;
-    height: 35vh;
-    /*background: linear-gradient(to left,white,#0A4B7F);*/
-    background-color: white;
-    box-shadow: #D0D0D0 0px 4px 12px;
-    border-radius: 1vh;
 
-    position: absolute;
-    margin: auto;
-}
 
 section:nth-child(2)>div:hover{
     box-shadow: #FAC921 6px 6px 16px;
