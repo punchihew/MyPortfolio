@@ -1558,6 +1558,13 @@ footer>nav>a{
         position: relative;
         left: 80vh;
     }
+    footer>nav {
+        width: 33vw;
+        position: relative;
+        margin: auto;
+        left: 43vh;
+        top: -2vh;
+    }
 
 
 }
