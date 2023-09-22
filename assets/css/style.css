@@ -199,18 +199,6 @@ section:nth-child(2){
     background: linear-gradient(to top ,#05BFDB,#162A5F);
 }
 
-section:nth-child(2)>h5{
-    width: 15vw;
-    font-family: 'Signika';
-    font-size: 2vw;
-    font-weight: 600;
-    color: #FAC921;
-    position: absolute;
-    top: 5vw;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
 
 section:nth-child(2)>h1{
     width: 42vw;
