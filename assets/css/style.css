@@ -479,8 +479,7 @@ section:nth-child(4)>img:hover{
     width: 8%;
 }
 #wordpress{
-
-    left: 31vh;
+    left: 30vh;
 }
 #java{
     right: 0;
@@ -540,7 +539,7 @@ section:nth-child(4)>dd>li{
 /*----------------------------------------------my project ares ---------------------------------------------------*/
 #project{
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     position: relative;
     box-sizing: border-box;
     background: linear-gradient(180deg, #162A5F 0%, #00B4D8 100%);
@@ -595,7 +594,7 @@ section:nth-child(4)>dd>li{
     width: 87%;
 }
 .class{
-    margin-left: 6vh;
+    margin-left: 12vh;
     margin-top: 12vh;
     width: 22%;
     height: 44%;
