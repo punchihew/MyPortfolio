@@ -1560,6 +1560,12 @@ footer>nav>a{
         left: 70vw;
         top: 56vh;
 }
+    section:nth-child(2)>h1 {
+        width: 42vw;
+        color: white;
+        top: 7.5vw;
+        right: -9vh;
+    }
     body main section:first-child>div:nth-child(1)>img {
         position: absolute;
         top: 25px;
