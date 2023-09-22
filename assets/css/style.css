@@ -1535,6 +1535,13 @@ footer>nav>a{
         font-family: Libre Baskerville;
         font-size: 13px;
     }
+    facebook {
+        width: 5%;
+        position: absolute;
+        left: 90vw;
+        top: 56vh;
+        margin: auto;
+    }
     body main section:first-child>div:nth-child(1)>img {
         position: absolute;
         top: 25px;
