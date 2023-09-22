@@ -1535,7 +1535,7 @@ footer>nav>a{
         font-family: Libre Baskerville;
         font-size: 13px;
     }
-    facebook {
+    #facebook {
         width: 5%;
         position: absolute;
         left: 90vw;
