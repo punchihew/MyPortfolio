@@ -40,7 +40,11 @@ main section{
     margin-bottom: 10vh;
     margin-left: 10vh;
 }
+ div > p span{
+     font-family: 'Borel', cursive;
+    color: navy;
 
+}
 main section>aside{
     position: relative;
 }
