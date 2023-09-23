@@ -652,15 +652,27 @@ section:nth-child(4)>img:hover{
     right: 15vw;
     left: 0vw;
 }
+#jsllogo:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
 
 #css{
     right: 0vw;
     left: 30vw;
 }
+#css:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
 
 #html{
     right: 30vw;
     left: 0vw;
+}
+#html:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
 }
 
 #figma{
