@@ -108,6 +108,9 @@ body main section:first-child>div:nth-child(2)>aside{
     top: -6vh;
     left: -3.5vw;
 }
+ h4{
+    animation-iteration-count: infinite;
+}
 
 .btn-box .btn {
     text-decoration: none;
