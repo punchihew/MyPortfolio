@@ -278,6 +278,10 @@ main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
     width: 3%;
     animation-duration: 1s;
 }
+#discord:hover{
+    width: 3%;
+    animation-duration: 1s;
+}
 
 
 /*----------------------------------------------my services ares start---------------------------------------------------*/
