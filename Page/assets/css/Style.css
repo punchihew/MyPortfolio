@@ -134,3 +134,40 @@ main section div:nth-child(2) a{
     line-height: normal;
 }
 
+@media all and (max-width: 600px) {
+
+    main h1 {
+        font-size: 30px;
+    }
+
+    main section > aside > img {
+        position: absolute;
+        width: 70vw;
+        top: 15vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    main section:hover > aside > img {
+        position: absolute;
+        width: 40vw;
+        top: 15vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main section {
+        width: 80%;
+        height: 100vh;
+        display: grid;
+        /*grid-template-columns: 1fr;*/
+        /*grid-template-rows: 1fr 1fr;*/
+    }
+
+    main section div:nth-child(2) {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
