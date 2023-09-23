@@ -633,10 +633,18 @@ section:nth-child(4)>img:hover{
     right: 0;
     left: 0;
 }
+#java:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
 
 #mysql{
     right: 0vw;
     left: 15vw;
+}
+#mysql:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
 }
 
 #jsllogo{
