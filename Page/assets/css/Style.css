@@ -39,7 +39,14 @@ main section{
     margin-top: 10vh;
     margin-bottom: 10vh;
     margin-left: 10vh;
+    transition-duration: 0.5s;
 }
+main section:hover{
+    box-shadow: 0 4px 30px 2px  #0191C8;
+    transition-duration: 1s;
+    width: 56%;
+}
+
  div > p span{
      font-family: 'Borel', cursive;
     color: navy;
