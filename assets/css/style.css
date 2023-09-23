@@ -34,7 +34,13 @@ header nav>div>menu>li>a{
     border-radius: 8px;
     padding: 1vh;
     box-shadow: #05BFDB 0px 4px 12px;
+    transition-duration: 1s;
 
+}
+header:hover nav>div>menu>li>a{
+    color: orange;
+    font-size: 18px;
+    transition-duration: 1s;
 }
 header>h1{
     position: relative;
@@ -93,6 +99,9 @@ body main section:first-child>div:nth-child(2)>aside{
     line-height: normal;
     top: 20vh;
 }
+main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
+    animation-iteration-count: 2;
+}
  main section:first-child>div:nth-child(2)>aside>div:first-child>h1>span{
     color: #00b4d8;
     font-family: 'Catamaran';
@@ -100,6 +109,7 @@ body main section:first-child>div:nth-child(2)>aside{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+
 }
 .btn-box {
     position: relative;
