@@ -624,6 +624,7 @@ section:nth-child(4)>img:hover{
 #wordpress{
     left: 30vh;
     transition-duration: 3s;
+    transition-duration: 3s;
 }
 #wordpress:hover{
     transform: rotate(360deg);
@@ -632,6 +633,7 @@ section:nth-child(4)>img:hover{
 #java{
     right: 0;
     left: 0;
+    transition-duration: 3s;
 }
 #java:hover{
     transform: rotate(360deg);
@@ -641,6 +643,7 @@ section:nth-child(4)>img:hover{
 #mysql{
     right: 0vw;
     left: 15vw;
+    transition-duration: 3s;
 }
 #mysql:hover{
     transform: rotate(360deg);
@@ -651,6 +654,7 @@ section:nth-child(4)>img:hover{
     border-radius: 15%;
     right: 15vw;
     left: 0vw;
+    transition-duration: 3s;
 }
 #jsllogo:hover{
     transform: rotate(360deg);
@@ -660,6 +664,7 @@ section:nth-child(4)>img:hover{
 #css{
     right: 0vw;
     left: 30vw;
+    transition-duration: 3s;
 }
 #css:hover{
     transform: rotate(360deg);
@@ -669,6 +674,7 @@ section:nth-child(4)>img:hover{
 #html{
     right: 30vw;
     left: 0vw;
+    transition-duration: 3s;
 }
 #html:hover{
     transform: rotate(360deg);
@@ -678,16 +684,19 @@ section:nth-child(4)>img:hover{
 #figma{
     right: 0vw;
     left: 45vw;
+    transition-duration: 3s;
 }
 
 #figma:hover{
     transform: rotate(360deg);
     transition-duration: 3s;
+
 }
 
 #arduinoLogo{
     right: 0vw;
     left: 60vw;
+    transition-duration: 3s;
 }
 #arduinoLogo:hover{
     transform: rotate(360deg);
@@ -697,7 +706,14 @@ section:nth-child(4)>img:hover{
 #hibernet{
     right: 46vw;
     left: 0vw;
+    transition-duration: 3s;
 }
+
+#hibernet:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+
 section:nth-child(4)>dd>li{
     margin-top: 10vh;
     margin-left: 14vh;
