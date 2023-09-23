@@ -618,10 +618,16 @@ section:nth-child(4)>img{
 
 section:nth-child(4)>img:hover{
     width: 8%;
-    box-shadow: #162A5F;
+
+
 }
 #wordpress{
     left: 30vh;
+    transition-duration: 3s;
+}
+#wordpress:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
 }
 #java{
     right: 0;
