@@ -16,6 +16,7 @@
     font-weight: 700;
     line-height: normal;
     margin-top: 0;
+    animation-iteration-count: infinite;
 
 }
 .education>div:nth-child(3)>hr{
