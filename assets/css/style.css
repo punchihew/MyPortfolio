@@ -269,6 +269,7 @@ section:nth-child(2){
     line-height: normal;
     margin-bottom: 0;
     margin-top: 0;
+    animation-iteration-count: infinite;
 }
 #serviceSection >hr{
     width: 14vw;
@@ -1878,6 +1879,8 @@ footer>nav>a{
         margin-left: 77vh;
     }
 }
+
+
 
 
 
