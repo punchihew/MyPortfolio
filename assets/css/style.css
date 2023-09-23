@@ -1853,6 +1853,11 @@ footer>nav>a{
         top: 65vw;
         left: 2vw;
     }
+    .col-md-4 {
+        position: absolute;
+        top: 65vw;
+        left: 46vw;
+    }
 }
 @media all and (max-width: 1024px) and (min-width: 770px){
 
