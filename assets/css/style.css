@@ -313,6 +313,7 @@ section:nth-child(2){
     margin: auto;
     background: #00b4d8;
     margin-top: 1vh;
+    animation-iteration-count: infinite;
 }
 section:nth-child(2)>h1{
     width: 42vw;
