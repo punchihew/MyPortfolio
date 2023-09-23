@@ -1922,6 +1922,26 @@ footer>nav>a{
         top: 57vw;
         left: 5vw;
     }
+    .col-md-2 {
+        position: absolute;
+        top: 17vw;
+        left: 37.5vw;
+    }
+    .col-md-5 {
+        position: absolute;
+        top: 57vw;
+        left: 37.5vw;
+    }
+    .col-md-3 {
+        position: absolute;
+        top: 17vw;
+        right: 1vw;
+    }
+    .col-md-6 {
+        position: absolute;
+        top: 57vw;
+        right: 1vw;
+    }
 
 
 }
