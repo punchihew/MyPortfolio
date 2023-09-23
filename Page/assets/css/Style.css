@@ -171,5 +171,5 @@ main section div:nth-child(2) a{
     }
 }
 
-@media all and (max-width: 375px) and (min-width: 320px){
+@media all and (max-width: 375px) and (min-width: 320px){}
 
