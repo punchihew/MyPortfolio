@@ -1834,6 +1834,21 @@ footer>nav>a{
         left: 43vh;
         top: -2vh;
     }
+    .col-md-1 {
+        position: absolute;
+        top: 17vw;
+        left: 2vw;
+    }
+    .col-md-2 {
+        position: absolute;
+        top: 17vw;
+        left: 46vw;
+    }
+    .col-md-3 {
+        position: absolute;
+        top: 17vw;
+        left: 2vw;
+    }
 }
 @media all and (max-width: 1024px) and (min-width: 770px){
 
@@ -1878,6 +1893,7 @@ footer>nav>a{
         margin-top: -10vh;
         margin-left: 78vh;
     }
+
 
 }
 @media all and (max-width: 1440px) and (min-width: 1024px){
