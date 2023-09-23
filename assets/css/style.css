@@ -125,7 +125,13 @@ main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
 }
 #last > a{
     animation-iteration-count: infinite;
+    transition-duration: 1.5s;
 }
+#last:hover> a{
+   width: 5%;
+    animation-duration: 1s;
+}
+
 
 
 .btn-box .btn {
