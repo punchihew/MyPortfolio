@@ -723,7 +723,8 @@ section:nth-child(4)>dd>li{
     height: 3px;
     margin: auto;
     background: #00b4d8;
-    margin-top: -6vh
+    margin-top: -6vh;
+    animation-iteration-count: infinite;
 }
 
 .myProject{
