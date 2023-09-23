@@ -557,9 +557,12 @@ section:nth-child(2)>div:nth-child(8)>img:nth-child(2){
 #skills>h1 ,h3{
     margin-top: 0;
     text-align: center;
+    font-size: 30px;
+    animation-iteration-count: infinite;
 }
 section:nth-child(4)>h5{
     margin-left: 6vh;
+    color: #162A5F;
 
 }
 
