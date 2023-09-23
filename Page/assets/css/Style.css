@@ -171,5 +171,23 @@ main section div:nth-child(2) a{
     }
 }
 
-@media all and (max-width: 770px) and (min-width: 435px){}
+@media all and (max-width: 770px) and (min-width: 435px){
+    main section > aside > img {
+        position: absolute;
+        width: 70vw;
+        top: 15vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    main section:hover > aside > img {
+        position: absolute;
+        width: 40vw;
+        top: 15vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
 
