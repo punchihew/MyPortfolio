@@ -1834,6 +1834,10 @@ footer>nav>a{
         left: 43vh;
         top: -2vh;
     }
+    section:nth-child(2) {
+        position: relative;
+        height: 211vh;
+    }
     .col-md-1 {
         position: absolute;
         top: 17vw;
