@@ -196,7 +196,10 @@ main section div:nth-child(2) a{
 
     }
 
+    main section div:nth-child(2) {
+        margin-left: 0;
+        margin-top: 40vh;
 
-
+    }
 }
 
