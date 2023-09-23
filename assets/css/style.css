@@ -554,10 +554,17 @@ section:nth-child(2)>div:nth-child(8)>img:nth-child(2){
     background: #CAF0F8;
     /*//background: linear-gradient(180deg, #00B4D8 50%, #06EEE2 100%);*/
 }
-#skills>h1 ,h3{
+#skills>h1{
     margin-top: 0;
     text-align: center;
     font-size: 30px;
+    animation-iteration-count: infinite;
+}
+#skills>h3{
+    margin-top: 0;
+    text-align: center;
+    font-size: 30px;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
 }
 section:nth-child(4)>h5{
