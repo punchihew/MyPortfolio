@@ -675,6 +675,7 @@ section:nth-child(4)>dd>li{
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
+    animation-iteration-count: infinite;
 }
 #project #projectPng{
     width: 57px;
