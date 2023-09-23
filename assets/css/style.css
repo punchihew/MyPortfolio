@@ -1728,6 +1728,7 @@ footer>nav>a{
         border-bottom-right-radius: 12%;
         width: 65vw;
     }
+
 }
 @media all and (max-width: 425px) and (min-width: 375px){
 
@@ -1736,6 +1737,43 @@ footer>nav>a{
         top: 66vw;
         right: 50px;
     }
+
+    .col-md-1 {
+        position: absolute;
+        top: 30vw;
+        left: 15vw;
+    }
+
+    .col-md-2 {
+        position: absolute;
+        top: 125vw;
+        left: 15vw;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        top: 220vw;
+        right: 57vw;
+    }
+
+    .col-md-4 {
+        position: absolute;
+        top: 315vw;
+        left: 15vw;
+    }
+
+    .col-md-5 {
+        position: absolute;
+        top: 410vw;
+        left: 15vw;
+    }
+
+    .col-md-6 {
+        position: absolute;
+        top: 506vw;
+        right: 60vw;
+    }
+
 
 }
 @media all and (max-width: 770px) and (min-width: 425px){
