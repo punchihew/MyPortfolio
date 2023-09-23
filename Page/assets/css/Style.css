@@ -202,4 +202,11 @@ main section div:nth-child(2) a{
 
     }
 }
+@media all and (max-width: 1024px) and (min-width: 770px) {
+    main section {
+        width: 83%;
+        height: 50vh;
+    }
+}
+
 
