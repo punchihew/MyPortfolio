@@ -21,6 +21,7 @@ header nav>div>menu{
 header nav>div>menu>li{
     display: inline-flex;
     margin-left: 10px;
+    animation-iteration-count: infinite;
 }
 
 header nav>div>menu>li>a{
