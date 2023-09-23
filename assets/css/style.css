@@ -1912,6 +1912,16 @@ footer>nav>a{
         margin-top: -10vh;
         margin-left: 78vh;
     }
+    .col-md-1 {
+        position: absolute;
+        top: 17vw;
+        left: 5vw;
+    }
+    .col-md-4 {
+        position: absolute;
+        top: 17vw;
+        left: 5vw;
+    }
 
 
 }
