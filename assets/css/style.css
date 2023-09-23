@@ -266,11 +266,18 @@ main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
     border-radius: 100%;
     color:darkblue;
 }
-#linkedIn,#facebook,#instergram,#discord:hover{
+#linkedIn:hover{
     width: 3%;
     animation-duration: 1s;
 }
-
+#facebook:hover{
+    width: 3%;
+    animation-duration: 1s;
+}
+#instergram:hover{
+    width: 3%;
+    animation-duration: 1s;
+}
 
 
 /*----------------------------------------------my services ares start---------------------------------------------------*/
