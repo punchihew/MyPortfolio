@@ -998,6 +998,9 @@ main>section:nth-child(6) aside:last-child>p:first-child span{
     font-weight: 600;
     line-height: 5vh;
 }
+/*main>section:nth-child(6) aside:last-child>p:last-child{*/
+/*    animation-delay: 10s;*/
+/*}*/
 
 main>section:nth-child(6) aside:last-child>p:last-child{
     color: white;
