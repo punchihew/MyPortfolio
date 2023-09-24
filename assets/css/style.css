@@ -1347,7 +1347,12 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     border-radius: 20px 20px 10px 20px;
     background: #05BFDB;
     border: 0;
+    transition-duration: 2s;
 
+}
+#contact aside>form>fieldset>textarea:hover{
+    transition-duration: 2s;
+    background:lightgoldenrodyellow;
 }
 
 #contact aside>form>fieldset>label{
