@@ -1076,6 +1076,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 #life>section div{
     border: 2px solid #06EEE2;
     border-radius: 20px;
+    /*animation-duration: 20s;*/
 }
 #life>section div:nth-child(1){
     grid-column: 1/2;
