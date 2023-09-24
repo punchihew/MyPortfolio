@@ -951,6 +951,14 @@ section:nth-child(4)>dd>li{
 #picture{
 
     width: 64vh;
+    transition-duration: 2s;
+}
+#picture:hover{
+
+    width: 66vh;
+    border: 4px solid orange;
+    border-radius: 200%;
+    transition-duration: 2s;
 }
 
         main>section:nth-child(6)>aside:nth-child(3){
