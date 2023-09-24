@@ -12,31 +12,38 @@
       position: relative;
       animation-name: anima;
       animation-duration: 5s;
+        animation-iteration-count: 4;
+        animation-direction: alternate;
     }
     @keyframes anima {
       0%{
         top: 0;
         left: 0;
+
       }
       20%{
         top: 0;
         left: 400px;
           background: deeppink;
+          transform: rotate(180deg);
       }
         40%{
             top: 400px;
             left: 400px;
             background: orange;
+            transform: rotate(360deg);
         }
         60%{
             top: 400px;
             left: 0;
             background: red;
+            transform: rotate(180deg);
         }
         100%{
             top: 0;
             left: 0;
             background: yellow;
+            transform: rotate(0deg);
         }
 
 
