@@ -25,6 +25,7 @@ header nav>div>menu>li{
     display: inline-flex;
     margin-left: 10px;
     animation-iteration-count: infinite;
+
 }
 
 header nav>div>menu>li>a{
@@ -1141,6 +1142,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
+    animation-duration: 4s;
 }
 #contact h4{
     color: darkblue;
@@ -1157,6 +1159,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     height: 3px;
     background: #00b4d8;
     margin-top: 0;
+    animation-duration: 4s;
 }
 #contact p {
     color: darkblue;
