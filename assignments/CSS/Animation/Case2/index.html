@@ -20,9 +20,29 @@
         }
         section>div:nth-child(1){
           background: yellow;
+            animation-name: anim;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
         }
         section>div:last-child{
             background: #152d53;
+        }
+        @keyframes anim {
+            0%{
+                left: -3vw;
+                bottom: -6vh;
+            }
+            60%{
+                left: 0;
+                bottom: 0;
+                box-shadow: orange;
+            }
+            100%{
+                left: 3vw;
+                bottom: 6vh;
+                box-shadow: orange;
+            }
+            
         }
     </style>
 </head>
