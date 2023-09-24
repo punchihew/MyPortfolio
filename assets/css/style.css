@@ -1336,7 +1336,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 }
 #contact aside>form>fieldset>input:hover{
     transition-duration: 2s;
-    background:lightsalmon;
+    background:lightgoldenrodyellow;
 
 }
 
