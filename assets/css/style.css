@@ -937,6 +937,8 @@ section:nth-child(4)>dd>li{
     width: 12vw;
     height: 3px;
     background: #00b4d8;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 /*#about> div{*/
 /*    width: 57px;*/
