@@ -924,6 +924,7 @@ section:nth-child(4)>dd>li{
 
 }
 #about h1{
+    animation-iteration-count: infinite;
     text-align: left;
     margin-left: 21vw;
     color: #ffffff;
