@@ -52,6 +52,10 @@
             left: 20vw;
             margin: auto;
             background-size: cover;
+
+            animation-name: rotate-tire;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
         }
         main>div:nth-child(4){
             width: 50px;
@@ -64,7 +68,23 @@
             bottom: 0;
             margin: auto;
             background-size: cover;
+
+            animation-name: rotate-tire;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
+
         }
+
+        @keyframes rotate-tire {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
 
     </style>
 </head>
