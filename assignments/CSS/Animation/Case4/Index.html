@@ -2,88 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>animation case 4</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <style>
-        body>main{
-            width: 100%;
-            height: 90vh;
-            background: url("../../Animation/Case4/accest/img/sky.jpg");
 
+        body > main {
+            width: 100%;
+            height: 100vh;
+            background: url("../../Animation/Case4/accest/img/sky.jpg");
         }
-        main>section{
-            width: 98%;
+
+        body main > section {
+            width: 100%;
             height: 70vh;
             position: absolute;
             bottom: 0;
+            box-sizing: border-box;
+            overflow: hidden;
         }
-        main>section>section:nth-child(1){
-            width: 181%;
-            height: 50vh;
+
+        body main > section > section:first-child {
+            width: 200%;
+            height: 40vh;
             background: url("../../Animation/Case4/accest/img/city.png");
             position: relative;
-            bottom: 10vh;
-
+            bottom: -101px;
             animation-name: city-move;
             animation-duration: 10s;
             animation-iteration-count: infinite;
         }
-        main>section>section:nth-child(2){
-            width: 181%;
-            height: 50vh;
-            background: url("../../Animation/Case4/accest/img/road.jpg");
-            position: relative;
-            bottom: 30vh;
 
+        body main > section > section:last-child {
+            width: 200%;
+            height: 32vh;
+            background: url("../../Animation/Case4/accest/img/road.jpg");
             animation-name: road-move;
             animation-duration: 10s;
             animation-iteration-count: infinite;
+            position: relative;
         }
-        main>div:nth-child(2){
+
+        body main > div:nth-child(2) {
+            background: url("../../Animation/Case4/accest/img/car.png");
             width: 275px;
             height: 110px;
-            background: url("../../Animation/Case4/accest/img/car.png");
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            top: 7vh;
-            left: 10vw;
-            margin: auto;
             background-size: cover;
-
+            position: absolute;
+            margin: auto;
+            top: 50vh;
+            bottom: 0;
+            left: 0;
+            right: 0;
         }
-        main>div:nth-child(3){
+
+        body main > div + div {
             width: 50px;
             height: 50px;
-            background: url("../../Animation/Case4/accest/img/wheel.png");
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            top: 13vh;
-            left: 20vw;
-            margin: auto;
-            background-size: cover;
-
+            border-radius: 100%;
             animation-name: rotate-tire;
             animation-duration: 10s;
             animation-iteration-count: infinite;
         }
-        main>div:nth-child(4){
-            width: 50px;
-            height: 50px;
-            background: url("../../Animation/Case4/accest/img/wheel.png");
+
+        body main > div:nth-child(3) {
             position: absolute;
-            top: 12vh;
-            right: 0;
-            left: -1vw;
-            bottom: 0;
             margin: auto;
+            top: 60vh;
+            bottom: 0;
+            right: 0;
+            left: -12.9vw;
+            background: url("../../Animation/Case4/accest/img/wheel.png");
             background-size: cover;
+        }
 
-            animation-name: rotate-tire;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
-
-
+        body main > div:nth-child(4) {
+            position: absolute;
+            margin: auto;
+            top: 60vh;
+            bottom: 0;
+            right: 0;
+            left: 11.7vw;
+            background: url("../../Animation/Case4/accest/img/wheel.png");
+            background-size: cover;
         }
 
         @keyframes rotate-tire {
@@ -95,14 +95,6 @@
             }
         }
 
-        @keyframes road-move {
-            0% {
-               left: 0;
-            }
-            100% {
-                left: -100vw;
-            }
-        }
         @keyframes city-move {
             0% {
                 left: 0;
@@ -110,15 +102,23 @@
             100% {
                 left: -100vw;
             }
+
         }
 
+        @keyframes road-move {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: -100vw;
+            }
 
+        }
 
     </style>
 </head>
 <body>
 <main>
-
     <section>
         <section></section>
         <section></section>
@@ -127,9 +127,6 @@
     <div></div>
     <div></div>
     <div></div>
-
 </main>
-
-
 </body>
 </html>
