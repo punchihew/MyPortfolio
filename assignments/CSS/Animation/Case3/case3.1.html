@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
   <style>
-            body{
+            main{
               width: 800px;
               height: 500px;
               /*border: 2px solid black;*/
@@ -17,57 +17,66 @@
                 overflow: hidden;
             }
             main>section{
-                width: calc(160% * 5);
+                width: calc(160% * 4);
                 height: 500px;
                 display: flex;
-                border: 2px solid orange;
+                /*border: 2px solid orange;*/
+
+
+                animation-name: anima;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
             }
             main > section > div {
                 /*not undestand*/
                 flex-grow: 1;
                 height: 100%;
-                border: 2px solid green;
+                /*border: 2px solid green;*/
+
             }
             main > section > div:nth-child(1) {
+                background: deeppink;
 
-                background-image: url("../../../accespt/matthew-lejune-gEAnpZPTY9c-unsplash.jpg");
-                background-size: cover;
-                position: center;
+                /*background-image: url("../../../accespt/matthew-lejune-gEAnpZPTY9c-unsplash.jpg");*/
+                /*background-size: cover;*/
+                /*background-position: center;*/
 
             }main > section > div:nth-child(2) {
-                 background-image: url("../../../accespt/Car-PNG-HD.png");
-                 background-size: cover;
-                 position: center;
+                background: orange;
+                 /*background-image: url("../../../accespt/Car-PNG-HD.png");*/
+                 /*background-size: cover;*/
+                 /*background-position: center;*/
 
             }main > section > div:nth-child(3) {
-                  background-image: url("../../../accespt/shobhit-sharma-8TrcnRMap90-unsplash.jpg");
-                  background-size: cover;
-                  position: center;
+                background: red;
+                  /*background-image: url("../../../accespt/shobhit-sharma-8TrcnRMap90-unsplash.jpg");*/
+                  /*background-size: cover;*/
+                  /*background-position: center;*/
 
             }main > section > div:nth-child(4) {
-                   background-image: url("../../../accespt/Car-PNG-HD.png");
-                   background-size: cover;
-                   position: center;
+                background: yellow;
+                   /*background-image: url("../../../accespt/Car-PNG-HD.png");*/
+                   /*background-size: cover;*/
+                   /*background-position: center;*/
 
             }
              @keyframes anima {
+
                  0% {
-                    left: 100px;
-                 }
-                 25% {
-                     left: 200px;
+                    left: 0;
                  }
                  50% {
-                     left: 300px;
+                     left: -100vw;
                  }
-                 75% {
-                     left: 400px;
+                 50% {
+                     left: -200vw;
+                 }
+                 100% {
+                     left: -300vw;
                  }
 
              }
-
-
-
 
   </style>
 </head>
