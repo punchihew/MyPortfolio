@@ -1676,6 +1676,10 @@ footer>nav>a{
         font-size: 3.5vw;
 
     }
+    main > section:nth-child(6) aside:last-child > p:last-child{
+        font-size:  4.5vw;
+
+    }
 
 
     /*////////////////////////////////////////////////////////////////*/
