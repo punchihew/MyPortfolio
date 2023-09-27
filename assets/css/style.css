@@ -2044,6 +2044,16 @@ footer>nav>a{
         top: 113vw;
         left: 2vw;
     }
+
+    main > section:nth-child(6) aside:last-child > p:first-child > span {
+        font-size: 2.5vw;
+
+     }
+    main > section:nth-child(6) aside:last-child > p:first-child {
+        font-size: 2.5vw;
+
+    }
+
 }
 @media all and (max-width: 1024px) and (min-width: 770px){
 
