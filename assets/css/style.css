@@ -1556,7 +1556,7 @@ footer>nav>a{
     }
 
     section:nth-child(4) > h5 {
-        margin-top: -2vh;
+        margin-top: 21vh;
         margin-left: 6vh;
     }
 
@@ -1599,13 +1599,25 @@ footer>nav>a{
         font-size: 25px;
         margin: 0;
     }
-
+        /*#twoP {*/
+        /*    margin-left: -25vh;*/
+        /*    margin-top: 74vh;*/
+        /*    width: 19%;*/
+        /*    height: 42%*/
+        /*}*/
+        /*#oneP {*/
+        /*    margin-left: -25vh;*/
+        /*    margin-top: 74vh;*/
+        /*    width: 19%;*/
+        /*    height: 42%*/
+        /*}*/
     #thereP {
         margin-left: -25vh;
         margin-top: 74vh;
         width: 19%;
         height: 42%
     }
+
     /*#project #projectPng {*/
     /*    width: 47px;*/
     /*    height: 45px;*/
@@ -1642,8 +1654,9 @@ footer>nav>a{
     }
 
     #picture {
-        margin-top: -16vh;
+        margin-top: -7vh;
         width: 52vh;
+        transition: none;
     }
 
     main > section:nth-child(6) aside:last-child {
