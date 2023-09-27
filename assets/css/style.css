@@ -1078,6 +1078,7 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
 #life>section div{
     border: 2px solid #06EEE2;
     border-radius: 20px;
+    transition-duration: 2s;
     /*animation-duration: 20s;*/
 }
 #life>section div:nth-child(1){
@@ -1121,6 +1122,12 @@ main>section:nth-child(6) aside:last-child>p:last-child>span{
     background-position: center;
     height: 30vh;
 }
+#life>section:hover div:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 5px 40px 5px rgb(6, 215, 239);
+}
+
+
 
 
 /*----------------------------------------------my contact me ares ---------------------------------------------------*/
