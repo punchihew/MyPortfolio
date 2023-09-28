@@ -42,7 +42,7 @@ header nav>div>menu>li>a{
 
 }
 header:hover nav>div>menu>li>a{
-    color: orange;
+    color: lightblue;
     font-size: 18px;
     transition-duration: 1s;
 }
@@ -1872,6 +1872,41 @@ footer>nav>a{
         right: 20px;
         border-bottom-right-radius: 12%;
         width: 65vw;
+    }
+    .col-md-1 {
+        position: absolute;
+        top: 30vw;
+        left: 15vw;
+    }
+
+    .col-md-2 {
+        position: absolute;
+        top: 125vw;
+        left: 15vw;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        top: 220vw;
+        right: 57vw;
+    }
+
+    .col-md-4 {
+        position: absolute;
+        top: 315vw;
+        left: 15vw;
+    }
+
+    .col-md-5 {
+        position: absolute;
+        top: 410vw;
+        left: 15vw;
+    }
+
+    .col-md-6 {
+        position: absolute;
+        top: 506vw;
+        right: 60vw;
     }
 
 }
