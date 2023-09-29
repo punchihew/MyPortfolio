@@ -3,8 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../assets/Boostrap/css/bootstrap.css">
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-success   ">
+
+        <div class="container-fluid  border-0" >
+            <a class="navbar-brand" href="#">
+                <img src="../../../Page/assets/img/letter-n.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">  Punchihewa POS System
+            </a>
+        </div>
+        <div class="container-fluid  border-0">
+            <a class="navbar-brand" href="#" style="color:#9ec5fe;">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../POS/Iteam.html" style="color:#9ec5fe;">Items</a>
+                    <a class="nav-link active" href="../POS/Orders.html" style="color:#9ec5fe;">Orders</a>
+                    <a class="nav-link active" href="../POS/Place_Orders.html" style="color:#9ec5fe;">View_Orders</a>
+                    <!--                    <a class="nav-link disabled" aria-disabled="true">Iteam</a>-->
+                </div>
+                <form class="d-flex  " role="search"    >
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="container-fluid  bg-danger">
+
+        <div class="row position-absolute container-fluid">
+
+            <div class="col-4 border">
+
+
+
+            </div>
+                <div class="col-4 border">
+
+                </div>
+            <div class="col-4 border">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
+
+                        <div class="col  mt-5">
+
+                            <div>
+                                <div class="mb-3">
+                                    <label for="txtID" class="form-label">Customer ID</label>
+                                    <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txtName" class="form-label">Customer Name</label>
+                                    <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txtAddress" class="form-label">Customer Address</label>
+                                    <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txtTP" class="form-label">Customer TP</label>
+                                    <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
+                                </div>
+                                <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+                                <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+                                <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
 
 </body>
 </html>
