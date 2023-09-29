@@ -10,7 +10,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-info">
 
-        <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-en container-fluid bg-success border-0" >
+        <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-en container-fluid bg-info border-0" >
             <a class="navbar-brand" href="#">
                 <img src="../../../Page/assets/img/letter-n.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">  Punchihewa POS System
             </a>
@@ -22,9 +22,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Items</a>
-                    <a class="nav-link" href="#">Orders</a>
-                    <a class="nav-link" href="#">View_Orders</a>
+                    <a class="nav-link active" aria-current="page" href="../POS/Iteam.html">Items</a>
+                    <a class="nav-link active" href="../POS/Orders.html">Orders</a>
+                    <a class="nav-link active" href="../POS/Place_Orders.html">View_Orders</a>
 <!--                    <a class="nav-link disabled" aria-disabled="true">Iteam</a>-->
                 </div>
             </div>
@@ -33,65 +33,100 @@
 </header>
 
 <main>
-    <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
-    <div class="container-fluid ">
-        <div class="row">
-            <div class="col">
-                <div class="form-floating ">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput" class="form-label">Customer ID</label>
-                </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Customer_Name</label>
-                </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPasswor" placeholder="Password">
-                    <label for="floatingPasswor">Customer_Addres</label>
-                </div>
-                <div class="form-floating">
 
-                    <input type="password" class="form-control" id="floatingPasswo" placeholder="Password">
-                    <label for="floatingPasswo">Customer_Salary</label>
+    <section class="container-fluid p-0 position-relative bg-danger">
+
+        <div class="row position-absolute container-fluid">
+
+            <div class="col-1"></div>
+
+            <div class="col-4">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
+
+                        <div class="col  mt-5">
+
+                            <div>
+                                <div class="mb-3">
+                                    <label for="txtID" class="form-label">Customer ID</label>
+                                    <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txtName" class="form-label">Customer Name</label>
+                                    <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txtAddress" class="form-label">Customer Address</label>
+                                    <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txtTP" class="form-label">Customer TP</label>
+                                    <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
+                                </div>
+                                <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+                                <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+                                <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+
                 </div>
+
             </div>
+
+
+            <div class="container col-xxl-6  ">
+
+                <div>
+
+                    <h2 style="color: Green" class="text-center m-3">Customer Details</h2>
+
+                    <table class="table col-xxl-4">
+                        <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">C001</th>
+                            <td>Navishka</td>
+                            <td>Matara</td>
+                            <td>20000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C002</th>
+                            <td>Lakshna</td>
+                            <td>Galle</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C003</th>
+                            <td>Savinda</td>
+                            <td>Kakanadura</td>
+                            <td>30000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+
         </div>
-    </div>
+    </section>
 
-    <button type="button" class=" btn btn-outline-success">Save</button>
-    <button type="button" class="btn btn-outline-danger">Delete</button>
-    <button type="button" class="btn btn-outline-warning">Update</button>
-
-    <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
-    <table class="table container">
-        <thead>
-        <tr>
-            <th scope="col">Customer_Id</th>
-            <th scope="col">Customer_Name</th>
-            <th scope="col">Customer_Address</th>
-            <th scope="col">Customer_Salary</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-        </tr>
-        </tbody>
-    </table>
 </main>
 
 </body>
