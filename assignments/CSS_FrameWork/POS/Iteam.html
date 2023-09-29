@@ -36,7 +36,8 @@
 </header>
 <main>
     <div class="container-fluid ">
-            <div class=" row col-xxl-6">
+        <div class=" row col-xxl-6 mt-2">
+            <h2 style="color: green" class="text-center m-4">Iteam Registration</h2>
                 <div class="form-floating ">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput" class="form-label">Customer ID</label>
@@ -54,8 +55,47 @@
                     <input type="password" class="form-control" id="floatingPasswo" placeholder="Password">
                     <label for="floatingPasswo">Customer_Salary</label>
                 </div>
-            </div>
+
         </div>
+          <div class="container-fluid mt-2 ">
+            <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+            <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+            <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+
+          </div>
+
+            <table class="table container-fluid ">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+
 
 </main>
 
