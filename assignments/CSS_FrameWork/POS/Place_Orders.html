@@ -38,62 +38,60 @@
 
 <main>
 
-    <section class="container-fluid  bg-danger">
+    <section class="container-fluid mt-5">
+        <section class="row">
 
-        <div class="row position-absolute container-fluid">
+            <section class="col-lg-4 border ">
+                <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
 
-            <div class="col-4 border">
+                <div class="card-body" style="height: 300px">
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Order ID :</label>
+                                <input class="form-control" id="orderId" type="text">
+                            </div>
+                        </div>
 
-
-
-            </div>
-                <div class="col-4 border">
-
-                </div>
-            <div class="col-4 border">
-
-                <div>
-
-                    <form>
-
-                        <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
-
-                        <div class="col  mt-5">
-
-                            <div>
-                                <div class="mb-3">
-                                    <label for="txtID" class="form-label">Customer ID</label>
-                                    <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="txtName" class="form-label">Customer Name</label>
-                                    <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="txtAddress" class="form-label">Customer Address</label>
-                                    <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="txtTP" class="form-label">Customer TP</label>
-                                    <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
-                                </div>
-                                <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
-                                <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
-                                <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Date:</label>
+                                <input type="date"
+                                       class="form-control bg-white border-black text-dark focus-ring-dark "
+                                       id="InputDate">
                             </div>
                         </div>
 
 
-                    </form>
-
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2 ">
+                            <label>Customer :</label>
+                            <select class="form-select" id="Customer" required>
+                                <option selected disabled value="">C001</option>
+                                <option>C001</option>
+                                <option>C002</option>
+                                <option>C003</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Customer ID :</label>
+                                <input class="form-control" id="orderCustomerID" type="text">
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            </div>
+            </section>
+            <section class="col-lg-4 border">
 
+            </section>
+            <section class="col-lg-4 border">
 
-        </div>
-
-    </section>
+            </section>
+        </section>
+</section>
 
 </main>
 
