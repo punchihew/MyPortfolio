@@ -1665,6 +1665,14 @@ footer>nav>a{
         width: 52vh;
         transition: none;
     }
+    #picture:hover{
+
+        display: none;
+        width: 66vh;
+        border: 4px solid orange;
+        border-radius: 200%;
+        transition-duration: 2s;
+    }
 
     main > section:nth-child(6) aside:last-child {
         width: 87vw;
@@ -1919,39 +1927,27 @@ footer>nav>a{
     }
 
     .col-md-1 {
-        position: absolute;
-        top: 30vw;
-        left: 15vw;
+        display: none;
     }
 
     .col-md-2 {
-        position: absolute;
-        top: 125vw;
-        left: 15vw;
+        display: none;
     }
 
     .col-md-3 {
-        position: absolute;
-        top: 220vw;
-        right: 57vw;
+        display: none;
     }
 
     .col-md-4 {
-        position: absolute;
-        top: 315vw;
-        left: 15vw;
+        display: none;
     }
 
     .col-md-5 {
-        position: absolute;
-        top: 410vw;
-        left: 15vw;
+        display: none;
     }
 
     .col-md-6 {
-        position: absolute;
-        top: 506vw;
-        right: 60vw;
+        display: none;
     }
 
 
