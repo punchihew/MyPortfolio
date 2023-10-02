@@ -407,7 +407,7 @@
   </section>
 
 
-<table class="table table-bordered table-hover mt-3 col-12 col-sm-3 col-md-3 col-lg-4" style="display: none" id="TableN">
+<table class="table table-bordered table-hover mt-3 col-12 col-sm-3 col-md-3 col-lg-12" style="display: none" id="TableN">
   <thead>
   <tr>
     <th class="bg-success text-white">Item Code</th>
@@ -448,12 +448,14 @@
   document.querySelector("#items").addEventListener("click",function (){
     customer.style.display='none';
     placeOder.style.display='none';
+    table.style.display='none';
     item.style.display='block';
   })
 
   document.querySelector("#custeR").addEventListener("click",function (){
     placeOder.style.display='none';
     item.style.display='none';
+    table.style.display='none';
     customer.style.display='block';
   })
   document.querySelector("#placeOders").addEventListener("click",function (){
