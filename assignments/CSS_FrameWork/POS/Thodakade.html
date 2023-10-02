@@ -436,7 +436,26 @@
 </table>
 
 
-
 </main>
+
+<script>
+  let item = document.querySelector("#itemN")
+  let customer = document.querySelector("#customerN")
+  let home = document.querySelector("#homeN")
+  let placeOder = document.querySelector("#plceOderN")
+
+  document.querySelector("#items").addEventListener("click",function (){
+    customer.style.display='none';
+    placeOder.style.display='none';
+    item.style.display='block';
+  })
+
+  document.querySelector("#custeR").addEventListener("click",function (){
+    placeOder.style.display='none';
+    item.style.display='none';
+    customer.style.display='block';
+  })
+
+</script>
 </body>
 </html>
