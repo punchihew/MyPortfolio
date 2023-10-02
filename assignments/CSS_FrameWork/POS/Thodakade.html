@@ -29,13 +29,13 @@
       </a>
     </div>
     <div class="container-fluid  border-0">
-      <a class="navbar-brand" href="../POS/Home.html" style="color:white;">Home</a>
+      <a class="navbar-brand"  style="color:white;">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" href="../POS/Customer.html" style="color:white;">Customer</a>
+          <a class="nav-link active"  style="color:white;">Customer</a>
           <a class="nav-link active" aria-current="page" href="../POS/Iteam.html" style="color:white;">Items</a>
           <!--                    <a class="nav-link active" href="../POS/Orders.html" style="color:white;">Orders</a>-->
           <a class="nav-link active" href="../POS/Place_Orders.html" style="color:white;">View_Orders</a>
@@ -59,8 +59,8 @@
     </div>
   </section>
 
-  <!-- ------------------------- home page------------------------>
-  <section class="container-fluid  bg-danger">
+  <!-- ------------------------- customer page------------------------>
+  <section class="container-fluid  bg-danger" style="display: none">
 
     <div class="row position-absolute container-fluid">
 
@@ -152,6 +152,76 @@
 
     </div>
   </section>
+
+
+  <!-- ------------------------- items page------------------------>
+    <section class="container-fluid " style="display: none">
+      <div class=" row ">
+
+        <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+
+          <h2 style="color: green" class="text-center m-4">Item Registration</h2>
+          <div class="form-floating ">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput" class="form-label">Item_Code</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Item_Code</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPasswor" placeholder="Password">
+            <label for="floatingPasswor">Item_Price</label>
+          </div>
+          <div class="form-floating">
+
+            <input type="password" class="form-control" id="floatingPasswo" placeholder="Password">
+            <label for="floatingPasswo">Item_Quantity</label>
+          </div>
+          <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+          <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+          <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+        </section>
+
+        <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+          <h2 style="color: green" class="text-center m-4">Item Details</h2>
+          <table class="table container-fluid  ">
+            <thead>
+            <tr>
+              <th scope="col">Item_Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">P001</th>
+              <td>Suger</td>
+              <td>20</td>
+              <td>200</td>
+            </tr>
+            <tr>
+              <th scope="row">P002</th>
+              <td>Yought</td>
+              <td>30</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <th scope="row">P003</th>
+              <td>Keerisamba</td>
+              <td>20</td>
+              <td>190</td>
+            </tr>
+            </tbody>
+          </table>
+        </section>
+
+
+      </div>
+    </section>
+
+
 
 
 </main>
