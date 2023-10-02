@@ -221,6 +221,219 @@
       </div>
     </section>
 
+  <!-- ------------------------- Place_Order page------------------------>
+
+  <section class="container-fluid mt-5" style="display: none">
+    <section class="row">
+
+      <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
+        <div class="card-header bg-success text-white text-center rounded-2">Invoice Details</div>
+
+        <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
+
+        <div class="card-body">
+          <div class="row">
+            <div class="col-6 mt-2">
+              <div class="form-group">
+                <label>Order ID :</label>
+                <input class="form-control" id="orderId" type="text">
+              </div>
+            </div>
+
+            <div class="col-6 mt-2">
+              <div class="form-group">
+                <label>Date:</label>
+                <input type="date"
+                       class="form-control bg-white border-black text-dark focus-ring-dark "
+                       id="InputDate">
+              </div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-6 mt-2 ">
+              <label>Customer :</label>
+              <select class="form-select" id="Customer" required>
+                <option selected disabled value="">C001</option>
+                <option>C001</option>
+                <option>C002</option>
+                <option>C003</option>
+              </select>
+            </div>
+            <div class="col-6 mt-2">
+              <div class="form-group">
+                <label>Customer ID :</label>
+                <input class="form-control" id="orderCustomerID" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 mt-2">
+              <div class="form-group">
+                <label>Name :</label>
+                <input class="form-control" id="Name" type="text">
+              </div>
+            </div>
+
+            <div class="col-6 mt-2">
+              <div class="col-6 mt-2">
+                <div class="form-group">
+                  <label>Salary :</label>
+                  <input class="form-control" id="Salary" type="text">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mt-2">
+              <div class="form-group">
+                <label>Addres :</label>
+                <input class="form-control" id="Address" type="text">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
+        <div class="card-header bg-success text-white text-center rounded-2">Item Select</div>
+
+        <h5 style="color: black" class="text-center m-3 mt-5 ">Item Select</h5>
+
+        <div class="row">
+          <div class="col-6 mt-2 ">
+            <label>Item :</label>
+            <select class="form-select" id="Item" required>
+              <option selected disabled value="">C001</option>
+              <option>C001</option>
+              <option>C002</option>
+              <option>C003</option>
+            </select>
+          </div>
+
+          <div class="form-floating col-6 mt-2">
+            <div class="form-group">
+              <label>Item Code :</label>
+              <input type="email" class="form-control" id="Item_Code" placeholder="Item_Code">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="form-floating col-6 mt-2">
+            <div class="form-group">
+              <label>Item_Name :</label>
+              <input type="email" class="form-control" id="Item_Name" placeholder="Item_Name">
+            </div>
+          </div>
+
+          <div class="form-floating col-3 mt-2">
+            <div class="form-group">
+              <label>Price :</label>
+              <input type="email" class="form-control" id="Price" placeholder="Price">
+            </div>
+          </div>
+
+          <div class="form-floating col-3 mt-2">
+            <div class="form-group">
+              <label>Qty :</label>
+              <input type="email" class="form-control" id="Qty" placeholder="Qty ">
+            </div>
+          </div>
+
+          <div class="form-floating col-12 mt-2">
+            <div class="form-group">
+              <label> Order Quantity :</label>
+              <input type="email" class="form-control" id="Order_Quantity" placeholder="Order_Quantity">
+            </div>
+          </div>
+          <button type="button" class="mt-2 btn btn-outline-success col-4 ">Add_Items</button>
+        </div>
+      </section>
+      <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
+        <div class="card-header bg-success text-white text-center rounded-2">Bill</div>
+
+        <div class="row">
+          <div class="form-floating col-6 mt-2">
+            <div class="form-group">
+              <label>Cash :</label>
+              <input type="email" class="form-control" id="Cash" placeholder="Cash">
+            </div>
+          </div>
+
+          <div class="form-floating col-6 mt-2">
+            <div class="form-group">
+              <label>Discount :</label>
+              <input type="email" class="form-control" id="Discount" placeholder="Discount">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-floating col-12 mt-2">
+            <div class="form-group">
+              <label>Balance :</label>
+              <input type="email" class="form-control" id="Balance" placeholder="Balance">
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="row">
+          <div class="form-floating col-6 mt-4">
+            <span id="lblTotal" style="color: green">Total</span>
+          </div>
+
+          <div class="form-floating col-6 mt-4">
+            <span id="SubTotal" style="color: green">Sub_Total</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-floating col-6 mt-4">
+            <span id="rs" style="color: green">Rs/=</span>
+          </div>
+
+          <div class="form-floating col-6 mt-4">
+            <span id="rss" style="color: green">Rs/=</span>
+          </div>
+        </div>
+        <button type="button" class="mt-2 btn btn-outline-success col-4 ">Purchase</button>
+      </section>
+    </section>
+  </section>
+
+</main>
+<table class="table table-bordered table-hover mt-3 col-12 col-sm-3 col-md-3 col-lg-4" style="display: none">
+  <thead>
+  <tr>
+    <th class="bg-success text-white">Item Code</th>
+    <th class="bg-success text-white">Item Name</th>
+    <th class="bg-success text-white">Price</th>
+    <th class="bg-success text-white">Qty</th>
+    <th class="bg-success text-white">Total</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>P001</td>
+    <td>Keerisamba</td>
+    <td>200.00</td>
+    <td>1</td>
+    <td>200.00</td>
+  </tr>
+  <tr>
+    <td>P002</td>
+    <td>Yought</td>
+    <td>150.00</td>
+    <td>2</td>
+    <td>300.00</td>
+  </tr>
+  </tbody>
+</table>
 
 
 
