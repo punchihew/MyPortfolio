@@ -17,6 +17,7 @@
       color: #9eeaf9;
     }
   </style>
+  <script src="../../../assets/Boostrap/js/bootstrap.bundle.js"></script>
 </head>
 <body>
 
@@ -77,25 +78,25 @@
             <div class="col  mt-5">
 
               <div>
-                <div class="mb-3">
+                <div class="mb-3" id="cusID">
                   <label for="txtID" class="form-label">Customer ID</label>
                   <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3" id="cusName">
                   <label for="txtName" class="form-label">Customer Name</label>
                   <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3" id="cusAddress">
                   <label for="txtAddress" class="form-label">Customer Address</label>
                   <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3" id="cusTp">
                   <label for="txtTP" class="form-label">Customer TP</label>
                   <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
                 </div>
-                <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
-                <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
-                <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+                <button  id="savecustomer" type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+                <button id="deletecustomer" type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+                <button id="updatecustomer" type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
               </div>
             </div>
 
@@ -472,6 +473,34 @@
 
   })
 
+
+  let cus = Array();
+
+  document.querySelector("#savecustomer").addEventListener("click",function (){
+
+
+    let CId = document.querySelector('#txtID');
+    let CName = document.querySelector('#txtName');
+    let CAdres = document.querySelector('#txtAddress');
+    let CTp = document.querySelector('#txtTP');
+
+    let id = CId.value;
+    let id1 = CName.value;
+    let id2 = CAdres.value;
+    let id3 = CTp.value;
+
+
+      console.log(id,id1,id2,id3);
+
+
+
+    // var ages =["cusID","cusName","cusAddress","cusTp"]
+
+  })
+
+
 </script>
+<script src="../../../assets/Boostrap/js/bootstrap.bundle.js"></script>
+<script src="../../../assets/Boostrap/js/bootstrap.js"></script>
 </body>
 </html>
