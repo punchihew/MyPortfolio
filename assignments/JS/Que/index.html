@@ -56,13 +56,19 @@ main>section>div:nth-child(5){
 <script>
 
   let div = document.querySelectorAll("section>div");
-  let colurs = ["red","yellow","red","yellow","red"]
+  let colurs = ["red","yellow","green","deeppink","orange"]
 
   let i = 0
-  colurs.forEach(function (e){
-    div[i].style.background = e;
-    i = i+1;
-  });
+
+  setInterval(function () {
+
+    for (let i = 0; i < colurs.length; i++) {
+      div[i].style.background=colurs[i];
+    }
+    let  last =colurs.pop();
+
+    colurs.unshift(last);
+  },200)
 
 
 
