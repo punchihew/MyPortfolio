@@ -2,60 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+    <title>Que</title>
 
     <style>
-        section>div:nth-child(1){
-            width:250px;
-            height: 85px;
+        section{
+            width: 1000px;
+            height: 320px;
             position: absolute;
-            background: red;
-            top:27vh;
-            left: 9vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
         }
 
-        section>div:nth-child(2){
-            width:250px;
-            height: 85px;
-            position: absolute;
-            background: yellow;
-            top:41vh;
-            left: 27vw;
-
+        section>div{
+            height: 100px;
+            flex-grow: 1;
+            border: 1px solid #000000;
         }
 
-        section>div:nth-child(3){
-            width:250px;
-            height: 85px;
-            position: absolute;
-            background: deeppink;
-            top:41vh;
-            left: 44vw;
-
+        section>div:first-child{
+            align-self: start;
+            margin-top: 7px;
         }
-        section>div:nth-child(4){
-            width:250px;
-            height: 85px;
-            position: absolute;
-            background: green;
-            top:41vh;
-            left: 61vw;
-
+        section>div:last-child{
+            align-self: end;
+            margin-bottom: 7px;
         }
-        section>div:nth-child(5){
-            width:250px;
-            height: 85px;
-            position: absolute;
-            background: orange;
-            top:55vh;
-            left: 79vw;
-
-        }
-
-
     </style>
-
 </head>
 <body>
 
@@ -67,6 +44,24 @@
     <div></div>
 </section>
 
+<script>
+
+    let Colours =["red","yellow","green","Blue","deeppink"]
+
+    let divarray=document.querySelector("section").children;
+
+    setInterval(function () {
+        for (let i = 0; i < divarray.length; i++) {
+            divarray[i].style.background=Colours[i];
+        }
+        let  last=Colours.pop();
+
+        Colours.unshift(last)
+    },600)
+
+
+
+</script>
 
 </body>
 </html>

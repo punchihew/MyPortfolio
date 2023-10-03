@@ -21,21 +21,20 @@
       margin: auto;
     }
 main>section>div:nth-child(1){
-  background: red;
   position: relative;
   top: -14vh;
 }
 main>section>div:nth-child(2){
-  background: yellow;
+
 }
 main>section>div:nth-child(3){
-  background: deeppink;
+
 }
 main>section>div:nth-child(4){
-  background: green;
+
 }
 main>section>div:nth-child(5){
-  background: orange;
+
   position: relative;
   top: 14vh;
 }
@@ -55,7 +54,18 @@ main>section>div:nth-child(5){
 
 </main>
 <script>
-  let colurs =[]
+
+  let div = document.querySelectorAll("section>div");
+  let colurs = ["red","yellow","red","yellow","red"]
+
+  let i = 0
+  colurs.forEach(function (e){
+    div[i].style.background = e;
+    i = i+1;
+  });
+
+
+
 </script>
 </body>
 </html>
