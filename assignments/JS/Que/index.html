@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    main>section>div{
+      width: 200px;
+      height: 100px;
+    }
+    main>section{
+
+      display: flex;
+      width: max-content;
+      height: max-content;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+    }
+main>section>div:nth-child(1){
+  background: red;
+  position: relative;
+  top: -14vh;
+}
+main>section>div:nth-child(2){
+  background: yellow;
+}
+main>section>div:nth-child(3){
+  background: deeppink;
+}
+main>section>div:nth-child(4){
+  background: green;
+}
+main>section>div:nth-child(5){
+  background: orange;
+  position: relative;
+  top: 14vh;
+}
+
+
+  </style>
+</head>
+<body>
+<main>
+  <section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </section>
+
+</main>
+</body>
+</html>
