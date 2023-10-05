@@ -504,6 +504,7 @@
   <script src="../../../assets/Boostrap/code.jquery.com_jquery-3.7.1.min.js"></script>
 
 <script>
+
   $('#savecustomer').click(function () {
     var customer= {
       id: $('#txtID').val(),
@@ -511,7 +512,6 @@
       address: $('#txtAddress').val(),
       salary: $('#txtTP').val()
     }
-
 
     let row= `<tr>
                 <th>${customer.id}</th>
@@ -523,7 +523,28 @@
     $("#cusTable").append(row)
   });
 
-  </script>
+  ///////////////////////////////////////////////////
+
+
+  $('#cusTable>tr').click(function () {
+
+    let id = $(this).children(':nth-child(1)').text();
+    let name = $(this).children(':nth-child(2)').text();
+    let address = $(this).children(':nth-child(3)').text();
+    let salary = $(this).children(':nth-child(4)').text();
+
+    setTextFieldValues(id,name,address,salary);
+  });
+
+  function setTextFieldValues(id, name, address, salary) {
+    $("#txtID").val(id);
+    $("#txtName").val(name);
+    $("#txtAddress").val(address);
+    $("#txtTP").val(salary);
+  }
+
+
+</script>
 
 
 
