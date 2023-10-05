@@ -18,6 +18,7 @@
     }
   </style>
   <script src="../../../assets/Boostrap/js/bootstrap.bundle.js"></script>
+
 </head>
 <body>
 
@@ -97,6 +98,7 @@
                 <button  id="savecustomer" type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
                 <button id="deletecustomer" type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
                 <button id="updatecustomer" type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+                <button id="getcustomer" type="button" class="mt-2 btn btn-outline-warning ">GetCustomer</button>
               </div>
             </div>
 
@@ -114,7 +116,7 @@
 
           <h2 style="color: Green" class="text-center m-3">Customer Details</h2>
 
-          <table class="table col-xxl-4">
+          <table class="table col-xxl-4" id="cusTable">
             <thead>
             <tr>
               <th scope="col">ID</th>
@@ -474,32 +476,61 @@
   })
 
 
-  let cus = Array();
-
-  document.querySelector("#savecustomer").addEventListener("click",function (){
-
-
-    let CId = document.querySelector('#txtID');
-    let CName = document.querySelector('#txtName');
-    let CAdres = document.querySelector('#txtAddress');
-    let CTp = document.querySelector('#txtTP');
-
-    let id = CId.value;
-    let id1 = CName.value;
-    let id2 = CAdres.value;
-    let id3 = CTp.value;
-
-
-      console.log(id,id1,id2,id3);
-
-
-
-    // var ages =["cusID","cusName","cusAddress","cusTp"]
-
-  })
-
-
+  // let cus = Array();
+  //
+  // document.querySelector("#savecustomer").addEventListener("click",function (){
+  //
+  //
+  //   let CId = document.querySelector('#txtID');
+  //   let CName = document.querySelector('#txtName');
+  //   let CAdres = document.querySelector('#txtAddress');
+  //   let CTp = document.querySelector('#txtTP');
+  //
+  //   var cust={
+  //
+  //     id :CId.value,
+  //     id1 :CName.value,
+  //     id2 :CAdres.value,
+  //     id3 : CTp.value,
+  //   }
+  //
+  //     console.log(cust);
+  //
+  //   // var ages =["cusID","cusName","cusAddress","cusTp"]
+  //
+  // });
 </script>
+
+  <script src="../../../assets/Boostrap/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+<script>
+  $('#savecustomer').click(function () {
+    var customer= {
+      id: $('#txtID').val(),
+      name: $('#txtName').val(),
+      address: $('#txtAddress').val(),
+      salary: $('#txtTP').val()
+    }
+
+
+    let row= `<tr>
+                <th>${customer.id}</th>
+                <td>${customer.name}</td>
+                <td>${customer.address}</td>
+                <td>${customer.salary}</td>
+            </tr>`;
+
+    $("#cusTable").append(row)
+  });
+
+  </script>
+
+
+
+
+
+
+
 <script src="../../../assets/Boostrap/js/bootstrap.bundle.js"></script>
 <script src="../../../assets/Boostrap/js/bootstrap.js"></script>
 </body>
