@@ -505,6 +505,15 @@
 
 <script>
 
+
+  let customerArray = [{
+    name: `kamal`,
+    address: `galle`,
+    tp: `0714523869`,
+    id: `C001`
+  }];
+
+
   $('#savecustomer').click(function () {
     var customer= {
       id: $('#txtID').val(),
@@ -514,7 +523,7 @@
     }
 
     let row= `<tr>
-                <th>${customer.id}</th>
+                <td>${customer.id}</td>
                 <td>${customer.name}</td>
                 <td>${customer.address}</td>
                 <td>${customer.salary}</td>
