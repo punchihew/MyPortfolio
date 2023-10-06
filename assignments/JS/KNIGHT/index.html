@@ -78,13 +78,13 @@
 
     setInterval(function () {
 
-        for (let i = 0; i < colurs.length; i++) {
+        for (let i = 0; i < div.length; i++) {
             div[i].style.background=colurs[i];
         }
         let  last =colurs.pop();
 
         colurs.unshift(last);
-    },500)
+    },100)
 
 
 </script>
