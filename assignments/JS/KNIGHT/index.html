@@ -71,8 +71,22 @@
 
 </main>
 <script>
-    let div = document.querySelectorAll("section>div");
-    let colurs = ["red","yellow","green","deeppink","orange"]
+    let div = document.querySelectorAll("section>section>div");
+    let colurs = ["#f01e2c","#D2042D","#f94449","#f69697","#ffcbd1","#ffdce2","#EAEFF2","#EAEFF2","#EAEFF2","#EAEFF2","#EAEFF2"];
+
+    let i = 0
+
+    setInterval(function () {
+
+        for (let i = 0; i < colurs.length; i++) {
+            div[i].style.background=colurs[i];
+        }
+        let  last =colurs.pop();
+
+        colurs.unshift(last);
+    },500)
+
+
 </script>
 </body>
 </html>
