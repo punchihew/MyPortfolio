@@ -35,8 +35,15 @@
       height: 60px;
       border: 1px solid #ffffff;
   }
-  main>section:last-child{
-
+  main>section>section:last-child{
+      width: max-content;
+      height: max-content;
+      position: absolute;
+      margin: auto;
+      top: 40vh;
+      bottom: 0;
+      right: 0;
+      left: 0;
   }
 
     </style>
@@ -54,12 +61,11 @@
             <div></div>
         </section>
 
-
-            <section>
-                <button class="btn btn-primary">Start</button>
-                <button class="btn btn-danger">Stop</button>
-                <input type="range">
-            </section>
+        <section>
+            <button class="btn btn-primary">Start</button>
+            <button class="btn btn-danger">Stop</button>
+            <input type="range">
+        </section>
 
     </section>
 
