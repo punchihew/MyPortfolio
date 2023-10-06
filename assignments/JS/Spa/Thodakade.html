@@ -17,7 +17,7 @@
       color: #9eeaf9;
     }
   </style>
-  <script src="../../../assets/Boostrap/js/bootstrap.bundle.js"></script>
+  <script src="../../../assets/Boostrap/js/bootstrap.js"></script>
 
 </head>
 <body>
@@ -54,7 +54,7 @@
 
 <main>
 
-<!-- ------------------------- home page------------------------>
+  <!-- ------------------------- home page------------------------>
   <section class="container-fluid  bg-danger" id="homeN">
 
     <div class="row bg-success container-fluid">
@@ -125,7 +125,7 @@
               <th scope="col">Salary</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="tbody">
             <tr>
               <th scope="row">C001</th>
               <td>Navishka</td>
@@ -158,71 +158,71 @@
 
 
   <!-- ------------------------- items page------------------------>
-    <section class="container-fluid " style="display: none" id="itemN">
-      <div class=" row ">
+  <section class="container-fluid " style="display: none" id="itemN">
+    <div class=" row ">
 
-        <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+      <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
 
-          <h2 style="color: green" class="text-center m-4">Item Registration</h2>
-          <div class="form-floating ">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput" class="form-label">Item_Code</label>
-          </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Item_Code</label>
-          </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPasswor" placeholder="Password">
-            <label for="floatingPasswor">Item_Price</label>
-          </div>
-          <div class="form-floating">
+        <h2 style="color: green" class="text-center m-4">Item Registration</h2>
+        <div class="form-floating ">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput" class="form-label">Item_Code</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Item_Code</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPasswor" placeholder="Password">
+          <label for="floatingPasswor">Item_Price</label>
+        </div>
+        <div class="form-floating">
 
-            <input type="password" class="form-control" id="floatingPasswo" placeholder="Password">
-            <label for="floatingPasswo">Item_Quantity</label>
-          </div>
-          <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
-          <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
-          <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
-        </section>
+          <input type="password" class="form-control" id="floatingPasswo" placeholder="Password">
+          <label for="floatingPasswo">Item_Quantity</label>
+        </div>
+        <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+        <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+        <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+      </section>
 
-        <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
-          <h2 style="color: green" class="text-center m-4">Item Details</h2>
-          <table class="table container-fluid  ">
-            <thead>
-            <tr>
-              <th scope="col">Item_Name</th>
-              <th scope="col">Price</th>
-              <th scope="col">Quantity</th>
-              <th scope="col">Price</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <th scope="row">P001</th>
-              <td>Suger</td>
-              <td>20</td>
-              <td>200</td>
-            </tr>
-            <tr>
-              <th scope="row">P002</th>
-              <td>Yought</td>
-              <td>30</td>
-              <td>70</td>
-            </tr>
-            <tr>
-              <th scope="row">P003</th>
-              <td>Keerisamba</td>
-              <td>20</td>
-              <td>190</td>
-            </tr>
-            </tbody>
-          </table>
-        </section>
+      <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+        <h2 style="color: green" class="text-center m-4">Item Details</h2>
+        <table class="table container-fluid  ">
+          <thead>
+          <tr>
+            <th scope="col">Item_Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">P001</th>
+            <td>Suger</td>
+            <td>20</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th scope="row">P002</th>
+            <td>Yought</td>
+            <td>30</td>
+            <td>70</td>
+          </tr>
+          <tr>
+            <th scope="row">P003</th>
+            <td>Keerisamba</td>
+            <td>20</td>
+            <td>190</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
 
 
-      </div>
-    </section>
+    </div>
+  </section>
 
   <!-- ------------------------- Place_Order page------------------------>
 
@@ -410,33 +410,33 @@
   </section>
 
 
-<table class="table table-bordered table-hover mt-3 col-12 col-sm-3 col-md-3 col-lg-12" style="display: none" id="TableN">
-  <thead>
-  <tr>
-    <th class="bg-success text-white">Item Code</th>
-    <th class="bg-success text-white">Item Name</th>
-    <th class="bg-success text-white">Price</th>
-    <th class="bg-success text-white">Qty</th>
-    <th class="bg-success text-white">Total</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>P001</td>
-    <td>Keerisamba</td>
-    <td>200.00</td>
-    <td>1</td>
-    <td>200.00</td>
-  </tr>
-  <tr>
-    <td>P002</td>
-    <td>Yought</td>
-    <td>150.00</td>
-    <td>2</td>
-    <td>300.00</td>
-  </tr>
-  </tbody>
-</table>
+  <table class="table table-bordered table-hover mt-3 col-12 col-sm-3 col-md-3 col-lg-12" style="display: none" id="TableN">
+    <thead>
+    <tr>
+      <th class="bg-success text-white">Item Code</th>
+      <th class="bg-success text-white">Item Name</th>
+      <th class="bg-success text-white">Price</th>
+      <th class="bg-success text-white">Qty</th>
+      <th class="bg-success text-white">Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>P001</td>
+      <td>Keerisamba</td>
+      <td>200.00</td>
+      <td>1</td>
+      <td>200.00</td>
+    </tr>
+    <tr>
+      <td>P002</td>
+      <td>Yought</td>
+      <td>150.00</td>
+      <td>2</td>
+      <td>300.00</td>
+    </tr>
+    </tbody>
+  </table>
 
 
 </main>
@@ -501,49 +501,117 @@
   // });
 </script>
 
-  <script src="../../../assets/Boostrap/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script src="../../../assets/Boostrap/code.jquery.com_jquery-3.7.1.min.js"></script>
 
 <script>
 
 
-  let customerArray = [{
-    name: `kamal`,
-    address: `galle`,
-    tp: `0714523869`,
-    id: `C001`
-  }];
+  //    let customerArray = [{
+  //        name: `kamal`,
+  //        address: `galle`,
+  //        tp: `0714523869`,
+  //        id: `C001`
+  //    }];
+  //
+  //
+  //    $('#savecustomer').click(function () {
+  //        var customer= {
+  //            id: $('#txtID').val(),
+  //            name: $('#txtName').val(),
+  //            address: $('#txtAddress').val(),
+  //            salary: $('#txtTP').val()
+  //        }
+  //
+  //        let row= `<tr>
+  //                <td>${customer.id}</td>
+  //                <td>${customer.name}</td>
+  //                <td>${customer.address}</td>
+  //                <td>${customer.salary}</td>
+  //            </tr>`;
+  //
+  //        $("#cusTable").append(row)
+  //    });
+
+  var customers = [
+    {id: "C001", name: "Dasun", address: "Galle", salary: 1000.22},
+    {id: "C002", name: "Iman", address: "Mathara", salary: 2000.22}
+  ];
 
 
-  $('#savecustomer').click(function () {
-    var customer= {
-      id: $('#txtID').val(),
-      name: $('#txtName').val(),
-      address: $('#txtAddress').val(),
-      salary: $('#txtTP').val()
+  //refactor save with jQuery
+  $("#savecustomer").click(function () {
+
+
+    let cus_ID = $("#txtID").val();
+    let cus_Name = $("#txtName").val();
+    let cus_Address = $("#txtAddress").val();
+    let cus_Salary = $("#txtTP").val();
+
+    var customer = {
+      id: cus_ID,
+      name: cus_Name,
+      address: cus_Address,
+      salary: cus_Salary
     }
 
-    let row= `<tr>
+    //add customer to object to the array
+    customers.push(customer);
+    getAllCustomers();
+    console.log(customers);
+  });
+
+
+  //refactor get_all with jQuery
+
+
+  function getAllCustomers(){
+    //remove all the child elements of tbody before adding the table rows
+    $("#tbody").empty();
+    for (const customer of customers) {
+
+      let row= `<tr>
                 <td>${customer.id}</td>
                 <td>${customer.name}</td>
                 <td>${customer.address}</td>
                 <td>${customer.salary}</td>
             </tr>`;
 
-    $("#cusTable").append(row)
+      $("#cusTable").append(row)
+
+      bindEvents();
+
+      $(`#cusTable tr`).dblclick(function (){
+        $(this).closest("tr").remove();      // Finds the closest row <t
+      });
+    }
+
+  }
+
+
+  //////////////////////////////////////////////////////////////////////////////////
+
+
+  $(`#cusTable tr`).dblclick(function (){
+    $(this).closest("tr").remove();      // Finds the closest row <t
   });
 
-  ///////////////////////////////////////////////////
 
+  function bindEvents(){
+    $('#cusTable tr').click(function () {
+      console.log(this);//tr -> this will return tr html element
+      console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
+      console.log($(this).text()); // now here it will return all the text of tr
 
-  $('#cusTable>tr').click(function () {
+      let id = $(this).children(':nth-child(1)').text();
+      let name = $(this).children(':nth-child(2)').text();
+      let address = $(this).children(':nth-child(3)').text();
+      let salary = $(this).children(':nth-child(4)').text();
 
-    let id = $(this).children(':nth-child(1)').text();
-    let name = $(this).children(':nth-child(2)').text();
-    let address = $(this).children(':nth-child(3)').text();
-    let salary = $(this).children(':nth-child(4)').text();
+      setTextFieldValues(id,name,address,salary);
+    });
+  }
+  //check this out.?
 
-    setTextFieldValues(id,name,address,salary);
-  });
 
   function setTextFieldValues(id, name, address, salary) {
     $("#txtID").val(id);
@@ -556,12 +624,7 @@
 </script>
 
 
-
-
-
-
-
-<script src="../../../assets/Boostrap/js/bootstrap.bundle.js"></script>
+<script src="../../../assets/Boostrap/css/bootstrap.css"></script>
 <script src="../../../assets/Boostrap/js/bootstrap.js"></script>
 </body>
 </html>
