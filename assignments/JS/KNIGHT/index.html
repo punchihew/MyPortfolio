@@ -73,24 +73,33 @@
 <script>
 
     let stop = document.querySelector("#stopbtn");
+    let start = document.querySelector("#startbtn");
     let div = document.querySelectorAll("section>section:first-child>div");
     let colurs = ["#f01e2c","#D2042D","#f94449","#f69697","#ffcbd1","#ffdce2","#EAEFF2","#EAEFF2","#EAEFF2","#EAEFF2","#EAEFF2"];
 
     let i = 0
+    let interval;
 
-   let inter =  setInterval(function () {
+    function setColur(){
 
-        for (let i = 0; i < div.length; i++) {
-            div[i].style.background=colurs[i];
-        }
-        let  last =colurs.pop();
+        interval =  setInterval(function () {
 
-        colurs.unshift(last);
-    },100)
+            for (let i = 0; i < div.length; i++) {
+                div[i].style.background=colurs[i];
+            }
+            let  last =colurs.pop();
 
+            colurs.unshift(last);
+        },100)
+    }
+
+
+    start.addEventListener("click",function (){
+        setInterval(interval)
+    });
     stop.addEventListener("click",function (){
 
-        clearInterval(inter);
+        clearInterval(interval);
     });
 
 </script>
