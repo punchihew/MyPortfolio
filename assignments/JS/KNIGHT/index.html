@@ -114,6 +114,13 @@
     let interval;
     let value = 45;
 
+    range.addEventListener("input", function () {
+        value = 300 - parseInt(range.value);
+        clearInterval(interval);
+        setColur();
+        txtSpeed.innerText = ((100 - (value * 0.5) / 1.5)).toFixed(0) + "%";
+        txtTime.innerText = (300 - parseInt(range.value)) * 10;
+    });
 
     function setColur(){
 
