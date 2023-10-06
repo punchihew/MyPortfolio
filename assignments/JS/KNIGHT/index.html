@@ -71,12 +71,14 @@
 
 </main>
 <script>
+
+    let stop = document.querySelector("#stopbtn");
     let div = document.querySelectorAll("section>section:first-child>div");
     let colurs = ["#f01e2c","#D2042D","#f94449","#f69697","#ffcbd1","#ffdce2","#EAEFF2","#EAEFF2","#EAEFF2","#EAEFF2","#EAEFF2"];
 
     let i = 0
 
-    setInterval(function () {
+   let inter =  setInterval(function () {
 
         for (let i = 0; i < div.length; i++) {
             div[i].style.background=colurs[i];
@@ -86,6 +88,10 @@
         colurs.unshift(last);
     },100)
 
+    stop.addEventListener("click",function (){
+
+        clearInterval(inter);
+    });
 
 </script>
 </body>
