@@ -99,12 +99,14 @@
     </section>
 
 </main>
+<audio id="audio" src="../../accespt/WhatsApp%20Audio%202023-10-04%20at%2008.31.38.mpeg"></audio>
 <script>
     let txtSpeed = document.querySelector("#speed");
     let txtTime = document.querySelector("#time");
     let stop = document.querySelector("#stopbtn");
     let start = document.querySelector("#startbtn");
     let range = document.querySelector("#customRange");
+    let audio = document.querySelector("#audio");
 
 
     let div = document.querySelectorAll("section>section:first-child>div");
@@ -115,10 +117,13 @@
     let interval;
     let value = 45;
 
+
+
     range.addEventListener("input", function () {
         value = 300 - parseInt(range.value);
         clearInterval(interval);
         setRight();
+        setleft();
         txtSpeed.innerText = ((100 - (value * 0.5) / 1.5)).toFixed(0) + "%";
         txtTime.innerText = (300 - parseInt(range.value)) * 10;
     });
@@ -133,12 +138,12 @@
             let  last =colurs.pop();
 
             colurs.unshift(last);
-        },100)
+        },100);
     }
 
     function setleft(){
 
-        interval =  setInterval(function () {
+        intervalstop =  setInterval(function () {
 
             for (let i = 0; i < div.length; i++) {
                 div[i].style.background=colur[i];
@@ -155,10 +160,12 @@
         setleft();
         setRight();
         setInterval(interval)
+        audio.play();
     });
     stop.addEventListener("click",function (){
-
+        clearInterval(intervalstop);
         clearInterval(interval);
+        audio.pause();
     });
 
 </script>
