@@ -2,9 +2,629 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../assets/Boostrap/css/bootstrap.css">
+
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+
+            background:lightcyan;
+        }
+        header:hover>nav>div:nth-child(2)>a{
+            color: #9eeaf9;
+        }
+    </style>
+    <script src="../../../assets/Boostrap/js/bootstrap.js"></script>
+
 </head>
 <body>
 
+<header>
+    <nav class="navbar navbar-expand-lg bg-success   ">
+
+        <div class="container-fluid  border-0" >
+            <a class="navbar-brand" href="#">
+                <img src="../../../Page/assets/img/letter-n.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">  <h4 style="color:white;">Cafe4U POS System</h4>
+            </a>
+        </div>
+        <div class="container-fluid  border-0">
+            <a class="navbar-brand"  style="color:white;" id="home">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active"  style="color:white;" id="custeR">Customer</a>
+                    <a class="nav-link active" aria-current="page"  style="color:white;" id="items">Items</a>
+                    <!--                    <a class="nav-link active" href="../POS/Orders.html" style="color:white;">Orders</a>-->
+                    <a class="nav-link active"  style="color:white;" id="placeOders">View_Orders</a>
+                    <!--                    <a class="nav-link disabled" aria-disabled="true">Iteam</a>-->
+                </div>
+                <form class="d-flex  " role="search"    >
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- ------------------------- home page------------------------>
+    <section class="container-fluid  bg-danger" id="homeN">
+
+        <div class="row bg-success container-fluid">
+        </div>
+    </section>
+
+    <!-- ------------------------- customer page------------------------>
+    <section class="container-fluid  bg-danger" style="display: none" id="customerN">
+
+        <div class="row position-absolute container-fluid">
+
+            <div class="col-1"></div>
+
+            <div class="mt-0 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5  col-xxl-5">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
+
+                        <div class="col  mt-5">
+
+                            <div>
+                                <div class="mb-3" id="cusID">
+                                    <label for="txtID" class="form-label">Customer ID</label>
+                                    <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
+                                </div>
+                                <div class="mb-3" id="cusName">
+                                    <label for="txtName" class="form-label">Customer Name</label>
+                                    <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
+                                </div>
+                                <div class="mb-3" id="cusAddress">
+                                    <label for="txtAddress" class="form-label">Customer Address</label>
+                                    <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
+                                </div>
+                                <div class="mb-3" id="cusTp">
+                                    <label for="txtTP" class="form-label">Customer TP</label>
+                                    <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
+                                </div>
+                                <button  id="savecustomer" type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+                                <button id="deletecustomer" type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+                                <button id="updatecustomer" type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+                                <button id="getcustomer" type="button" class="mt-2 btn btn-outline-warning ">GetCustomer</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+            <div class="container-fluid mt-4 col-12 col-sm-6 col-md-5 col-lg-6 col-xl-5  col-xxl-5  ">
+
+                <div>
+
+                    <h2 style="color: Green" class="text-center m-3">Customer Details</h2>
+
+                    <table class="table col-xxl-4" id="cusTable">
+                        <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tbody">
+                        <tr>
+                            <th scope="row">C001</th>
+                            <td>Navishka</td>
+                            <td>Matara</td>
+                            <td>20000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C002</th>
+                            <td>Lakshna</td>
+                            <td>Galle</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C003</th>
+                            <td>Savinda</td>
+                            <td>Kakanadura</td>
+                            <td>30000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- ------------------------- items page------------------------>
+    <section class="container-fluid " style="display: none" id="itemN">
+        <div class=" row ">
+
+            <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+
+                <h2 style="color: green" class="text-center m-4">Item Registration</h2>
+                <div class="form-floating ">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="form-label">Item_Code</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Item_Code</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPasswor" placeholder="Password">
+                    <label for="floatingPasswor">Item_Price</label>
+                </div>
+                <div class="form-floating">
+
+                    <input type="password" class="form-control" id="floatingPasswo" placeholder="Password">
+                    <label for="floatingPasswo">Item_Quantity</label>
+                </div>
+                <button type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
+                <button type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
+                <button type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
+            </section>
+
+            <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+                <h2 style="color: green" class="text-center m-4">Item Details</h2>
+                <table class="table container-fluid  ">
+                    <thead>
+                    <tr>
+                        <th scope="col">Item_Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">P001</th>
+                        <td>Suger</td>
+                        <td>20</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">P002</th>
+                        <td>Yought</td>
+                        <td>30</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">P003</th>
+                        <td>Keerisamba</td>
+                        <td>20</td>
+                        <td>190</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+        </div>
+    </section>
+
+    <!-- ------------------------- Place_Order page------------------------>
+
+    <section class="container-fluid mt-5" style="display: none" id="plceOderN">
+        <section class="row">
+
+            <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
+                <div class="card-header bg-success text-white text-center rounded-2">Invoice Details</div>
+
+                <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Order ID :</label>
+                                <input class="form-control" id="orderId" type="text">
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Date:</label>
+                                <input type="date"
+                                       class="form-control bg-white border-black text-dark focus-ring-dark "
+                                       id="InputDate">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2 ">
+                            <label>Customer :</label>
+                            <select class="form-select" id="Customer" required>
+                                <option selected disabled value="">C001</option>
+                                <option>C001</option>
+                                <option>C002</option>
+                                <option>C003</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Customer ID :</label>
+                                <input class="form-control" id="orderCustomerID" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Name :</label>
+                                <input class="form-control" id="Name" type="text">
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="col-6 mt-2">
+                                <div class="form-group">
+                                    <label>Salary :</label>
+                                    <input class="form-control" id="Salary" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mt-2">
+                            <div class="form-group">
+                                <label>Addres :</label>
+                                <input class="form-control" id="Address" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
+                <div class="card-header bg-success text-white text-center rounded-2">Item Select</div>
+
+                <h5 style="color: black" class="text-center m-3 mt-5 ">Item Select</h5>
+
+                <div class="row">
+                    <div class="col-6 mt-2 ">
+                        <label>Item :</label>
+                        <select class="form-select" id="Item" required>
+                            <option selected disabled value="">C001</option>
+                            <option>C001</option>
+                            <option>C002</option>
+                            <option>C003</option>
+                        </select>
+                    </div>
+
+                    <div class="form-floating col-6 mt-2">
+                        <div class="form-group">
+                            <label>Item Code :</label>
+                            <input type="email" class="form-control" id="Item_Code" placeholder="Item_Code">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="form-floating col-6 mt-2">
+                        <div class="form-group">
+                            <label>Item_Name :</label>
+                            <input type="email" class="form-control" id="Item_Name" placeholder="Item_Name">
+                        </div>
+                    </div>
+
+                    <div class="form-floating col-3 mt-2">
+                        <div class="form-group">
+                            <label>Price :</label>
+                            <input type="email" class="form-control" id="Price" placeholder="Price">
+                        </div>
+                    </div>
+
+                    <div class="form-floating col-3 mt-2">
+                        <div class="form-group">
+                            <label>Qty :</label>
+                            <input type="email" class="form-control" id="Qty" placeholder="Qty ">
+                        </div>
+                    </div>
+
+                    <div class="form-floating col-12 mt-2">
+                        <div class="form-group">
+                            <label> Order Quantity :</label>
+                            <input type="email" class="form-control" id="Order_Quantity" placeholder="Order_Quantity">
+                        </div>
+                    </div>
+                    <button type="button" class="mt-2 btn btn-outline-success col-4 ">Add_Items</button>
+                </div>
+            </section>
+            <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
+                <div class="card-header bg-success text-white text-center rounded-2">Bill</div>
+
+                <div class="row">
+                    <div class="form-floating col-6 mt-2">
+                        <div class="form-group">
+                            <label>Cash :</label>
+                            <input type="email" class="form-control" id="Cash" placeholder="Cash">
+                        </div>
+                    </div>
+
+                    <div class="form-floating col-6 mt-2">
+                        <div class="form-group">
+                            <label>Discount :</label>
+                            <input type="email" class="form-control" id="Discount" placeholder="Discount">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-floating col-12 mt-2">
+                        <div class="form-group">
+                            <label>Balance :</label>
+                            <input type="email" class="form-control" id="Balance" placeholder="Balance">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="form-floating col-6 mt-4">
+                        <span id="lblTotal" style="color: green">Total</span>
+                    </div>
+
+                    <div class="form-floating col-6 mt-4">
+                        <span id="SubTotal" style="color: green">Sub_Total</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-floating col-6 mt-4">
+                        <span id="rs" style="color: green">Rs/=</span>
+                    </div>
+
+                    <div class="form-floating col-6 mt-4">
+                        <span id="rss" style="color: green">Rs/=</span>
+                    </div>
+                </div>
+                <button type="button" class="mt-2 btn btn-outline-success col-4 ">Purchase</button>
+            </section>
+        </section>
+    </section>
+
+
+    <table class="table table-bordered table-hover mt-3 col-12 col-sm-3 col-md-3 col-lg-12" style="display: none" id="TableN">
+        <thead>
+        <tr>
+            <th class="bg-success text-white">Item Code</th>
+            <th class="bg-success text-white">Item Name</th>
+            <th class="bg-success text-white">Price</th>
+            <th class="bg-success text-white">Qty</th>
+            <th class="bg-success text-white">Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>P001</td>
+            <td>Keerisamba</td>
+            <td>200.00</td>
+            <td>1</td>
+            <td>200.00</td>
+        </tr>
+        <tr>
+            <td>P002</td>
+            <td>Yought</td>
+            <td>150.00</td>
+            <td>2</td>
+            <td>300.00</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+</main>
+
+<script>
+    let item = document.querySelector("#itemN")
+    let customer = document.querySelector("#customerN")
+    let home = document.querySelector("#homeN")
+    let placeOder = document.querySelector("#plceOderN")
+    let table = document.querySelector('#TableN')
+
+    document.querySelector("#items").addEventListener("click",function (){
+        customer.style.display='none';
+        placeOder.style.display='none';
+        table.style.display='none';
+        item.style.display='block';
+    })
+
+    document.querySelector("#custeR").addEventListener("click",function (){
+        placeOder.style.display='none';
+        item.style.display='none';
+        table.style.display='none';
+        customer.style.display='block';
+    })
+    document.querySelector("#placeOders").addEventListener("click",function (){
+        customer.style.display='none';
+        item.style.display='none';
+        placeOder.style.display='block';
+        table.style.display='block';
+    })
+    document.querySelector("#home").addEventListener("click",function (){
+        customer.style.display='none';
+        item.style.display='none';
+        placeOder.style.display='none';
+        table.style.display='none';
+
+    })
+
+
+    // let cus = Array();
+    //
+    // document.querySelector("#savecustomer").addEventListener("click",function (){
+    //
+    //
+    //   let CId = document.querySelector('#txtID');
+    //   let CName = document.querySelector('#txtName');
+    //   let CAdres = document.querySelector('#txtAddress');
+    //   let CTp = document.querySelector('#txtTP');
+    //
+    //   var cust={
+    //
+    //     id :CId.value,
+    //     id1 :CName.value,
+    //     id2 :CAdres.value,
+    //     id3 : CTp.value,
+    //   }
+    //
+    //     console.log(cust);
+    //
+    //   // var ages =["cusID","cusName","cusAddress","cusTp"]
+    //
+    // });
+</script>
+
+<script src="../../../assets/Boostrap/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+<script>
+
+
+    //    let customerArray = [{
+    //        name: `kamal`,
+    //        address: `galle`,
+    //        tp: `0714523869`,
+    //        id: `C001`
+    //    }];
+    //
+    //
+    //    $('#savecustomer').click(function () {
+    //        var customer= {
+    //            id: $('#txtID').val(),
+    //            name: $('#txtName').val(),
+    //            address: $('#txtAddress').val(),
+    //            salary: $('#txtTP').val()
+    //        }
+    //
+    //        let row= `<tr>
+    //                <td>${customer.id}</td>
+    //                <td>${customer.name}</td>
+    //                <td>${customer.address}</td>
+    //                <td>${customer.salary}</td>
+    //            </tr>`;
+    //
+    //        $("#cusTable").append(row)
+    //    });
+
+    var customers = [
+        {id: "C001", name: "Dasun", address: "Galle", salary: 1000.22},
+        {id: "C002", name: "Iman", address: "Mathara", salary: 2000.22}
+    ];
+
+
+    //refactor save with jQuery
+    $("#savecustomer").click(function () {
+
+
+        let cus_ID = $("#txtID").val();
+        let cus_Name = $("#txtName").val();
+        let cus_Address = $("#txtAddress").val();
+        let cus_Salary = $("#txtTP").val();
+
+        var customer = {
+            id: cus_ID,
+            name: cus_Name,
+            address: cus_Address,
+            salary: cus_Salary
+        }
+
+        //add customer to object to the array
+        customers.push(customer);
+        getAllCustomers();
+        console.log(customers);
+    });
+
+
+    //refactor get_all with jQuery
+
+
+    function getAllCustomers(){
+        //remove all the child elements of tbody before adding the table rows
+        $("#tbody").empty();
+        for (const customer of customers) {
+
+            let row= `<tr>
+                <td>${customer.id}</td>
+                <td>${customer.name}</td>
+                <td>${customer.address}</td>
+                <td>${customer.salary}</td>
+            </tr>`;
+
+            $("#cusTable").append(row)
+
+            bindEvents();
+
+            $(`#cusTable tr`).dblclick(function (){
+                $(this).closest("tr").remove();      // Finds the closest row <t
+            });
+        }
+
+    }
+
+
+    //////////////////////////////////////////////////////////////////////////////////
+
+
+    $(`#cusTable tr`).dblclick(function (){
+        $(this).closest("tr").remove();      // Finds the closest row <t
+    });
+
+
+    function bindEvents(){
+        $('#cusTable tr').click(function () {
+            console.log(this);//tr -> this will return tr html element
+            console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
+            console.log($(this).text()); // now here it will return all the text of tr
+
+            let id = $(this).children(':nth-child(1)').text();
+            let name = $(this).children(':nth-child(2)').text();
+            let address = $(this).children(':nth-child(3)').text();
+            let salary = $(this).children(':nth-child(4)').text();
+
+            setTextFieldValues(id,name,address,salary);
+        });
+    }
+    //check this out.?
+
+
+    function setTextFieldValues(id, name, address, salary) {
+        $("#txtID").val(id);
+        $("#txtName").val(name);
+        $("#txtAddress").val(address);
+        $("#txtTP").val(salary);
+    }
+
+
+</script>
+
+
+<script src="../../../assets/Boostrap/css/bootstrap.css"></script>
+<script src="../../../assets/Boostrap/js/bootstrap.js"></script>
 </body>
 </html>
