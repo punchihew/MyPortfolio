@@ -80,20 +80,20 @@
 
                             <div>
                                 <div class="mb-3" id="cusID">
-                                    <label for="txtID" class="form-label">Customer ID</label>
-                                    <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
+                                    <label for="customerIdText" class="form-label">Customer ID</label>
+                                    <input type="text" class="form-control" id="customerIdText" placeholder="Customer ID">
                                 </div>
                                 <div class="mb-3" id="cusName">
-                                    <label for="txtName" class="form-label">Customer Name</label>
-                                    <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
+                                    <label for="customerNameText" class="form-label">Customer Name</label>
+                                    <input type="text" class="form-control" id="customerNameText" placeholder="Customer Name">
                                 </div>
                                 <div class="mb-3" id="cusAddress">
-                                    <label for="txtAddress" class="form-label">Customer Address</label>
-                                    <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
+                                    <label for="customerAddressText" class="form-label">Customer Address</label>
+                                    <input type="text" class="form-control" id="customerAddressText" placeholder="Customer Address">
                                 </div>
                                 <div class="mb-3" id="cusTp">
-                                    <label for="txtTP" class="form-label">Customer TP</label>
-                                    <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
+                                    <label for="customerSalaryText" class="form-label">Customer TP</label>
+                                    <input type="text" class="form-control" id="customerSalaryText" placeholder="Customer TP">
                                 </div>
                                 <button  id="savecustomer" type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
                                 <button id="deletecustomer" type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
@@ -116,7 +116,7 @@
 
                     <h2 style="color: Green" class="text-center m-3">Customer Details</h2>
 
-                    <table class="table col-xxl-4" id="cusTable">
+                    <table class="table col-xxl-4" id="table">
                         <thead>
                         <tr>
                             <th scope="col">ID</th>
@@ -125,6 +125,10 @@
                             <th scope="col">Salary</th>
                         </tr>
                         </thead>
+
+                        <tbody id="tblBody">
+
+                        </tbody>
 
                     </table>
 
@@ -482,8 +486,11 @@
 </script>
 
 <script src="../../../assets/Boostrap/code.jquery.com_jquery-3.7.1.min.js"></script>
-
 <script src="DB/DB.js"></script>
+
+<script src="Controller/Customer_Controller.js"></script>
+<script src="Model/Customer_Model.js"></script>
+
 <script>
 
 
@@ -516,86 +523,86 @@
 
 
     //refactor save with jQuery
-    $("#savecustomer").click(function () {
-
-
-        let cus_ID = $("#txtID").val();
-        let cus_Name = $("#txtName").val();
-        let cus_Address = $("#txtAddress").val();
-        let cus_Salary = $("#txtTP").val();
-
-        var customer = {
-            id: cus_ID,
-            name: cus_Name,
-            address: cus_Address,
-            salary: cus_Salary
-        }
-
-        //add customer to object to the array
-        customers.push(customer);
-        getAllCustomers();
-        console.log(customers);
-    });
-
-
-    //refactor get_all with jQuery
-
-
-    function getAllCustomers(){
-        //remove all the child elements of tbody before adding the table rows
-        $("#tbody").empty();
-        for (const customer of customers) {
-
-            let row= `<tr>
-                <td>${customer.id}</td>
-                <td>${customer.name}</td>
-                <td>${customer.address}</td>
-                <td>${customer.salary}</td>
-            </tr>`;
-
-            $("#cusTable").append(row)
-
-            bindEvents();
-
-            $(`#cusTable tr`).dblclick(function (){
-                $(this).closest("tr").remove();      // Finds the closest row <t
-            });
-        }
-
-    }
-
-
-    //////////////////////////////////////////////////////////////////////////////////
-
-
-    $(`#cusTable tr`).dblclick(function (){
-        $(this).closest("tr").remove();      // Finds the closest row <t
-    });
-
-
-    function bindEvents(){
-        $('#cusTable tr').click(function () {
-            console.log(this);//tr -> this will return tr html element
-            console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
-            console.log($(this).text()); // now here it will return all the text of tr
-
-            let id = $(this).children(':nth-child(1)').text();
-            let name = $(this).children(':nth-child(2)').text();
-            let address = $(this).children(':nth-child(3)').text();
-            let salary = $(this).children(':nth-child(4)').text();
-
-            setTextFieldValues(id,name,address,salary);
-        });
-    }
-    //check this out.?
-
-
-    function setTextFieldValues(id, name, address, salary) {
-        $("#txtID").val(id);
-        $("#txtName").val(name);
-        $("#txtAddress").val(address);
-        $("#txtTP").val(salary);
-    }
+    // $("#savecustomer").click(function () {
+    //
+    //
+    //     let cus_ID = $("#txtID").val();
+    //     let cus_Name = $("#txtName").val();
+    //     let cus_Address = $("#txtAddress").val();
+    //     let cus_Salary = $("#txtTP").val();
+    //
+    //     var customer = {
+    //         id: cus_ID,
+    //         name: cus_Name,
+    //         address: cus_Address,
+    //         salary: cus_Salary
+    //     }
+    //
+    //     //add customer to object to the array
+    //     customers.push(customer);
+    //     getAllCustomers();
+    //     console.log(customers);
+    // });
+    //
+    //
+    // //refactor get_all with jQuery
+    //
+    //
+    // function getAllCustomers(){
+    //     //remove all the child elements of tbody before adding the table rows
+    //     $("#tbody").empty();
+    //     for (const customer of customers) {
+    //
+    //         let row= `<tr>
+    //             <td>${customer.id}</td>
+    //             <td>${customer.name}</td>
+    //             <td>${customer.address}</td>
+    //             <td>${customer.salary}</td>
+    //         </tr>`;
+    //
+    //         $("#cusTable").append(row)
+    //
+    //         bindEvents();
+    //
+    //         $(`#cusTable tr`).dblclick(function (){
+    //             $(this).closest("tr").remove();      // Finds the closest row <t
+    //         });
+    //     }
+    //
+    // }
+    //
+    //
+    // //////////////////////////////////////////////////////////////////////////////////
+    //
+    //
+    // $(`#cusTable tr`).dblclick(function (){
+    //     $(this).closest("tr").remove();      // Finds the closest row <t
+    // });
+    //
+    //
+    // function bindEvents(){
+    //     $('#cusTable tr').click(function () {
+    //         console.log(this);//tr -> this will return tr html element
+    //         console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
+    //         console.log($(this).text()); // now here it will return all the text of tr
+    //
+    //         let id = $(this).children(':nth-child(1)').text();
+    //         let name = $(this).children(':nth-child(2)').text();
+    //         let address = $(this).children(':nth-child(3)').text();
+    //         let salary = $(this).children(':nth-child(4)').text();
+    //
+    //         setTextFieldValues(id,name,address,salary);
+    //     });
+    // }
+    // //check this out.?
+    //
+    //
+    // function setTextFieldValues(id, name, address, salary) {
+    //     $("#txtID").val(id);
+    //     $("#txtName").val(name);
+    //     $("#txtAddress").val(address);
+    //     $("#txtTP").val(salary);
+    // }
 
 
 </script>
