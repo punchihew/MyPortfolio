@@ -8,3 +8,5 @@ var itemDetails = [
     {itemCode:"I002",itemName:"Sunlight",unitePrice: "345.00",qty: 150},
     {itemCode:"I003",itemName:"Mac",unitePrice: "245.00",qty: 400}
 ];
+
+var orderDetails = [];
