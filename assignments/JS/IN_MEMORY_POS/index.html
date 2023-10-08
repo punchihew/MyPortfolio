@@ -234,10 +234,11 @@
 
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Date:</label>
-                                <input type="date"
-                                       class="form-control bg-white border-black text-dark focus-ring-dark "
-                                       id="InputDate">
+                                <label for="date" class="form-label" style="color: #ffffff">Date :</label>
+                                <input id="dateTxtOrderPage" type="date" class="form-control" id="date">
+
+<!--                                       class="form-control bg-white border-black text-dark focus-ring-dark "-->
+<!--                                       id="InputDate">-->
                             </div>
                         </div>
 
@@ -245,14 +246,12 @@
                     </div>
                     <div class="row">
                         <div class="col-6 mt-2 ">
-                            <label>Customer :</label>
-                            <select class="form-select" id="Customer" required>
-                                <option selected disabled value="">C001</option>
-                                <option>C001</option>
-                                <option>C002</option>
-                                <option>C003</option>
+                            <label class="form-label" style="color: #ffffff">Customer :</label>
+                            <select class="form-select text-dark "
+                                    aria-label="Default select example" id="customerIdOrder">
                             </select>
                         </div>
+
                         <div class="col-6 mt-2">
                             <div class="form-group">
                                 <label>Customer ID :</label>
