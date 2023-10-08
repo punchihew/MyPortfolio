@@ -1,7 +1,7 @@
 var btnSave = $("#savecustomer");
 var btnRemove = $("#deletecustomer");
-var btnGetAll = $("#updatecustomer");
-var btnUpdate = $("#getcustomer");
+var btnGetAll = $("#getcustomer");
+var btnUpdate = $("#updatecustomer");
 
 getAll();
 
@@ -87,8 +87,8 @@ function save(){
     if(regexId.test($("#customerIdText").val()) && regexName.test($("#customerNameText").val()) && regexAddress.test($("#customerAddress").val()) && regexSalary.test($("#customerSalaryText").val())){
         var is = false;
 
-        for(let i = 0; i < detailsBig.length; i++){
-            if(detailsBig[i].cid == $("#customerIdText").val()){
+        for(let i = 0; i < CustomerDetails.length; i++){
+            if(CustomerDetails[i].cid == $("#customerIdText").val()){
                 is = true;
             }
         }
@@ -109,9 +109,9 @@ function save(){
                 csalary : salary
             }
 
-            detailsBig.push(customer);
+            CustomerDetails.push(customer);
 
-            let tr=$('<tr> <td>'+detailsBig[detailsBig.length-1].cid+'</td> <td>'+detailsBig[detailsBig.length-1].cname+'</td> <td>'+detailsBig[detailsBig.length-1].caddress+'</td> <td>'+detailsBig[detailsBig.length-1].csalary+'</td></tr>');
+            let tr=$('<tr> <td>'+CustomerDetails[CustomerDetails.length-1].cid+'</td> <td>'+CustomerDetails[CustomerDetails.length-1].cname+'</td> <td>'+CustomerDetails[CustomerDetails.length-1].caddress+'</td> <td>'+CustomerDetails[CustomerDetails.length-1].csalary+'</td></tr>');
             $("#tblBody").append(tr);
 
         }else{
