@@ -143,32 +143,44 @@
 
     <!-- ------------------------- items page------------------------>
     <section class="container-fluid " style="display: none" id="itemN">
-        <div class=" row ">
+        <div class="row position-absolute container-fluid">
 
-            <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+            <div class="col-1"></div>
 
-                <h2 style="color: green" class="text-center m-4">Item Registration</h2>
-                <div class="form-floating ">
-                    <input type="email" class="form-control" id="itemCodeTxt" placeholder="name@example.com">
-                    <label for="itemCodeTxt" class="form-label">Item_Code</label>
-                </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="itemNameTxt" placeholder="Password">
-                    <label for="itemNameTxt">Item_Name</label>
-                </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="unitePriceTxt" placeholder="Password">
-                    <label for="unitePriceTxt">Item_Price</label>
-                </div>
-                <div class="form-floating">
+            <div class="mt-0 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5  col-xxl-5">
+                <div>
 
-                    <input type="password" class="form-control" id="itemQtyTxt" placeholder="Password">
-                    <label for="itemQtyTxt">Item_Quantity</label>
-                </div>
+                    <form>
+
+                        <h2 style="color: black" class="text-center m-4">Item</h2>
+
+                        <div class="mb-3">
+                            <label for="itemCode" class="form-label" style="color: black">Item Code :</label>
+                            <input id="itemCodeTxt" type="itemCode" class="form-control" id="itemCode">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="itemName" class="form-label" style="color: black">Item Name :</label>
+                            <input id="itemNameTxt" type="itemName" class="form-control" id="itemName">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="unitePrice" class="form-label" style="color: black">Item Price :</label>
+                            <input id="unitePriceTxt" type="unitePrice" class="form-control" id="unitePrice">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="itemQty" class="form-label" style="color: black">Item Quantity :</label>
+                            <input id="itemQtyTxt" type="itemQty" class="form-control" id="itemQty">
+                        </div>
+
                 <button type="button" class="mt-2 btn btn-outline-success " id="btnSaveItem">SaveCustomer</button>
                 <button type="button" class="mt-2 btn btn-outline-danger " id="btnRemoveItem    ">DeleteCustomer</button>
                 <button type="button" class="mt-2 btn btn-outline-warning " id="btnUpdateItem">UpdateCustomer</button>
-            </section>
+
+                    </form>
+                </div>
+            </div>
 
             <section class="col-12 col-sm-10 col-md-8 col-lg-6 ">
                 <h2 style="color: green" class="text-center m-4">Item Details</h2>
