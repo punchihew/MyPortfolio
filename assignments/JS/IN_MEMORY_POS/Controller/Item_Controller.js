@@ -109,7 +109,6 @@ function itemSave(){
         }
     }
 
-
     $("#itemTblBody>tr").click(function (e){
 
         $("#itemCodeTxt").val($(this).children().eq(0).text());
