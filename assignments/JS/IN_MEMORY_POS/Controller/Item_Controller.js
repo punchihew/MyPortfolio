@@ -122,5 +122,16 @@ function itemSave(){
 }
 
 
+btnSaveItem.click(function(){
+
+    itemSave();
+    itemClearFields();
+    itemGetAll();
+
+});
+
+
+
+
 
 
