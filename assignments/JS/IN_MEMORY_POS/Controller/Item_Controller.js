@@ -33,3 +33,11 @@ $("#itemNameTxt").keyup(function (e){
     }
 });
 
+$("#itemNameTxt").keydown(function (e){
+    if(e.keyCode == 13 && regexItemName.test($("#itemNameTxt").val())){
+        $("#unitePriceTxt").focus();
+    }
+});
+
+
+
