@@ -39,5 +39,12 @@ $("#itemNameTxt").keydown(function (e){
     }
 });
 
+$("#unitePriceTxt").keyup(function (e){
+    if(regexItemUnitePrice.test($("#unitePriceTxt").val())){
+        $("#unitePriceTxt").css("border-color",  "transparent");
+    }else{
+        $("#unitePriceTxt").css("border-color",  "red");
+    }
+});
 
 
