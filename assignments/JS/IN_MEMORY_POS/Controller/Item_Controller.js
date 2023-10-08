@@ -130,6 +130,36 @@ btnSaveItem.click(function(){
 });
 
 
+function itemGetAll(){
+
+    $('#itemTblBody').empty();
+
+    for(var i = 0; i < itemDetails.length; i++){
+
+        var itemCode = itemDetails[i].itemCode;
+        var itemName = itemDetails[i].itemName;
+        var unitePrice = itemDetails[i].unitePrice;
+        var qty = itemDetails[i].qty;
+
+        let row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${unitePrice }</td><td>${qty}</td></tr>`
+
+        $('#itemTblBody').append(row);
+
+    }
+    ItembindEvents();
+
+}
+
+
+btnGetAllItem.click(function (){
+
+    itemGetAll();
+
+});
+
+
+
+
 
 
 
