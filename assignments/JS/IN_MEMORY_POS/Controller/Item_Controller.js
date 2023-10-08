@@ -62,3 +62,11 @@ $("#itemQtyTxt").keyup(function (e){
 });
 
 
+$("#itemQtyTxt").keydown(function (e){
+    if(e.keyCode == 13 && regexItemQty.test($("#itemQtyTxt").val())){
+        itemSave();
+    }
+});
+
+
+
