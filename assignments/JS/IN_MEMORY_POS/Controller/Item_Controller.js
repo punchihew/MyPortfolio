@@ -158,6 +158,61 @@ btnGetAllItem.click(function (){
 });
 
 
+btnRemoveItem.click(function(event){
+
+    var itemCode = $("#itemCodeTxt").val();
+
+    for(var i = 0; i < itemDetails.length; i++){
+
+        if(itemDetails[i].itemCode == itemCode){
+            itemDetails.splice(i, 1);
+            itemGetAll();
+            itemClearFields();
+            break;
+        }
+
+    }
+
+});
+
+
+
+btnUpdateItem.click(function(){
+
+    var itemCode = $("#itemCodeTxt").val();
+    var itemName = $("#itemNameTxt").val();
+    var unitePrice = $("#unitePriceTxt").val();
+    var qty = $("#itemQtyTxt").val();
+
+    for(var i = 0; i < itemDetails.length; i++){
+
+        if(itemDetails[i].itemCode == itemCode){
+
+            itemDetails[i].itemCode = itemCode;
+            itemDetails[i].itemName = itemName;
+            itemDetails[i].unitePrice = unitePrice;
+            itemDetails[i].qty = qty;
+
+            itemGetAll();
+            itemClearFields();
+
+            break;
+
+        }
+
+        if(i == itemDetails.length - 1){
+            alert("No")
+        }
+
+    }
+
+    itemGetAll();
+
+});
+
+
+
+
 
 
 
