@@ -25,3 +25,11 @@ $("#itemCodeTxt").keydown(function (e){
     }
 });
 
+$("#itemNameTxt").keyup(function (e){
+    if(regexItemName.test($("#itemNameTxt").val())){
+        $("#itemNameTxt").css("border-color",  "transparent");
+    }else{
+        $("#itemNameTxt").css("border-color",  "red");
+    }
+});
+
