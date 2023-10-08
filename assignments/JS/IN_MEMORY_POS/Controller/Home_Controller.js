@@ -1,31 +1,31 @@
-let item = document.querySelector("#itemN")
-let customer = document.querySelector("#customerN")
+let items = document.querySelector("#itemN")
+let cus = document.querySelector("#customerN")
 let home = document.querySelector("#homeN")
 let placeOder = document.querySelector("#plceOderN")
 let table = document.querySelector('#TableN')
 
 document.querySelector("#items").addEventListener("click",function (){
-    customer.style.display='none';
+    cus.style.display='none';
     placeOder.style.display='none';
     table.style.display='none';
-    item.style.display='block';
+    items.style.display='block';
 })
 
 document.querySelector("#custeR").addEventListener("click",function (){
     placeOder.style.display='none';
-    item.style.display='none';
+    items.style.display='none';
     table.style.display='none';
-    customer.style.display='block';
+    cus.style.display='block';
 })
 document.querySelector("#placeOders").addEventListener("click",function (){
-    customer.style.display='none';
-    item.style.display='none';
+    cus.style.display='none';
+    items.style.display='none';
     placeOder.style.display='block';
     table.style.display='block';
 })
 document.querySelector("#home").addEventListener("click",function (){
-    customer.style.display='none';
-    item.style.display='none';
+    cus.style.display='none';
+    items.style.display='none';
     placeOder.style.display='none';
     table.style.display='none';
 
