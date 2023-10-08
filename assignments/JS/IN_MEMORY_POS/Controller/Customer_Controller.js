@@ -146,12 +146,12 @@ function getAll(){
 
     $('#tblBody').empty();
 
-    for(var i = 0; i < detailsBig.length; i++){
+    for(var i = 0; i < CustomerDetails.length; i++){
 
-        var id = detailsBig[i].cid;
-        var name = detailsBig[i].cname;
-        var address = detailsBig[i].caddress;
-        var salary = detailsBig[i].csalary;
+        var id = CustomerDetails[i].cid;
+        var name = CustomerDetails[i].cname;
+        var address = CustomerDetails[i].caddress;
+        var salary = CustomerDetails[i].csalary;
 
         let row = `<tr><td>${id}</td><td>${name}</td><td>${address}</td><td>${salary}</td></tr>`
 
@@ -174,11 +174,11 @@ btnRemove.click(function(event){
 
     var id = $("#customerIdText").val();
 
-    for(var i = 0; i < detailsBig.length; i++){
+    for(var i = 0; i < CustomerDetails.length; i++){
 
-        if(detailsBig[i].cid == id){
-            detailsBig.splice(i, 1);
-            console.log(detailsBig.length);
+        if(CustomerDetails[i].cid == id){
+            CustomerDetails.splice(i, 1);
+            console.log(CustomerDetails.length);
             getAll();
             clearFields();
             break;
@@ -196,14 +196,14 @@ btnUpdate.click(function(){
     var salary = $("#customerSalaryText").val();
     var address = $("#customerAddressText").val();
 
-    for(var i = 0; i < detailsBig.length; i++){
+    for(var i = 0; i < CustomerDetails.length; i++){
 
-        if(detailsBig[i].cid == id){
+        if(CustomerDetails[i].cid == id){
 
-            detailsBig[i].cid = id;
-            detailsBig[i].cname = name;
-            detailsBig[i].caddress = address;
-            detailsBig[i].csalary = salary;
+            CustomerDetails[i].cid = id;
+            CustomerDetails[i].cname = name;
+            CustomerDetails[i].caddress = address;
+            CustomerDetails[i].csalary = salary;
 
 
             getAll();
@@ -213,7 +213,7 @@ btnUpdate.click(function(){
 
         }
 
-        if(i == detailsBig.length - 1){
+        if(i == CustomerDetails.length - 1){
             alert("No")
         }
 
