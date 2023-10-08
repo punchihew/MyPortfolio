@@ -47,4 +47,18 @@ $("#unitePriceTxt").keyup(function (e){
     }
 });
 
+$("#unitePriceTxt").keydown(function (e){
+    if(e.keyCode == 13 && regexItemUnitePrice.test($("#unitePriceTxt").val())){
+        $("#itemQtyTxt").focus();
+    }
+});
+
+$("#itemQtyTxt").keyup(function (e){
+    if(regexItemQty.test($("#itemQtyTxt").val())){
+        $("#itemQtyTxt").css("border-color",  "transparent");
+    }else{
+        $("#itemQtyTxt").css("border-color",  "red");
+    }
+});
+
 
