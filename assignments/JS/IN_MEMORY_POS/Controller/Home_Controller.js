@@ -23,7 +23,9 @@ document.getElementById("placeOders").addEventListener("click",function (){
     document.getElementById("TableN").style.display='block';
     document.getElementById("itemN").style.display='none';
     document.getElementById("customerN").style.display='none';
-
+    loadCusIds();
+    loadItemIds();
+    generateOrderId();
 })
 document.getElementById("home").addEventListener("click",function (){
     document.getElementById("plceOderN").style.display='none';
