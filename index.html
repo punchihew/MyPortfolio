@@ -4,7 +4,39 @@
     <meta charset="UTF-8">
     <title>Navishka Punchihewa </title>
 
+
     <style>
+
+        /*p {*/
+        /*    text-decoration: none;*/
+        /*    color: inherit;*/
+        /*    font-size: 24px;*/
+        /*}*/
+
+        #hed {
+            font-weight: 700;
+            text-align: center;
+            font-size: 23px;
+            font-family: Hack, sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, #28a7e3, navy, #162A5F);
+            letter-spacing: 5px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 80%;
+            animation: shine 5s linear infinite;
+            position: relative;
+        }
+
+        @keyframes shine {
+            0% {
+                background-position-x: -500%;
+            }
+            100% {
+                background-position-x: 500%;
+            }
+        }
         #loader {
             width: 100vw;
             height: 100vh;
@@ -61,7 +93,7 @@
     <!--        sectioning root-->
 
     <dd><img width="40" src="Page/assets/img/letter-n.png" alt="Image" class="animate__animated animate__flipOutX"> </dd>
-    <h1><samp style="color: darkblue"> MR.Punchihewa</samp></h1>
+    <h1><samp style="color: darkblue" id="hed"> MR.Punchihewa</samp></h1>
     <h3><samp style="color: darkblue">Software Engineer</samp></h3>
 
     <nav>
@@ -95,7 +127,7 @@
                 <div>
                     <!--                  <spam style="color:darkblue " :><h1>Hello I Am </h1> </spam>-->
                     <p class="animate__animated animate__lightSpeedInRight">Hello I'm</p>
-                    <h1 class="animate__animated animate__lightSpeedInRight">Navishka <span>Punchihewa</span></h1>
+                    <h1 class="animate__animated animate__lightSpeedInRight" id="stt" >Navishka <span>Punchihewa</span></h1>
 
                     <div data-aos="zoom-in" data-aos-delay="1700" data-aos-duration="800" style=" "></div>
                     <div data-aos="zoom-in" data-aos-delay="1700" data-aos-duration="800" style="left: 14.7vw; width: 1.5vw; "></div>

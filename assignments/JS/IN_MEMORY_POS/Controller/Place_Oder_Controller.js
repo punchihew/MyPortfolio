@@ -27,6 +27,14 @@ function loadItemIds() {
     $('#itemOrder').append(optionItem);
 }
 
+function balance() {
+    if(orderTotal.value <= cashTxtOrderPage.value){
+        alert("same")
+    }else{
+        alert("enough money")
+    }
+}
+
 function generateOrderId(){
     if(orderDetails.length == 0){
         $('#orderIDTxtOrderPage').val(1);
@@ -107,6 +115,7 @@ $('#btnPlaceOrder').click(function (){
     var total = $('#orderSubTotal').text();
     var date = $('#dateTxtOrderPage').val();
 
+    // balance();
     order = {
         orderId : orderId,
         customerId : customerId,

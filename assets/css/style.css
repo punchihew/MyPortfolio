@@ -95,6 +95,7 @@ body main section:first-child>div:nth-child(2)>aside{
     line-height: normal;
 }
  main section:first-child>div:nth-child(2)>aside>div:first-child>h1{
+
     color: darkblue;
     font-family: 'Catamaran';
     font-size: 50px;

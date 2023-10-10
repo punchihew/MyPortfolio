@@ -26,6 +26,7 @@ document.getElementById("placeOders").addEventListener("click",function (){
     loadCusIds();
     loadItemIds();
     generateOrderId();
+
 })
 document.getElementById("home").addEventListener("click",function (){
     document.getElementById("plceOderN").style.display='none';
