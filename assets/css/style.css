@@ -957,13 +957,13 @@ section:nth-child(4)>dd>li{
     width: 64vh;
     transition-duration: 2s;
 }
-#picture:hover{
+/*#picture:hover{*/
 
-    width: 66vh;
-    border: 4px solid orange;
-    border-radius: 200%;
-    transition-duration: 2s;
-}
+/*    width: 66vh;*/
+/*    border: 4px solid orange;*/
+/*    border-radius: 200%;*/
+/*    transition-duration: 2s;*/
+/*}*/
 
         main>section:nth-child(6)>aside:nth-child(3){
             position: relative;
