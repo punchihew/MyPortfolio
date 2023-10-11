@@ -1441,6 +1441,16 @@ footer>nav>a{
     margin-right: 10px;
 }
 
+footer>p {
+    font-family: 'Poppins', roboto;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
 
 /*------------------------------------------media quary--------------------------------------------------------------------------------------*/
 
