@@ -27,13 +27,13 @@ function loadItemIds() {
     $('#itemOrder').append(optionItem);
 }
 
-function balance() {
-    if(orderTotal.value <= cashTxtOrderPage.value){
-        alert("same")
-    }else{
-        alert("enough money")
-    }
-}
+// function balance() {
+//     if(orderTotal.value <= cashTxtOrderPage.value){
+//         alert("same")
+//     }else{
+//         alert("enough money")
+//     }
+// }
 
 function generateOrderId(){
     if(orderDetails.length == 0){
@@ -110,12 +110,18 @@ $("#cashTxtOrderPage").keydown(function (e){
 
 $('#btnPlaceOrder').click(function (){
 
+    let totl =parseFloat( $('#lblTotal').val());
+    let bal =parseFloat( $('#balanceTxtOrderPage').val());
+    let cash =parseFloat( $('#cashTxtOrderPage').val());
+    let result = cash-totl;
+    $('#balanceTxtOrderPage').val(result)
+
     var orderId = $('#orderIDTxtOrderPage').val();
     var customerId = $('#customerIdOrder').val();
     var total = $('#orderSubTotal').text();
     var date = $('#dateTxtOrderPage').val();
 
-    // balance();
+
     order = {
         orderId : orderId,
         customerId : customerId,
